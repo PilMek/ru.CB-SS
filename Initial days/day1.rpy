@@ -26,7 +26,7 @@ label day1:
     $quick_menu = True
     play bgsound2 sfxloop_leaves loop
     voice audio.yoshi_vs1_line1
-    yo "{i}(It’s that time of the year again, huh?){/i}"
+    yo "{i}(Опять наступило это время года, да?){/i}"
 
     voice audio.yoshi_vs1_line2
     yo "{i}(Camp Buddy’s off-season…){/i}"
