@@ -13,20 +13,20 @@ label day2:
     show goro_semiformal at center
     show goro explain2 at center
     voice audio.goro_v_alright1a2
-    g "Alright… Better make sure I didn’t forget anything…"
+    g "Ладно… Надо убедиться, что я ничего не забыл…"
 
     play sound sfx_doorknock
     $ renpy.pause (1.0, hard=True)
     show goro talk1 at center
     voice audio.goro_v_greet2a1
-    g "Come in."
+    g "Войдите."
 
     show yoshi_autumn at p5_5
     show yoshi happy1 at p5_5
     with dissolve
 
     voice audio.yoshi_v_goodam1
-    yo "Good morning, Sir Goro!"
+    yo "Доброе тро, сэр Горо!"
 
     show goro_semiformal at left2
     show goro talk1 at left2
@@ -39,93 +39,93 @@ label day2:
     show yoshi_autumn at right2
     show yoshi amazed1 at right2
     voice audio.yoshi_v_praise3
-    yo "Y-You look dashing, sir. Are you going somewhere today?"
+    yo "Вы как будто в спешке. Собираетесь куда-то?"
 
     show goro talk3 at left2
     voice audio.goro_v_agree2a1
-    g "Ah, yes, I am. I have a meeting scheduled with Mr. Clermont. "
+    g "А, да, собираюсь. У меня назначена встреча с мистером Клермонтом. "
 
     hide yoshi amazed1
     show yoshi talk1 at right2
     voice audio.yoshi_v_oh1
-    yo "Oh. What’s on the agenda, if I may ask?"
+    yo "Оу. А что на повестке дня, могу узнать?"
 
     show goro explain2 at left2
     voice audio.goro_v_comp2a1
-    g "It’s just the usual weekly meeting to discuss the progress of the sponsorship. I figured it wasn’t worth mentioning."
+    g "Всего лишь обычная встреча, нужно обсудить прогресс в спонсорстве. Подумал, что и упоминания не стоит."
 
     show yoshi comp6 at right2
     voice audio.yoshi_v_laugh3
-    yo "Hehe, you do tend to be private with your work, sir. "
-    yo "Though, I’m a bit curious – aren’t you a little nervous to be meeting him today? "
+    yo "Хе-хе, вы и правда любите секретничать касательно своей работы, сэр. "
+    yo "Хотя, мне немного любопытно – вы не волнуетесь сегодняшней с ним встрече? "
 
     show goro confused3  at left2
     voice audio.goro_v_no2a1
-    g "No, not at all. Why would you ask that? "
+    g "Нет, совсем нет. А почему ты спрашиваешь? "
 
     hide yoshi_autumn
     hide yoshi comp6
     show yoshi2_autumn at right2
     show yoshi2 comp2 at right2
     voice audio.yoshi_v_well3
-    yo "W-Well, the last time Mr. Clermont was here, you acted quite differently from your usual self. I mean… I’ve never seen you that frantic before."
+    yo "Н-ну, прошлый раз, как мистер Клермонт был тут, вы вели себя весьма не как обычно. Я имею ввиду… Никогда раньше не видел вас таким взбалмошным."
 
     hide goro confused3
     show goro annoy2 at left2
     voice audio.goro_v_hey5a
-    g "Hey, I was calm the whole time I was showing him around… I made sure not to show my excitement until after he left."
-    g "After all, Mr. Clermont is someone I’ve looked up to for a long time. I didn’t think I’d ever meet him in person, so his visit really caught me off guard."
+    g "Эй, я вёл себя спокойно, пока показывал ему окресности… И постарался не показывать своё волнение до тех пора, пока он не уйдёт."
+    g "В конце концов, мистер Клермонт это тот, на кого я долгое время ровнялся. Никогда бы и не подумал, что встречусь с ним лично, потому его визит и застал меня врасплох."
 
     hide goro annoy2
     show goro explain5 at left2
     voice audio.goro_v_think1a1
-    g "His works really inspired me to do some self-reflection in the past. "
+    g "Его работы вдохновили меня пересмотреть самого себя в прошлом. "
 
     show yoshi2 shy5 at right2
     voice audio.yoshi_v_right4
-    yo "R-Right…"
+    yo "И правда…"
 
     show goro talk1 at left2
     voice audio.goro_v_anyway2
-    g "Anyway, what brings you to the office, Yoshinori?"
+    g "Итак, Что привело тебя в офис, Йошинори?"
 
     hide yoshi2_autumn
     hide yoshi2 shy5
     show yoshi_autumn at right2
     show yoshi talk3 at right2
     voice audio.yoshi_v_actually1a
-    yo "Oh… Actually, I was planning to ask for my weekly task list, but it can wait since you’re busy!"
-    yo "I can just do maintenance tasks around the camp and keep things in tip-top shape. "
+    yo "О… Вообще, я планировал спросить про мой еженедельный список задач, но с этим можно и подождать, учитывая что вы заняты!"
+    yo "Пока что я могу провести пару задач по обслуживанию лагеря, чтобы подедрживать всё в приличном состоянии. "
 
     hide goro_semiformal
     hide goro talk1
     show goro_semiformal at left2
     show goro think2 at left2
     voice audio.goro_v_yoshi2a
-    g "Actually, Yoshinori…"
+    g "Кстати, Йошинори…"
 
     hide goro_semiformal
     hide goro think2
     show goro_semiformal at left2
     show goro talk2 at left2
-    g "Why don’t you come with me today?"
+    g "А не пойти ли тебе сегодня со мной?"
 
     show yoshi awkward4 at right2
     voice audio.yoshi_v_really1
-    yo "Really, sir? I don’t want to get in your way, especially in an important meeting."
+    yo "С вами, сэр? Не хотелось бы путаться под ногами, особенно на такой важной встрече."
 
     show goro happy2 at left2
     voice audio.goro_v_dismiss2a
-    g "Nonsense. Sooner or later, you’re going to have to be attending these anyway."
-    g "You will need a formal outfit, however. I have a spare suit here that you can use. It’s older, but it should fit you."
+    g "Чепуха какая. Рано или поздно, тебе всё равно придётся посещать такие в будущем."
+    g "Однако, тебе понадобится вид поформальней. У меня есть запасной костюм, можешь использовать его. Поношенный, но должен быть тебе в пору."
 
     show goro talk3 at left2
     voice audio.goro_v_response1b1
-    g "We’ll leave as soon as you get changed."
+    g "Отправляемся сразу после того, как переоденешься."
 
     show yoshi happy2 at right2
     voice audio.yoshi_v_yessir1
-    yo "Y-Yes, sir!"
+    yo "Есть, сэр!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -148,113 +148,113 @@ label day2:
     play music old_familiar_home loop
     play bgsound sfxloop_carride loop
 
-    yo "{i}(I don’t know why, but even though we’re only going out for a business errand… I’m really excited to be with Sir Goro today.){/i}"
-    yo "{i}(It’s almost like those old scouting trips we used to take.){/i}"
+    yo "{i}(Не знаю почему, но, пускай мы и едем по деловым вопросам… Я так взволнован быть сегодня вместе с сэром Горо.){/i}"
+    yo "{i}(Словно я вернулся к походам, которые раньше часто устраивали.){/i}"
     g "..."
 
     show cgg2 2 with Dissolve(0.25)
-    yo "{i}(It's rare that Sir Goro and I are on the road together like this, but we've hardly talked since we headed out this morning…){/i}"
-    yo "{i}(I should probably say something to break the ice…){/i}"
+    yo "{i}(Довольно редкое зрелище видеть меня и сэра Горо в дороге, но мы едва ли даже разговаривали с тех пор, как выехали этим утром…){/i}"
+    yo "{i}(Надо бы что-нибудь сказать, чтобы разбавить обстановку…){/i}"
 
     $working = False
     $shuffle_menu()
     menu():
-        yo "{i}(I should probably say something to break the ice…){/i}{fast}"
-        "Stay quiet.":
+        yo "{i}(Надо бы что-нибудь сказать, чтобы разбавить обстановку…){/i}{fast}"
+        "Сидеть тихо.":
             $working = True
             $score_goro -= 1
             show cgg2 3a with Dissolve(0.25)
-            yo "{i}(I really don't want it to seem like I'm not taking this errand seriously, so maybe I should just stay quiet.){/i}"
+            yo "{i}(Не хочется, чтобы меня сочли несерьёзно относящимся к этой встрече, может быть, лучше просто посидеть тихо.){/i}"
 
             show cgg2 5 with Dissolve(0.25)
             voice audio.goro_vsg3_line2ab
-            g "*ahem* So, Yoshinori."
+            g "*кхем* Что же, Йошинори."
 
             voice audio.yoshi_vsg3_line2ab
-            yo "Oh! Yes, sir?"
+            yo "О! Да, сэр?"
 
             voice audio.goro_vsg3_line3ab
-            g "I can’t help but notice the brooch you attached to your suit."
-        "Talk about the weather.":
+            g "Не мог не заметить ту брошку, что ты закрепил на костюме."
+        "Поговорить о погоде.":
             $working = True
             show cgg2 3b with Dissolve(0.25)
             voice audio.yoshi_vsg3_line1b
-            yo "Th-The weather’s really nice today, isn’t it, sir…?"
+            yo "П-погода вот сегодня хорошая, да, сэр…?"
 
             show cgg2 4b with Dissolve(0.25)
             voice audio.goro_vsg3_line1b
-            g "Yeah, it is."
+            g "Да, хорошая."
 
-            yo "{i}(Well, that went nowhere… ){/i}"
+            yo "{i}(Да уж, ничего не вышло… ){/i}"
 
             show cgg2 5 with Dissolve(0.25)
             voice audio.goro_vsg3_line2ab
-            g "*ahem* So, Yoshinori."
+            g "*кхем* Что же, Йошинори."
 
             voice audio.yoshi_vsg3_line2ab
-            yo "Oh! Yes, sir?"
+            yo "О! Да, сэр?"
 
             voice audio.goro_vsg3_line3ab
-            g "I can’t help but notice the brooch you attached to your suit."
-        "Talk about the meeting.":
+            g "Не мог не заметить ту брошку, что ты закрепил на костюме."
+        "Обсудить встречу.":
             $working = True
             $score_goro += 1
             show cgg2 3cd with Dissolve(0.25)
             voice audio.yoshi_vsg3_line1c
-            yo "Th-Thank you again for letting me tag along today, sir…!"
+            yo "С-спасибо ещё раз, что позволили мне присоединиться к вам сегодня, сэр…!"
 
             voice audio.yoshi_vsg3_line2c
-            yo "I’m not sure how exactly I can help, but I’m glad you’re letting me see what you’ve been working on with Mr. Clermont these past few weeks."
+            yo "Не до конца уверен, как именно я смогу помочь, но я рад, что вы позволили мне увидить над, чем вы работали с мистером Клермонтом в последние пару недель."
 
             show cgg2 4c with Dissolve(0.25)
             voice audio.goro_vsg3_line1c
-            g "I'm glad you're excited for this. I can tell by how much you've been fidgeting with your suit this whole time."
+            g "Рад, что ты в предвкушении. Настолько, что так сильно прихорашивался в костюме."
 
             voice audio.yoshi_vsg3_line3c
-            yo "Aah…! I didn’t realize I was doing that…!"
+            yo "А-ах…! А я и не знал, что так выглядел…!"
 
             show cgg2 5 with Dissolve(0.25)
             voice audio.goro_vsg3_line3cd
-            g "Although… I can’t help but notice the brooch you attached to it."
-        "Talk about the suit.":
+            g "И тем не менее… Не мог не заметить ту брошку, что ты закрепил на костюме."
+        "Поговорить о костюме.":
             $working = True
             $score_goro += 2
             show cgg2 3cd with Dissolve(0.25)
             voice audio.yoshi_vsg3_line1d
-            yo "Th-Thanks again for lending me your suit, sir…! It’s been so long since I’ve worn something this formal!"
+            yo "С-спасибо ещё раз, что одолжили мне этот костюм, сэр…! Давно я не носил чего-то подобного!"
 
             show cgg2 4d with Dissolve(0.25)
             voice audio.goro_vsg3_line1d
-            g "Ah, hopefully the fit isn’t too loose on you. "
+            g "Ах, надеюсь, он не большиват для тебя. "
 
             voice audio.yoshi_vsg3_line2d
-            yo "Not at all, sir! It’s actually perfect for this season’s weather too!"
+            yo "Совсем нет, сэр! Оно и для сезона как раз хороший вариант!"
 
             voice audio.goro_vsg3_line2d
-            g "That’s good. I knew that style and color would suit you well..."
+            g "Вот и хорошо. Знал, что такой стиль и цвет тебе будет как раз…"
 
             show cgg2 5 with Dissolve(0.25)
             voice audio.goro_vsg3_line3cd
-            g "Although… I can’t help but notice the brooch you attached to it."
+            g "И тем не менее… Не мог не заметить ту брошку, что ты закрепил на костюме."
 
     show cg fade at truecenter
     show fxg1 at fx_pos
     with dissolve
 
     voice audio.goro_vsg3_line4
-    g "Wasn’t that the one I gave you back when you were a scout?"
+    g "Эта ли не та, которую я подарил тебе, ещё когда ты был скаутом?"
 
     voice audio.yoshi_vsg3_line4
-    yo "Yes, it is, sir…!   "
+    yo "Да, она самая, сэр…!   "
 
     voice audio.goro_vsg3_line5
-    g "I haven’t seen that in years. I’m surprised you still have it."
+    g "Я не видел её столько лет. Удивлён, что ты до сих пор её хранишь."
 
     voice audio.yoshi_vsg3_line5
-    yo "Of course, it meant a lot to me, so I kept it safe."
+    yo "Ещё бы, она многое для меня значила, вот я и держал её в целости и сохранности."
 
     voice audio.yoshi_vsg3_line6
-    yo "I thought it might be a bit of a good luck charm for today!"
+    yo "Подумал, может принесёт удачу на сегодня!"
 
     hide cg fade
     hide fxg1
@@ -262,37 +262,37 @@ label day2:
 
     show cgg2 6 with Dissolve(0.25)
     voice audio.goro_vsg3_line6
-    g "Hahaha, and you thought I was the one being nervous earlier."
+    g "Ха-ха-ха, а ты ещё думал, что это я волновался."
 
     voice audio.yoshi_vsg3_line7
-    yo "Ah… Hehehe…"
+    yo "А… Хе-хе-хе…"
 
     show cgg2 7 with Dissolve(0.25)
     voice audio.goro_vsg3_line7
-    g "You know, Yuri was quite jealous when I gave you that brooch."
+    g "Знаешь, а Юри даже позавидовала, когда я дал тебе эту брошку."
 
     voice audio.goro_vsg3_line8
-    g "She even accused me of picking favorites among the campers."
+    g "Она даже обвинила меня в том, что у меня есть любимчики среди кэмперов."
 
     voice audio.goro_vsg3_line9
-    g "It couldn’t be helped though… You were quite the showoff when you were a scout."
+    g "Но по-другому и быть не могло… Ты был тем ещё хвастуном будучи скаутом."
 
     voice audio.yoshi_vsg3_line8
-    yo "R-Really? I hardly remember how I was back then…"
+    yo "П-правда? С трудом помню, каким я тогда был…"
 
     show cgg2 8 with Dissolve(0.25)
     voice audio.goro_vsg3_line10
-    g "Not much has changed, if I do say so myself… You’re still that go-getting, active scout that I remember."
+    g "Если говорить за себя, не многое изменилось… Ты всё тот же энергичный, бодрый скаут, которого я помню."
 
     voice audio.goro_vsg3_line11
-    g "You really stood out amongst your peers, especially on that first camping trip we had."
+    g "Ты и вправду сильно выделялся среди сверстников, особенно в тот первых поход."
 
     voice audio.goro_vsg3_line12
-    g "In fact, that was when I gave you that brooch."
+    g "Как факт, тогда я и подарил тебе эту брошку."
 
     show cgg2 9 with Dissolve(0.25)
     voice audio.yoshi_vsg3_line9
-    yo "Yeah, I remember…"
+    yo "Да, я помню…"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -327,14 +327,14 @@ label day2:
     show ygoro_camp at center
     show ygoro talk1 at center
     voice audio.ygoro_v_attention1a
-    g "Listen up, scouts! We’ll be heading out on a hike to the fields in just a few moments!"
+    g "Внимание, скауты! Через несколько минут мы отправимся в поля!"
 
     show ygoro explain2 at center
-    g "I want everyone to find their assigned partner and double-check both of your gear."
+    g "Я хочу, чтобы каждый вместе со своим партнёром перепроверили снаряжение каждого."
 
     show ygoro talk3 at center
     voice audio.ygoro_v_dismiss2b
-    g "That’s all for now! We’ll be leaving in five minutes!"
+    g "На этом всё! Отправляемся через пять минут!"
 
     hide ygoro_camp
     hide ygoro talk3
@@ -347,24 +347,24 @@ label day2:
     with dissolve
 
     voice audio.yyuri_v_ugh3c
-    yu "Ughhhh… five more minutes? Can’t we go already? It’s been two hours since we woke up!"
+    yu "У-у-угх… Ещё пять минут? А не можем уже сейчас? Мы уже два часа как проснулись!"
 
     show yyoshi talk3 at left2
     voice audio.yyoshi_v_yuri9a
-    yo "Come on, Yuri. We used most of that time to get dressed and have our breakfast."
-    yo "More importantly, you know how much all these checks matter."
+    yo "Ну же, Юри. Это время мы потратили на то, чтобы переодеться и позавтракать."
+    yo "Что более важно, ты же знаешь, как много эти проверки значат."
 
     show yyuri angry3 at right2
     voice audio.yyuri_v_but1b
-    yu "But you already checked our stuff, like, three times this morning!"
+    yu "Но ты уже проверил наши вещи раз пять уже за это утро!"
 
     show yyoshi play2 at left2
     voice audio.yyoshi_v_laugh5
-    yo "And if I hadn’t, I wouldn’t have found out that you packed nothing but your notebooks."
+    yo "И если бы не проверил, то и не обнаружил бы, что ты не взяла ничего, кроме своих тетрадок."
 
     show yyuri pout3 at right2
     voice audio.yyuri_v_hmph1a
-    yu "They’re called fanfics, hmph!"
+    yu "Это фанфики, хмпф!"
 
     show yyoshi_camp at left
     show yyoshi play2 at left
@@ -377,31 +377,31 @@ label day2:
     with dissolve
 
     voice audio.ygoro_v_yuridear1
-    g "And that’s why I paired Yoshinori with you, dear. Hahaha."
+    g "Дорогая, поэтому я и поставил тебя в пару с Йошинори. Ха-ха-ха."
 
     show yyuri annoy4 at center
     voice audio.yyuri_v_question1b
-    yu "It’s only a one-night trip, so how much stuff could we need?"
+    yu "Этот поход всего на ночь, зачем нам так много вещей?"
 
     show ygoro explain4 at right
     voice audio.ygoro_v_well1
-    g "Well, if you’d been paying attention to our lessons, you would know to bring the basics, such as your navigation tools, adequate food and water, a first-aid kit, and more!"
+    g "Ну, если бы ты была внимательней на наших уроках, ты бы знала, что брать главнее всего: а это средства навигации, соответствующую еду и воду, аптечку первой помощи и многое другое!"
 
     show yyoshi bold2 at left
     voice audio.yyoshi_v_sir2
-    yo "We packed extra clothing, bug spray, and toiletries too, sir!"
+    yo "Мы упаковали дополнительную одежду, спрей от насекомых, а также туалетные принадлежности, сэр!"
 
     show ygoro play3 at right
     voice audio.ygoro_v_see5a
-    g "See? Yoshinori here clearly took notes!"
+    g "Видишь? Сразу видно, Йошинори всё подмечал!"
 
     show yyuri rage3 at center
     voice audio.yyuri_v_rush3b
-    yu "Well, your five minutes are up and we’re all ready, so let’s goooooo!"
+    yu "Ну, твои пять минут вышли и мы все готовы, так пошли-и-и-и же!"
 
     show ygoro comp2 at right
     voice audio.ygoro_v_alright1a
-    g "Alright, alright, I’ll get everyone started."
+    g "Ладно-ладно, я позову остальных."
 
     show yyoshi_camp at p6_1
     show yyoshi bold2 at p6_1
@@ -413,11 +413,11 @@ label day2:
 
     show ygoro happy1 at center
     voice audio.ygoro_v_okay2a
-    g "Okay, scouts! Form up into a line and find your buddies! We’re going to begin our march."
+    g "Итак, скауты! Выстроиться в линию и найти своего друга! Начинаем марш."
 
     show ygoro happy3 at center
     voice audio.ygoro_v_rush1b1
-    g "Follow me!"
+    g "За мной!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -443,35 +443,35 @@ label day2:
     show ygoro_camp at center
     show ygoro talk3 at center
     voice audio.ygoro_v_worry1a
-    g "How’s everyone holding up? "
-    g "This path I chose for our first camping trip is a short and safe one to help everyone familiarize themselves with the trail for our future hikes!"
+    g "Как самочувствие у всех? "
+    g "путь что я выбрал - кратчайший и безопаснейший, так чтобы каждый смог ознакомиться с местностью для следующих походов!"
 
     show ygoro talk4 at center
     voice audio.ygoro_v_comp2a1
-    g "Just make sure to stay close to your buddy and keep following my lead, alright scouts?"
-    all "Yes, sir!"
+    g "Просто старайтесь держаться вместе с вашим напарником и следовать за мной, хорошо, скауты?"
+    all "Есть, сэр!"
 
     show ygoro explain2 at center
     voice audio.ygoro_v_rush4
-    g "Now, some of you might be wondering why I’ve assigned you all in pairs. The reason for this is to improve your sense of cooperation, especially in times of emergency!"
-    g "If your team gets separated, it’s important to stay calm and find a solution with your partner!"
+    g "Итак, кто-то из вас может задуматься, зачем я разделили вас на пары. Причина тому - развить ваше чувство кооперации, оно особенно важно в экстренных ситуациях!"
+    g "Если вы отстали от группы, важно оставаться в спокойствии и найти решение вместе с вашим партнёром!"
 
     show ygoro talk2 at center
     voice audio.ygoro_v_conj7a
-    g "You have access to your navigation tools to help get you both back on track, reach the destination, or return to camp."
+    g "Вы можете воспользоваться инструментами навигации, чтобы вновь встать на верный путь и достичь места назначения, либо чтобы вернуться в лагерь."
 
     show ygoro explain5 at center
     voice audio.ygoro_v_comp2a1
-    g "In case you truly get lost, do not panic, remember to conserve your energy, and stay in place."
-    g "You can make use of your survival items, such as your flint, flashlight and sleeping bag, to set up a temporary camp."
+    g "На случай, если вы совсем потерялись, не паникуйте, помните: важно сохранять свою энергию и оставаться на месте."
+    g "Вы сможете воспользоваться вашими инструментами выживания, кремнем, фонариком и спальным мешком, чтобы соорудить временный лагерь."
 
     show ygoro talk2 at center
     voice audio.ygoro_v_conj2a1
-    g "Creating a fire is especially helpful, as the smoke could help rescue teams locate you faster. "
+    g "Развести огонь будет особенно полезным, так как дым сможет помочь команде спасения найти вас быстрее. "
 
     show ygoro bold2 at center
     voice audio.ygoro_v_request2a1
-    g "With all of these survival tools and knowledge from the lessons we’ve had, you’ll definitely be able to handle an emergency!"
+    g "Вместе со всеми этими инструментами и заниями из сегодняшнего урока, вы точно сможете справиться с экстренными ситуациями!"
 
     show ygoro_camp at p5_5
     show ygoro bold2 at p5_5
@@ -484,25 +484,25 @@ label day2:
     with dissolve
 
     voice audio.yyuri_v_kyaa1
-    yu "Kyaa! I can’t believe we’re finally doing something exciting!"
-    yu "Staying in the campgrounds all day long was starting to bore me!"
+    yu "Кья-я-я! Не могу поверить, что наконец-то чем то займёмся!"
+    yu "так наскучило постоянно сидеть в лагере весь день!"
 
     show yyoshi angry2 at p5_2
     voice audio.yyoshi_v_yuri9b
-    yo "Don’t say that, Yuri! I’m sure Sir Goro had a good reason to keep us in the camp, and he did his best to make everything interesting there!"
+    yo "Юри, не говори так! Я уверен, у сэра горо были причины на то, чтобы держать нас внутри лагеря, и он делал всё возможное, чтобы здесь всё было интересно!"
 
     show yyuri angry6 at p5_1
     voice audio.yyuri_v_yeah1h1
-    yu "Yeah, yeah, I know! But did we really HAVE to wait for two weeks to actually start camping at a summer camp?"
+    yu "Да-да, знаю я! Но неужели нам ПРАВДА нужно было ждать целых две недели, только чтобы начать поход?"
 
     show yyoshi explain2 at p5_2
     voice audio.yyoshi_v_conj1a
-    yo "I’m sure trips like these needed a lot of planning and preparation to make sure everything goes perfectly!"
-    yo "Besides, isn’t it great we get to learn all this cool, new stuff from Sir Goro? "
+    yo "Уверен, такие вылазки требуют много планирования и подготовки, чтобы всё прошло идеально!"
+    yo "К тому же, разве не здорово, что нам выдалась возможность узнать так много нового и крутого от сэра Горо? "
 
     show yyuri sigh1 at p5_1
     voice audio.yyuri_v_sigh1a
-    yu "*sigh* I already know all of this…"
+    yu "*вздох* Беда в том, что я уже всё это знаю…"
 
     show yyuri_camp2 at left
     show yyuri norm1 at left
@@ -514,72 +514,72 @@ label day2:
 
     show ygoro disappoint2 at right
     voice audio.ygoro_v_ehem1a
-    g "*ahem* Not everyone had a head start like you, dear."
+    g "*кхем* Не у всех здесь была фора как у тебя, милая."
 
     show yyoshi shock2 at center
     voice audio.yyoshi_v_sirgoro10a
-    yo "A-Ah, Sir Goro…!"
+    yo "А-ах, сэр Горо…!"
 
     show ygoro happy2 at right
     voice audio.ygoro_v_well1
-    g "Yuri here has been interested in nature for a long time, so most of the things I’ve been teaching here are things she already knows."
+    g "Юри много интересовалась природой в прошлом, потому большинство того, чему я учу вас она уже знает."
 
     show yyuri happy1 at left
     voice audio.yyuri_v_yeah1b1
-    yu "Yeah! Dad bought me a lot of books about camping and survival!"
+    yu "Да! Папа покупал мне много книг с уроками по выживанию и кэмпингу!"
 
     show ygoro explain3 at right
     voice audio.ygoro_v_conj6a1
-    g "The actual experience is always different though! Just like you, most of your fellow scouts have never even tried camping or exploring the great outdoors. "
+    g "Но на практике всё по-другому! Как и ты, большинство скаутов ещё ни разу не были в настоящих походах на свежем воздухе. "
 
     show ygoro talk1 at right
     voice audio.ygoro_v_conj1a1
-    g "It’s my duty as a scoutmaster to prepare everyone for a trip like this through the exercises and lessons we’ve done so far."
-    g "Everything I taught you all will guarantee that everyone has a fun and safe time today!"
+    g "Это мой долг как скаутмастера - подготовить всех путём наших уроков и упражнений к путешествию как это."
+    g "Со всем, чему я учил всех, гарантирую, что каждому будет весело, а главное безопасно!"
 
     show yyuri sigh1 at left
     voice audio.yyuri_v_unsure3a
-    yu "I guess you have a point…"
+    yu "Думаю, тут ты прав…"
 
     show ygoro comp2 at right
     voice audio.ygoro_v_yuridear1
-    g "Now be more patient, dear.  Use this opportunity to share the knowledge you’ve learned!"
+    g "Будь терпеливее, дорогая. Пользуйся моментом и поделись знаниями, которые ты обрела!"
 
     show yyuri talk3 at left
     voice audio.yyuri_v_but1a
-    yu "But it sounds like Yoshi knows everything already too."
+    yu "Но Йоши вроде бы и так всё знает тоже."
 
     show yyoshi comp2 at center
     voice audio.yyoshi_v_oh2
-    yo "O-Oh! I only learned it all from Sir Goro’s lessons…!"
-    yo "We’re really lucky to have you teaching and guiding us, sir!"
+    yo "О-оу! Я знаю всё из уроков сэра Горо…!"
+    yo "Нам так повезло, что вы нас учите и направляете, сэр!"
 
     show yyuri tease2 at left
     voice audio.yyuri_v_laugh2b1
-    yu "Hehehe… Look at you, sucking up to my dad like that~"
+    yu "Хе-хе-хе… Только посмотрите, как он подлизывается к моему папе~"
 
     show yyoshi awkward4 at center
     voice audio.yyoshi_v_shock3
-    yo "W-Wah…! I-I’m just telling the truth!"
-    yo "All the activities Sir Goro made for us back at camp were great preparations for today, especially the group ones!"
+    yo "В-вах…! Я п-просто правду говорил!"
+    yo "Все те мероприятия, которые для нас подготовил сэр Горо, особенно групповые, были отличной подготовкой для сегодняшнего дня!"
 
     show yyoshi happy2 at center
     voice audio.yyoshi_v_laugh1
-    yo "We all got to know each other a lot better through them, and we learned how to work together!"
+    yo "Благодаря им нам удалось узнать друг друга поближе, а ещё мы узнали как работать сообща!"
 
     show ygoro bold2 at right
     voice audio.ygoro_v_laugh1a
-    g "You should be more enthusiastic like Yoshinori here, dear. It seems he got the point of the lessons exactly right!"
+    g "Тебе бы следовало понабраться энтузиазма у Йошинори, милая. Похоже, что он понимает суть уроков на ура!"
 
     show ygoro play2 at right
     voice audio.ygoro_v_rush4
-    g "Now, shall we resume our hike? We’re almost at our destination!"
+    g "А теперь, продолжим поход? Мы почти на месте назначения!"
 
     play sound sfx_phonering
     show yyoshi shock1 at center
     show ygoro shock2 at right
     voice audio.ygoro_v_oh2
-    g "O-Oh...! On second thought, I need to take this call."
+    g "О-ой…! А вообще, не нужно ответить на этот звонок."
 
     show ygoro_camp at p5_5
     show ygoro talk3 at p5_5
@@ -590,12 +590,12 @@ label day2:
     with move
 
     voice audio.ygoro_v_ehem1a
-    g "Attention, scouts! We’ll be taking a short break! "
-    g "Make sure to use this time to have some snacks and hydrate. "
+    g "Внимание, скауты! Устроим небольшой перерыв! "
+    g "Хорошенько воспользуйтесь этим временем, можете перекусить и попить. "
 
     show ygoro explain2 at p5_5
     voice audio.ygoro_v_bye4a
-    g "I’ll be right back!"
+    g "Я скоро вернусь!"
 
     hide ygoro_camp
     hide ygoro explain2
@@ -608,45 +608,45 @@ label day2:
     with move
 
     voice audio.yyuri_v_sigh2a
-    yu "*sigh* Not again… Just when I thought everything was going well today."
+    yu "*вздох* Только не снова… А я-то думала, что в этот раз всё будет хорошо."
 
     show yyoshi confused2 at right2
     voice audio.yyoshi_v_huh1
-    yo "H-Huh? What do you mean, Yuri?"
+    yo "Х-ха? О чём ты, Юри?"
 
     show yyuri annoy4 at left2
     voice audio.yyuri_v_annoyed1a
-    yu "I really don’t want to talk about it. There’s nothing we can do about it anyways."
+    yu "Правда, не хочу об этом говорить. Мы всё равно ничего с этим поделать не сможем."
 
     show yyoshi worry2 at right2
     voice audio.yyoshi_v_unsure2a
-    yo "A-Are you sure? Maybe there’s something we can do to help Sir G—"
+    yo "Т-ты уверена? Может, есть что-то, чем мы сможем помочь сэру Го-"
 
     show yyuri_camp2 at center
     show yyuri annoy4 at center
     with move
     voice audio.yyuri_v_hmph2a
-    yu "*pinches Yoshinori*"
+    yu "*ущипнула Йошинори*"
 
     show yyoshi pain3 at right2
     voice audio.yyoshi_v_oww1
-    yo "O-Ow! Wh-What was that for, Yuri??"
+    yo "А-ай! А это за что, Юри??"
 
     show yyuri angry2 at center
     voice audio.yyuri_v_annoyed3a
-    yu "I told you it’s no use! Let’s just stay out of it! "
+    yu "Я же сказала, это бессмысленно! Давай просто не лезть в это! "
 
     show yyoshi angry2 at right2
     voice audio.yyoshi_v_hmph1b
-    yo "You didn’t have to pinch me so hard…"
+    yo "А щипать меня так сильно было необязательно…"
 
     show yyuri angry5 at center
     voice audio.yyuri_v_rush1b2
-    yu "Come on, let’s just distribute some snacks and water to everyone while we wait!"
+    yu "Пошли, раздадим всем немного закусок и воды, пока ждём!"
 
     show yyoshi talk3 at right2
     voice audio.yyoshi_v_right7
-    yo "Oh… alright."
+    yo "О… Хорошо."
 
     hide yyuri_camp2
     hide yyuri angry5
@@ -678,21 +678,21 @@ label day2:
     show ygoro_camp at center
     show ygoro worry3 at center
     voice audio.ygoro_vsg4_line1
-    g "…What do you mean you can’t come? It’s okay if you’re going to be late, we don’t mind waiting."
+    g "…Что значит, ты не придёшь? Всё в порядке, даже если опоздаешь, мы можем подождать."
 
     show ygoro worry1 at center
     g "..."
 
     show ygoro angry3 at center
     voice audio.ygoro_vsg4_line2
-    g "How can you not have time?! You know I’ve been planning this activity for weeks, and—"
+    g "Как это у тебя нет времени?! Ты де знала, что я планировал эт омароприятие неделями, а—"
 
     show ygoro angry1 at center
     g "..."
 
     show ygoro angry4 at center
     voice audio.ygoro_vsg4_line3
-    g "Yuri’s been looking forward to today! Can’t you understand how important this is? "
+    g "Юри так ждала сегодняшнего дня! Неужели ты не понимаешь, как важно для неё это? "
 
     show yyoshi_camp at p5_5
     show yyoshi worry1 at p5_5
@@ -702,7 +702,7 @@ label day2:
 
     show ygoro disappoint4 at center
     voice audio.ygoro_vsg4_line4
-    g "You’re never around, Vera! This is the only time I asked you to be together as a family!"
+    g "Тебя никогда нет рядом, Вера! Это единственный раз, когда я просил тебя побыть вместе, как семья!"
 
     voice audio.ygoro_vsg4_line5
     g "What are you even busy with?!"
@@ -712,27 +712,27 @@ label day2:
 
     show ygoro panic2 at center
     voice audio.ygoro_vsg4_line6
-    g "N-No, I’m not trying to accuse you of anything! "
+    g "Н-нет, я не пытаюсь обвинять тебя в чём-либо! "
 
     show ygoro worry4 at center
     voice audio.ygoro_vsg4_line7
-    g "I know having a family was never our plan, but it’s been nineteen years! "
+    g "Знаю, заводить семью никогда не было нашим планом, но уже девятнадцать лет прошло! "
 
     voice audio.ygoro_vsg4_line8
-    g "Just please come over, at least for Yuri…"
+    g "Прошу, приди, хотя бы ради Юри…"
 
     play sound sfx_phonebutton
     show ygoro worry2 at center
     voice audio.ygoro_vsg4_line9
-    g "H-Hello? "
+    g "А-алло? "
 
     show ygoro sigh1 at center
     voice audio.ygoro_vsg4_line10
-    g "*sigh*"
+    g "*вздох*"
 
     show ygoro shock3 at center
     voice audio.ygoro_vsg4_line11
-    g "A-Ah! Yoshinori…! "
+    g "А-ах! Йошинори…! "
 
     show ygoro_camp at left2
     show ygoro shock3 at left2
@@ -741,143 +741,143 @@ label day2:
     with move
 
     voice audio.yyoshi_vsg4_line1
-    yo "Uhh… Sir? Is everything alright…?"
+    yo "Эм… Сэр? У вас всё хорошо…?"
 
     show ygoro awkward3 at left2
     voice audio.ygoro_vsg4_line12
-    g "Y-Yes. It’s just a personal matter, nothing for you to worry about."
+    g "Д-да. Просто личные дела, ничего такого, о чём тебе стоит волноваться."
 
     voice audio.ygoro_vsg4_line13
-    g "What brings you here though? "
+    g "Что тебя сюда привело? "
 
     $working = False
     $shuffle_menu()
     menu():
-        g "What brings you here though? {fast}"
-        "When are we starting our hike again?":
+        g "Что тебя сюда привело? {fast}"
+        "Когда мы уже продолжим поход?":
             $working = True
             $score_goro -= 2
             show yyoshi talk1 at right2
             voice audio.yyoshi_vsg4_line2a
-            yo "I just wanted to ask when we'd start our hike again, sir!"
+            yo "Просто хотел спросить, когда мы уже продолжим поход, сэр!"
 
             show ygoro explain2 at left2
             voice audio.ygoro_vsg4_line14a
-            g "I see. I apologize for the short delay. Let me come back right away."
+            g "Вот как. Прошу прощения за задержку. Я мигом вернусь."
 
             show yyoshi explain2 at right2
             voice audio.yyoshi_vsg4_line4ab
-            yo "W-Well… I also came to ask you about something I thought I could help you with, sir…!"
+            yo "В-вообще… Ещё я хотел спросить кое-что, если я могу как-то помочь, сэр…!"
 
             show ygoro confused3 at left2
             voice audio.ygoro_vsg4_line16ab
-            g "Oh, what is it?"
-        "I'm here to report.":
+            g "О, в чём дело?"
+        "Докладываю обстановку.":
             $working = True
             show yyoshi talk1 at right2
             voice audio.yyoshi_vsg4_line2b
-            yo "I’m here to make a report, sir…!"
+            yo "Я здесь, чтобы доложить обстановку, сэр…!"
 
             show ygoro confused2 at left2
             voice audio.ygoro_vsg4_line14b
-            g "Hm? Is everything alright back there?"
+            g "Хм? У остальных всё хорошо?"
 
             show yyoshi talk2 at right2
             voice audio.yyoshi_vsg4_line3b
-            g "Y-Yes, sir! In fact, Yuri and I handed out some drinks and snacks to the other scouts while we were waiting…!"
+            g "Т-так точно, сэр! По факту, Юри и я раздали немного закусок и напитков между другими скаутами, пока ждали…!"
 
             show ygoro explain2 at left2
             voice audio.ygoro_vsg4_line15b
-            g "Ah, good job, Yoshinori. Let me come back right away and resume our hike."
+            g "А, хорошая работа, Йошинори. Я мигом вернусь и мы продолжим поход."
 
             show yyoshi explain2 at right2
             voice audio.yyoshi_vsg4_line4ab
-            yo "W-Well… I also came to ask you about something I thought I could help you with, sir…!"
+            yo "В-вообще… Ещё я хотел спросить кое-что, если я могу как-то помочь, сэр…!"
 
             show ygoro confused3 at left2
             voice audio.ygoro_vsg4_line16ab
-            g "Oh, what is it?"
-        "I wanted to check on you.":
+            g "О, в чём дело?"
+        "Хотел проведать вас.":
             $working = True
             $score_goro += 1
             show yyoshi talk1 at right2
             voice audio.yyoshi_vsg4_line2c
-            yo "I-I wanted to check on you, sir…!"
+            yo "Я п-просто хотел проведать вас, сэр…!"
 
             voice audio.yyoshi_vsg4_line3c
-            yo "Yuri and I were handing out some drinks and snacks to the other scouts while we were waiting."
+            yo "Юри и я раздавали немного закусок и напитков между другими скаутами, пока ждали."
 
             voice audio.yyoshi_vsg4_line4c
-            yo "And I thought a drink might help you relax some too, so I came looking for you as soon as we finished…!"
+            yo "Вот я и подумал, что вам тоже немного полегчает от напитка, поэтому пошёл искать вас, как только мы закончили…!"
 
             show ygoro comp1 at left2
             g "..."
 
             show ygoro comp2 at left2
             voice audio.ygoro_vsg4_line14cd
-            g "Thank you for your concern, Yoshinori. I’m fine."
+            g "Спасибо за беспокойство, Йошинори. Я в порядке."
 
             show yyoshi worry2 at right2
             voice audio.yyoshi_vsg4_line4cd
-            yo "I-I’m sorry for prying, but… if there’s anything I can do, please let me help you, sir…"
-        "I noticed you seemed a little upset.":
+            yo "П-простите за любопытство, но… если есть что-нибудь, что я могу для вас сделать, пожалуйста, позвольте вам помочь, сэр…"
+        "Я заметил, что вы расстроены чем-то.":
             $working = True
             $score_goro += 2
             show yyoshi talk1 at right2
             voice audio.yyoshi_vsg4_line2d
-            yo "I noticed you seemed a bit upset when you got the call… So, I thought you might need some company!"
+            yo "Я заметил, что вы были расстроены когда вам позвонили… Вот я и подумал, что вам не помешает компания!"
 
             voice audio.yyoshi_vsg4_line3d
-            yo "You don’t have to worry about the other scouts too! Yuri and I just finished handing out drinks and snacks to them!"
+            yo "Можете не волноваться о других скаутах! Юри и я только закончили раздавать закуски и напитки!"
 
             show ygoro comp1 at left2
             g "..."
 
             show ygoro comp2 at left2
             voice audio.ygoro_vsg4_line14cd
-            g "Thank you for your concern, Yoshinori. I’m fine."
+            g "Спасибо за беспокойство, Йошинори. Я в порядке."
 
             show yyoshi worry2 at right2
             voice audio.yyoshi_vsg4_line4cd
-            yo "I-I’m sorry for prying, but… if there’s anything I can do, please let me help you, sir…"
+            yo "П-простите за любопытство, но… если есть что-нибудь, что я могу для вас сделать, пожалуйста, позвольте вам помочь, сэр…
 
     show yyoshi comp2 at right2
     voice audio.yyoshi_vsg4_line5
-    yo "I-If it’s okay with you, I can actually lead the scouts for the rest of the hike! You don’t have to worry about any of us getting lost since I’ve got the map memorized!"
+    yo "Е-если хотите, я могу повести скаутов дальше в поход! Вам не стоит беспокиться за нас, карту я запомнил, так что не потеряемся!"
 
     voice audio.yyoshi_vsg4_line6
-    yo "O-Oh, and we can set up the camp at the fields in advance, so we’ll have more time to do an outdoor activity for the rest of the day…!"
+    yo "О-о, мы ещё можем заранее установить лагерь в полях, так у нас будет больше времени на занятия в остаток дня на открытом воздухе…!"
 
     show ygoro talk3 at left2
     voice audio.ygoro_vsg4_line17
-    g "I really appreciate your intentions, Yoshinori, but you don’t have to take over."
+    g "Я правда ценю твои намерения, Йошинори, но тебе необязательно брать всё в свои руки."
 
     show yyoshi worry3 at right2
     voice audio.yyoshi_vsg4_line7
-    yo "B-But, sir…"
+    yo "Н-но, сэр…"
 
     show ygoro sigh1 at left2
     voice audio.ygoro_vsg4_line18
-    g "*sigh* I knew you weren’t going to give up that easily…"
+    g "*вздох* Я знал, что просто так ты не сдашься…"
 
     voice audio.ygoro_vsg4_line19
     show ygoro comp1 at left2
-    g "Why don’t we lead the scouts together, then?"
+    g "Раз так, почему бы нам не повести скаутов вместе?"
 
     show yyoshi shock1 at right2
     yo "...!"
 
     show ygoro comp2 at left2
     voice audio.ygoro_vsg4_line20
-    g "I will let you take the front end of the march, and I will watch over your side to make sure everyone follows your lead. What do you think?"
+    g "Я позволю тебе встать первым в строю, а я буду подле тебя наблюдать, чтобы всё следовали за тобой. Как тебе?"
 
     show ygoro comp1 at left2
     show yyoshi bold2 at right2
     voice audio.yyoshi_vsg4_line8
-    yo "I’d be honored, sir! Thank you for letting me help!"
+    yo "Буду почтён, сэр! Спасибо, что позволили помочь!"
 
     voice audio.yyoshi_vsg4_line9
-    yo "I’ll gather everyone immediately…!"
+    yo "Я мигом всех соберу…!"
 
     show yyoshi_camp at p6_6
     show yyoshi excited1 at p6_6
@@ -885,18 +885,18 @@ label day2:
 
     show ygoro talk3 at left2
     voice audio.ygoro_vsg4_line21
-    g "Ah, Yoshinori… One more thing."
+    g "А, Йошинори… Ещё кое-что."
 
     show yyoshi_camp at right2
     show yyoshi talk3 at right2
     with move
 
     voice audio.yyoshi_vsg4_line10
-    yo "Y-Yes, sir…?"
+    yo "Д-да, сэр…?"
 
     show ygoro comp2 at left2
     voice audio.ygoro_vsg4_line22
-    g "I want you to have this…"
+    g "Хочу, чтобы это было у тебя…"
 
     show ygoro_camp at center
     show ygoro comp2 at center
@@ -907,19 +907,19 @@ label day2:
     with dissolve
 
     voice audio.ygoro_vsg4_line23
-    g "It’s something I made way back when I was preparing for Camp Buddy’s launch."
+    g "Я сделал его ещё когда только готовился начинать Лагерь Друзей."
 
     voice audio.yyoshi_vsg4_line11
-    yo "Oh, it’s the same symbol that’s around the camp and on our uniforms…!"
+    yo "О, тот же символ, что везде в лагере и на наших костюмах…!"
 
     voice audio.ygoro_vsg4_line24
-    g "Yes, the insignia represents the core meaning of this camp."
+    g "Именно, эмблема олицетворяет саму суть этого лагеря."
 
     voice audio.ygoro_vsg4_line25
-    g "A star that always burns bright, no matter what; just like someone you can count on to help you through even the darkest times."
+    g "Звезда, что всегда светит ярко, несмотря ни на что; как и тот, на кого ты всегда сможешь положиться в трудную минуту."
 
     voice audio.ygoro_vsg4_line26
-    g "This may not mean much right now, but I assure you it will make sense one day."
+    g "Возможно, сейчас эти слова не значат многого, но я уверяю тебя, однажды они обретут смысл."
 
     hide cg fade
     hide fxg1
@@ -927,15 +927,15 @@ label day2:
 
     show yyoshi comp2 at right2
     voice audio.yyoshi_vsg4_line12
-    yo "Th-Thank you very much, sir! I’m really honored to have this…!"
+    yo "С-спасибо огромное, сэр! Для меня честь получить такое…!"
 
     show ygoro comp5 at center
     voice audio.ygoro_vsg4_line27
-    g "You’re welcome, Yoshinori. Now let’s get going. Everyone must’ve finished with their break."
+    g "На здоровье, Йошинори. А теперь пойдём. Все уже наверное закончили перерыв."
 
     show yyoshi bold2 at right2
     voice audio.yyoshi_vsg4_line13
-    yo "Yes, sir!"
+    yo "Есть, сэр!"
 
     scene cg white with Dissolve(2.0)
     $past_scene = False
@@ -964,76 +964,76 @@ label day2:
     play bgsound sfxloop_carride loop
 
     voice audio.yoshi_vsg3_line10
-    yo "N-Now I’m kinda embarrassed of how I acted back then… I didn’t realize how much of a showoff I was…"
+    yo "Т-теперь мне даже немного стыдно за то, как я себя тогда вёл… Я и не думал, что был таким занудой…"
 
     voice audio.goro_vsg3_line13
-    g "Well, it’s not exactly a bad thing. I understood that you were just thrilled to be at the camp."
+    g "Ну, не то, чтобы в этом было что-то плохое. Я понимал, что для тебя лагерь был таким волнительным."
 
     show cgg2 11 with Dissolve(0.25)
     voice audio.goro_vsg3_line14
-    g "I probably wouldn’t have given you that brooch if it weren’t for that quality of yours."
+    g "Если бы не это твоё качество, я бы, может, и не подарил тебе эту брошку."
 
     voice audio.yoshi_vsg3_line11
-    yo "A-Ah… I’m not sure if I should take that as a compliment, sir. "
+    yo "А-ах… Не уверен, следует ли мне считать это комплиментом, сэр. "
 
     show cgg2 12 with Dissolve(0.25)
     voice audio.goro_vsg3_line15
-    g "Hmm… Let’s just say I just saw something promising in you, from the way you acted, to the way you were willing to lead and take charge."
+    g "Хм… Скажем так, я просто увидил в тебе что-то многообещающее, начиная с твоих поступков, заканчивая желанием вести за собой и нести ответственность."
 
     voice audio.goro_vsg3_line16
-    g "I wanted to give you some form of acknowledgement for it."
+    g "Мне хотелось дать тебе что-то в знак признания этого."
 
     show cgg2 13 with Dissolve(0.25)
     voice audio.goro_vsg3_line17
-    g "Heh, and it turns out I was right too. Just look at how far you’ve come today. "
+    g "Хех, оказалось, я тоже был прав. Взгляни, как далеко ты зашёл. "
 
     voice audio.yoshi_vsg3_line12
-    yo "Th-Thank you, sir. It really honors me to know that you place so much faith in me and my abilities."
+    yo "С-спасибо вам, сэр. Я правда польщён тем, сколько надежды вы вкладываете в меня и мои способности."
 
     voice audio.yoshi_vsg3_line13
-    yo "Although, I have to admit, every time you tell me that I’ll be next in line for your role at Camp Buddy, I always wonder if I can really do it."
+    yo "Хотя, должен признать, каждый раз, как вы мне говорите, что я - следующий на очереди, кто возьмёт вашу роль в Лагере Друзей, я всегда задумываюсь, справлюсь ли."
 
     show cgg2 14 with Dissolve(0.25)
     voice audio.goro_vsg3_line18
-    g "Come on, where’s that overflowing enthusiasm you had back then? "
+    g "Да ладно тебе, где же твой былой бескрайний энтузиазм? "
 
     voice audio.goro_vsg3_line19
-    g "If I had told the younger Yoshinori that he was going to be in charge, he’d never have been able to calm down! "
+    g "Скажи я молодому Йошинори, что он станет однажды во главе, он бы никогда не успокоился! "
 
     voice audio.goro_vsg3_line20
-    g "And besides, you’ve been leading this camp for many years now. While we had some setbacks, your performance the previous term was enough to prove that you have what it takes to carry the torch someday."
+    g "К тому же, ты вёл за собой лагерь уже много лет. Пускай и были неудачи, твоё руководство в прошлом сезоне более чем доказывало, что в тебе есть всё то, чтобы продолжить эстафету."
 
     show cgg2 15 with Dissolve(0.25)
     voice audio.yoshi_vsg3_line14
-    yo "You flatter me too much, sir…"
+    yo "Вы мне льстите, сэр…"
 
     voice audio.goro_vsg3_line21
-    g "You know, the reason I gave you that badge is the same reason I brought you to this business meeting today."
+    g "Знаешь, причина, по которой я дал тебе этот значок и по которой я привёл тебя с собой на эту встречу, она одна и та же."
 
     voice audio.goro_vsg3_line22
-    g "As much as I’m your superior, I want us to lead Camp Buddy side by side, just like we did back then…"
+    g "Даже если я главнее тебя, я желаю вести Лагерь Друзей бок о бок, как и было прежде…"
 
     voice audio.goro_vsg3_line23
-    g "I know that your intentions are in the right place, and they go beyond just for the sake of the camp, exactly like what I saw in you that day.  "
+    g "Я понимаю, что твои намерения в правильном русле, и что идут они за пределы возможного, ради лагеря, прямо как и в тот день.  "
 
     voice audio.yoshi_vsg3_line15
-    yo "Sir Goro…"
+    yo "Сэр Горо…"
 
     show cgg2 16 with Dissolve(0.25)
     voice audio.goro_vsg3_line24
-    g "So, you better pay close attention to this meeting and learn something from it, or else I won’t let you come along next time!  "
+    g "Что же, лучше будь внимательнее с этой встречей и поучись чему-то, а иначе я не возьму тебя в следующий раз!  "
 
     voice audio.yoshi_vsg3_line16
-    yo "Yes, sir! I’ll do my best!"
+    yo "Есть, сэр! Сделаю всё возможное!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound2', fadeout = 1.0)
     scene cg black with fade
 
-    yo "{i}Sir Goro is trying his best to open up around me, reminiscing about the past and chatting casually.{/i}"
-    yo "{i}It’s really refreshing to be able to talk to him on such a personal level, and not just about work… {/i}"
-    yo "{i}I’ll make sure to show Sir Goro that he was right to place his trust in me!{/i}"
+    yo "{i}Сэр Горо делает всё возможное, чтобы открыться мне, вспоминая прошлое и непринужденно болтая.{/i}"
+    yo "{i}Это правда облегчает - иметь возможность поговорить с ним на столь личном уровне, и не только о работе… {/i}"
+    yo "{i}Я позабочусь о том, чтобы сэр Горо не ошибся, доверившись мне!{/i}"
 
     scene cg black
     hide screen location
@@ -1056,52 +1056,52 @@ label day2:
     show yoshi_semiformal at right2
     show yoshi shock3 at right2
     voice audio.yoshi_v_amazed1d
-    yo "W-Wow… So, this is where Mr. Clermont works…?"
+    yo "Вау… Значит, здесь работает мистер Клермонт…?"
 
     show goro play3 at left2
     voice audio.goro_v_heh1a
-    g "Yeah… Fancy, isn’t it? I was surprised too the first time I came here."
+    g "Ага… Мило, не правда ли? Я тоде был удивлён, когда был тут впервые."
 
     show yoshi awkward4 at right2
     voice audio.yoshi_v_amazed2b
-    yo "I still can’t believe that someone like Mr. Clermont really sponsored Camp Buddy…"
+    yo "До сих пор не могу поверить, что кто-то вроде мистера Клермонта согласился на спонсорство Лагеря Друзей…"
 
     show goro comp2 at left2
     voice audio.goro_v_conj9a1
-    g "We really have to thank Mr. Nagame and his friends for that… "
-    g "While Mr. Clermont was impressed by our camp, I think their story was really what convinced him to support us like this."
+    g "За это нам стоит поблагодарить мистера Нагаме и его друзей… "
+    g "Пускай мистер Клермонт и был поражён лагерем, я считаю, их рассказ был тем финальным убеждением, что заставило его поддержать нас."
 
     hide yoshi_semiformal
     hide yoshi awkward4
     show yoshi_semiformal at right2
     show yoshi norm3 at right2
     show goro shock1 at left2
-    fd "Mr. Nomoru? Mr. Clermont would like to see you now!"
+    fd "Мистер Номору? Мистер Клермонт желает встретиться с вами сейчас!"
 
     show goro happy2 at left2
     voice audio.goro_v_rush1d1
-    g "That’s our cue. Let’s go!"
+    g "наша очередь. Пойдём!"
 
     hide yoshi_semiformal
     hide yoshi norm3
     show yoshi_semiformal at right2
     show yoshi shy2 at right2
     voice audio.yoshi_v_gulp1a
-    yo "*gulp* Suddenly, I’m feeling nervous."
+    yo "*глоть* Внезапно, я начинаю нервничать."
 
     hide goro_semiformal
     hide goro happy2
     show goro_semiformal at left2
     show goro bold2 at left2
     voice audio.goro_v_confident1a
-    g "It’ll be fine, Yoshinori. Just follow my lead."
+    g "Всё будет хорошо, Йошинори. Просто наблюдай за мной."
 
     hide yoshi_semiformal
     hide yoshi shy2
     show yoshi_semiformal at right2
     show yoshi talk1 at right2
     voice audio.yoshi_v_right4
-    yo "R-Right!"
+    yo "Л-ладно!"
 
     scene cg black
     hide screen location
@@ -1126,100 +1126,100 @@ label day2:
     show yoshi_semiformal at right
     show yoshi norm3 at right
     voice audio.goro_v_goodam2a2
-    g "Good day, Mr. Clermont."
+    g "День добрый, мистер Клермонт."
 
     show william happy1 at left
     voice audio.william_v_surprised1b
-    w "Ahh! It’s been a while, Mr. Nomoru!"
+    w "О! Давно не виделись, мистер Номору!"
 
     show goro happy2 at center
     voice audio.goro_v_request4a1
-    g "I hope you don’t mind, but I brought my head scoutmaster with me today – this is Yoshinori Nagira."
-    g "I apologize for not informing you beforehand."
+    g "Надеюсь, вы не против, что я привёл своего главного скаутмастера с собой сегодня – это Йошинори Нагира."
+    g "Прошу прощения, что не проинформаировал заранее."
 
     show william comp4 at left
     voice audio.william_v_comp1b
-    w "No problem at all! I believe we met when I visited your camp the first time, didn’t we, Mr. Nagira?"
+    w "Никаких проблем! Я полагаю, мы уже встречались на моём визите в лагере, верно, мистер Нагира?"
 
     show yoshi happy2 at right
     voice audio.yoshi_v_yessir1
-    yo "Yes, sir! It’s a pleasure to meet you again as well, Mr. Clermont!"
+    yo "Да, сэр! Приятно видеть вас вновь, мистер Клермонт!"
 
     show william explain3 at left
     voice audio.william_v_request1
-    w "And we’re right on time, so let’s get straight to business, shall we?"
+    w "И мы как раз вовремя, так перейдём же сразу к бизнесу, согласны?"
 
     show goro talk1 at center
     voice audio.goro_v_yessir1a1
-    g "Yes, sir."
+    g "Да, сэр."
 
     show william happy2 at left
     voice audio.william_v_anyway1
-    w "So, I’ve got a bit of good news for you – as you may know, the little book “Greatest Memories” that we’ve published has been on the shelves and online stores for over a month."
-    w "I’d like to congratulate you both, as it’s our most outstanding release yet! It generated a lot more sales than we anticipated!"
+    w "Итак, у меня есть для вас хорошие новости – как вы уже могли знать, та маленькая книжка /"лучшие Воспоминания/" которую мы опубликовали пробыла на полках и в онлайн магазинах уже больше месяца."
+    w "Хотелось бы поздравить вас, так как это пока наш величайший релиз! Всё принесло гораздо больше продаж, чем мы ожидали!"
 
     show yoshi shock5 at right
     voice audio.yoshi_v_amazed1d
-    yo "O-Oh, wow… That’s really amazing! "
+    yo "О-оу, вау… Это великолепно! "
 
     show william laugh2 at left
     voice audio.william_v_laugh1
-    w "It seemed the public recognized the potential I saw from it and your camp. It was such a breath of fresh air from anything that’s out there in the market!"
+    w "Похоже, публика оценила потенциал, что я увидел в вас и вашем лагере. Словно глоток чистого воздуха во всём рынке!"
 
     show william amazed3 at left
     voice audio.william_v_conj1a
-    w "And as they say, “strike while the iron is hot”; the good publicity we’re getting from the book is a great opportunity to divert into the camp itself!"
-    w "With the majority of the sales being allocated for upgrades around Camp Buddy, we’re able to offer a full sponsorship for many years to come!"
+    w "И, как говорится, /"куй железо пока горчячо/"; хорошая реклама, которую мы получаем от книги, -  отличная возможность углубиться в сам лагерь!"
+    w "Поскольку наибольшая часть продаж направляется на улучшения в Лагере Друзей, мы сможем предложить полное спонсорство на долгие годы вперёд!"
 
     show goro comp5 at center
     voice audio.goro_v_thanks3a
-    g "Thank you so much again for seeing the worth of our camp, Mr. Clermont. "
+    g "Благодрю вас ещё раз за то, что увидели потенциал в нашем лагере, мистер Клермонт. "
 
     show william happy2 at left
     voice audio.william_v_conj4
-    w "I believe this is more than just a business – it’s about what your place stands for in this generation!"
+    w "Полагаю, здесь имеет дело быть и нечто другое, чем бизнес – дело ведь и в том, за что это место отвечает в современном поколении!"
 
     show goro happy1 at center
     voice audio.goro_v_glad1a
-    g "I’m glad we’re on the same page, sir!"
+    g "Я рад, что мы на одной волне, сэр!"
 
     show william think2 at left
     voice audio.william_v_conj5
-    w "Moving forward, let’s discuss our upgrade plans."
-    w "You are familiar with the Federation of Unified Camping Boy Scouts, or FUCBoyS, I believe?"
+    w "Двигаемся дальше, обсудим планы улучшений."
+    w "Полагаю, вы ведь знакомы с АНУС, Асоциацией Национально Установленных Скаутов?"
 
     show goro talk3 at center
     voice audio.goro_v_agree3a1
-    g "Yes, of course, we follow their guidelines for most of our camp activities."
+    g "Да, конечно, мы следуем их рекомендациям в большинстве наших лагерных мероприятий."
 
     show william talk1 at left
     voice audio.william_v_think1
-    w "I have conducted a meeting with their association and asked for a business consultation on how to improve the camp."
-    w "The insight from these professionals gave us a huge scope of potential upgrades with the budget that we have."
+    w "Я провел встречу с ассоциацией и попросил бизнес-консультацию о том, как улучшить лагерь."
+    w "Полученные знания от профессионалов дали нам огромный объём потенциальных улучшений при том бюджете, который у нас есть."
 
     show william comp2 at left
     voice audio.william_v_agree1a
-    w "Of course, with the camp president’s approval and go signal."
+    w "Разумеется, с одобрения президента лагеря и по сигналу."
 
     show goro confused3 at center
     voice audio.goro_v_ah1b
-    g "Ah… May I ask what upgrades they specifically suggested?"
+    g "А… Могу ли я узнать, что именно за улучшения они посоветовали?"
 
     show william laugh1 at left
     voice audio.william_v_well1a
-    w "Well, we would be here all day if we discussed each and every bullet."
-    w "But to give you a preface, it’s mostly expansions to the camp! "
+    w "Что же, мы бы могли просидеть тут весь день, обсуждая каждое из них."
+    w "Но, как вводная часть, по большинству - всего лишь расширение лагеря! "
 
     show cg fade at truecenter
     show fx3 at fx_pos
     with dissolve
 
     voice audio.william_v_conj3a
-    w "I was made aware that the annex area beside the camp was meant for upgrades. This was the biggest job that they suggested."
-    w "The FUCBoyS Association figured that since we’re expecting more campers next term, they would like to build more cabins and facilities!"
+    w "Мне сообщили, что пристройка рядом с лагерем предназначалась для улучшений. То была самая большая работа, которую они предложили."
+    w "АНУС решила, что, раз мы ожидаем больше кэмперов в следующем сезоне, они бы хотели отсроить больше домиков и других объектов!"
 
     voice audio.goro_v_actually1a
-    g "It’s something we’ve foreseen as well. In fact, we actually began refurbishing old, run-down cabins last summer in preparation for the next term."
+    g "Мы это также предвидели. По факту, в качестве подготовки к следующему сезону мы уже начали ремонтировать старые, обветшалые домики."
 
     hide cg fade
     hide fx3
@@ -1227,143 +1227,143 @@ label day2:
 
     show william amazed2 at left
     voice audio.william_v_amazed2
-    w "That’s great! That should help us get a head start on the biggest chunk of the work."
-    w "However, there are equally important suggestions on top of this, such as technology integration, gear upgrades and a new curriculum to establish safety interests."
+    w "Отлично! Это послужит нам форой в самом большом объёме работы."
+    w "Тем не менее, помимо этого есть и другие не менее важные предложения, такие как интеграция технологий, модернизация оборудования и новый курс, для обеспечения интересов безопасности."
 
     hide goro_semiformal
     hide goro confused3
     show goro_semiformal at center
     show goro shock2 at center
     voice audio.goro_v_oh2b
-    g "Oh… This is beyond what I expected…"
+    g "О… Это даже за гранью того, что я ожидал…"
 
     show william happy2 at left
     voice audio.william_v_comp3
-    w "I’ll email you the specifics on each topic so you can consider them thoroughly."
+    w "Я отправлю вам электронным письмом все особенности по этой теме, так что вы сможете тщательно всё обдумать."
 
     hide goro_semiformal
     hide goro shock2
     show goro_semiformal at center
     show goro talk1 at center
     voice audio.goro_v_response1c2
-    g "Understood. I’ll make sure to review everything carefully."
-    g "I appreciate all the work you’ve put into sponsoring our camp, Mr. Clermont. I am extremely grateful."
+    g "Понял. Я позабочусь о том, чтобы всё хорошенько изучить."
+    g "Я ценю всю ту работу, что вы вкладываете в спонсорство нашего лагеря, мистер Клермонт. Я глубоко вам обязан."
 
     show yoshi comp2 at right
     voice audio.yoshi_v_thanks2
-    yo "Yes, we can’t thank you enough, Mr. Clermont!"
+    yo "Да, мы даже не знаем как вас отблагодарить, мистер Клермонт!"
 
     show william comp4 at left
     voice audio.william_v_comp1a
-    w "Like I said before, it’s my pleasure to be a part of your cause."
+    w "Как я и говорил ранее, я только счастлив быть частью вашего дела."
 
     show william talk1 at left
     voice audio.william_v_conj1a
-    w "Now, let’s move on and discuss when the project is expected to be completed."
-    w "We are going to maintain the same target of at least a month before next year’s summer term begins."
+    w "Итак, а теперь обсудим, к какому сроку проект должен быть завершён."
+    w "Мы собираемся сохранить ту же цель по крайней мере за месяц до начала летнего сезона в следующем году."
 
     hide goro_semiformal
     hide goro talk1
     show goro_semiformal at center
     show goro think2 at center
     voice audio.goro_v_think1a1
-    g "I would like to raise a concern about that, sir. "
-    g "Just for the renovations alone, I don’t think our current staff will be capable of performing the construction labor in several months’ time."
+    g "Хотелось бы выразить обеспокоенность по этому поводу, сэр."
+    g "Что касается только ремонтных работ, не думаю, что наш нынешний персонал будет способен выполнить строительные работы через несколько месяцев."
 
     show william laugh1 at left
     voice audio.william_v_laugh3
-    w "Hahahaha! Why, I wouldn’t put you in such an impossible situation, Mr. Nomoru!"
-    w "It’s unreasonable to ask your team of four people to handle all of this. "
+    w "Кха-ха-ха-ха! Что вы, я бы не поставил вас в такую безвыходную ситуацию, мистер Номору!"
+    w "Неразумно было бы просить вашу команду из четырех человек справиться со всем этим. "
 
     hide goro_semiformal
     hide goro think5
     show goro_semiformal at center
     show goro talk2 at center
     voice audio.goro_v_conj7a
-    g "On that note, please allow me some time to gather the required manpower to cater for all this work."
+    g "На этом прошу позволить выделить мне некоторое время, дабы нанять необходимую рабочую силу для выполнения работы."
 
     show william happy3 at left
     voice audio.william_v_comp3
-    w "I’ve already got it covered – I signed on with a contractor who will provide us a team of professionals with the best expertise to handle the work."
+    w "Я уже всё устроил – я заключил контракт с подрядчиком, который предоставит нам команду профессионалов с наилучшим опытом для выполнения этой работы."
 
     hide goro_semiformal
     hide goro talk2
     show goro_semiformal at center
     show goro shock2 at center
     voice audio.goro_v_unsure1a1
-    g "Oh… Isn’t that too much, sir? I mean… you’ve already funded the entire expansion."
+    g "О… Не много ли это, сэр? Я имею ввиду… Вы и так проспонсировали целое расширение."
 
     show william comp4 at left
     voice audio.william_v_impressed1a
-    w "Consider this as part of the sponsorship. All you’ll need to do as the camp president is give me your approval on the upgrade plans we proposed."
-    w "That, and to assign one of your staff to coordinate with whichever representatives I will send to the site on my behalf. Now, isn’t that convenient for both of us?"
+    w "Считайте это частью нашего спонсорства. Всё, что от вас будет требоваться как от президента лагеря - это дать мне разрешение на предложенные нами планы модернизации."
+    w "Это, и поручить одному из ваших сотрудников координировать действия с любыми представителями, которых я пошлю на место от моего имени. Итак, удобно ли это нам обоим?"
 
     hide goro_semiformal
     hide goro shock2
     show goro_semiformal at center
     show goro amazed2 at center
     voice audio.goro_v_thanks2a1
-    g "It is, sir. Thank you very much for your generosity."
-    g "When is our official starting date for the project, if I may ask?"
+    g "Весьма, сэр. Премного благодарен за вашу щедрость."
+    g "Могу я спросить, когда у нас официальная дата начала проекта?"
 
     show william talk2 at left
     voice audio.william_v_rush1a
-    w "I would say as soon as possible since our deadline is tight. "
-    w "As a matter of fact, I can send a team as early as tomorrow to give them ample time to settle in and familiarize with the site, if that’s alright on your end."
+    w "Я бы сказал, чем быстрее - тем лучше, поскольку поджимают сроки.  "
+    w "На самом деле, я могу отправить команду уже завтра, чтобы дать им достаточно времени освоиться и ознакомиться с участком, если вы не против."
 
     hide yoshi_semiformal
     hide yoshi comp2
     show yoshi_semiformal at right
     show yoshi awkward4 at right
     voice audio.yoshi_v_what3
-    yo "Wh-What…? Tomorrow?"
+    yo "Ч-что…? Уже завтра?"
 
     show goro happy1 at center
     voice audio.goro_v_agree7a
-    g "I agree with you, Mr. Clermont. I’ll have my staff prepare for their arrival. We’ll allot some of the vacant cabins for temporary housing throughout the construction."
+    g "Согласен с вами, мистер Клермонт. Я подготовлю персонал к их прибытию. Мы выделим несколько свободных домиков для временного жилья на протяжение всего строительства."
 
     show william explain2 at left
     voice audio.william_v_think1
-    w "We’ll set a daily schedule and send off teams by their specialty until all the required workforce has been fully mobilized at the camp."
-    w "I know this may be a little overwhelming, but I assume it’s not new to you to be handling a large amount of people working on a common goal."
+    w "Установим ежедневное расписание и отправим команды по их специальности до тех пор, пока в лагере не будет полностью мобилизована вся необходимая рабочая сила."
+    w "Понимаю, это может быть ошеломляюще, но, предполагаю, работать с большим количеством людей над единой целью вам не в новинку."
 
     show goro bold2 at center
     voice audio.goro_v_agree6a2
-    g "That’s right. I’m confident we can manage."
+    g "Всё верно. Уверен, что мы справимся."
 
     show william talk3 at left
     voice audio.william_v_conj7
-    w "Lastly, we have to cover the legal side of this project. If we’re aiming to move in tomorrow and start immediately, we’ll require the documentations and permits."
+    w "И последнее, нам нужно закрыть юридическую сторону проекта. Раз уж мы собираемся заселять всех завтра и незамедлительно начать, нам потребуются документации и разрешения."
 
     show goro talk1 at center
     voice audio.goro_v_conj6a1
-    g "About that, I’ve been working with the local city hall ever since the end of the previous term. The good news is that I was able to secure all the necessary paperwork."
-    g "I will make the needed adjustments based on the updated scope we discussed today, and I’ll head there tomorrow to claim all the permits."
+    g "Насчёт этого, я уже работал с местной мэрией ещё с конца предыдущего сезона. Хорошие новости: всю необходимую документацию я уже оформил."
+    g "Я внесу важные коррективы на основе обновленной области, что мы сегодня обсудили, завтра же отправлюсь туда, чтобы получить все разрешения."
 
     show william happy3 at left
     voice audio.william_v_impressed2b
-    w "Excellent! It really shows how much you have prepared for this, Mr. Nomoru."
+    w "Великолепно! Вы действительно подготовились ко всему, мистер Номору."
 
     show goro comp2 at center
     voice audio.goro_v_response2a2
-    g "It’s honestly the least I could do, sir. "
-    g "You can count on my staff and I to do our part throughout this entire project. "
+    g "Честно, это меньше что я могу сделать, сэр. "
+    g "Можете расчитывать на наш персонал в выполнении своей части всего проекта. "
 
     show william laugh1 at left
     voice audio.william_v_laugh2
-    w "Hahaha, of course. Now, I believe we’ve covered all matters that needed to be discussed today?"
+    w "Ха-ха-ха, превосходно. Итак, полагаю, на сегодня мы решили все вопросы?"
 
     show goro happy1 at center
     voice audio.goro_v_response1a2
-    g "Indeed. We won’t take up any more of your time."
+    g "В самом деле. Не будем дальше занимать ваше время."
 
     show william happy1 at left
     voice audio.william_v_bye1b
-    w "Alright then, this meeting is adjourned! We’ll see each other next week for another meeting."
+    w "Тогда хорошо, собрание окончено! Увидемся на следующей неделе на новой встрече."
 
     show goro laugh3 at center
     voice audio.goro_v_thanks2a1
-    g "Yes, sir. Thank you for today."
+    g "Да, сэр. Благодарю."
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -1389,71 +1389,71 @@ label day2:
     show goro_semiformal at right2
     show goro norm1 at right2
     voice audio.yoshi_v_relief1
-    yo "Whew…"
+    yo "Фух…"
 
     show goro play3 at right2
     voice audio.goro_v_so3a
-    g "So…? How was your first professional meeting?"
+    g "Ну…? Как тебе твоя первая деловая встреча?"
 
     $working = False
     $shuffle_menu()
     menu():
-        g "So…? How was your first professional meeting?{fast}"
-        "It was a little stressful.":
+        g "Ну…? Как тебе твоя первая деловая встреча?{fast}"
+        "Было немного напряжённо.":
             $working = True
             $score_goro -= 1
             show yoshi worry2 at left2
             voice audio.yoshi_v_conj4a
-            yo "Honestly, it stressed me out a little. "
+            yo "Честно говоря, она меня немного напрягла. "
 
             show yoshi sigh1 at left2
             voice audio.yoshi_v_sigh2
-            yo "The conversation moved so fast that I didn’t know when I was supposed to talk, or even have time to process the information! "
-            yo "At some point, I felt bad that I wasn’t contributing anything to the discussion."
+            yo "Беседа так стремительно развивалась, что я понятия не имел когда мне вставить слово, или когда мне обдумать полученную информацию! "
+            yo "В какой-то момент я почувствовал себя плохо из-за того, я так ничего и не внёс в обсуждение."
 
             show goro comp2 at right2
             voice audio.goro_v_comp2a2
-            g "Don’t worry, I wasn’t expecting you to actively participate. I understand that this was something out of your comfort zone."
+            g "Не волуйся, я и не ожидал, что ты начнёшь активно участвовать. Я понимаю, всё это было вне зоны твоего комфорта."
 
             show goro explain3 at right2
             voice audio.goro_v_conj5a
-            g "Regardless, it’s a good thing to experience."
-            g "A busy man like Mr. Clermont can only spare us a little time, so it’s important to get straight to the point and accomplish as much as possible in every meeting."
+            g "И тем не мнее, испытать такое - полезный опыт."
+            g "Такой занятой человек, как мистер Клермонт может позволить нам лишь малую часть своего времени, потому так важно сразу переходить к делу и достичь наилучшего результата за каждую встречу."
 
             hide yoshi_semiformal
             hide yoshi sigh1
             show yoshi_semiformal at left2
             show yoshi talk1 at left2
             voice audio.yoshi_v_response1a
-            yo "I understand, sir."
-        "It's so different from back at camp.":
+            yo "Я понимаю, сэр."
+        "Сильно отличается, от тех, что в лагере.":
             $working = True
             $score_goro -= 1
             show yoshi worry2 at left2
             voice audio.yoshi_v_conj4a
-            yo "It was… pretty nerve-racking… It’s so different from the ones we usually have back at camp."
+            yo "Было очень… стрессово… Она сильно отличается от тех собраний, что мы обычно устраиваем в лагере."
 
             show yoshi sigh1 at left2
             voice audio.yoshi_v_sigh2
-            yo "The conversation moved so fast that I didn’t know when I was supposed to talk, or even have time to process the information!"
-            yo "At some point, I felt bad that I wasn’t contributing anything to the discussion."
+            yo "Беседа так стремительно развивалась, что я понятия не имел когда мне вставить слово, или когда мне обдумать полученную информацию! "
+            yo "В какой-то момент я почувствовал себя плохо из-за того, я так ничего и не внёс в обсуждение."
 
             show goro comp2 at right2
             voice audio.goro_v_comp2a2
-            g "Don’t worry, I wasn’t expecting you to actively participate. I understand that this was something out of your comfort zone."
+            g "Не волуйся, я и не ожидал, что ты начнёшь активно участвовать. Я понимаю, всё это было вне зоны твоего комфорта."
 
             show goro explain3 at right2
             voice audio.goro_v_conj5a
-            g "Regardless, it’s a good thing to experience."
-            g "A busy man like Mr. Clermont can only spare us a little time, so it’s important to get straight to the point and accomplish as much as possible in every meeting."
+            g "И тем не мнее, испытать такое - полезный опыт."
+            g "Такой занятой человек, как мистер Клермонт может позволить нам лишь малую часть своего времени, потому так важно сразу переходить к делу и достичь наилучшего результата за каждую встречу."
 
             hide yoshi_semiformal
             hide yoshi sigh1
             show yoshi_semiformal at left2
             show yoshi talk1 at left2
             voice audio.yoshi_v_response1a
-            yo "I understand, sir."
-        "It's a good thing you were there.":
+            yo "Я понимаю, сэр."
+        "Хорошо, что вы были там.":
             $working = True
             $score_goro += 1
             hide yoshi_semiformal
@@ -1461,26 +1461,26 @@ label day2:
             show yoshi_semiformal at left2
             show yoshi comp2 at left2
             voice audio.yoshi_v_amazed3
-            yo "It’s a good thing you were there, sir."
-            yo "Mr. Clermont brought up a lot of things that required decisions on the spot, and you were able to cater to all of them."
+            yo "Хорошо, что вы были там, сэр."
+            yo "Мистер Клермонт приводил много чего, что требовало незамедлительных решений, и у вас получилось принять каждое из них."
 
             show yoshi sigh1 at left2
             voice audio.yoshi_v_sigh2
-            yo "I could barely keep up with the pace of the discussion. I wish I could've contributed as much as you did!"
+            yo "Я едва успевал на темпом дискуссии. Хотелось бы мне внести такой же вклад, как вы!"
 
             show goro comp2 at right2
             voice audio.goro_v_comp2a2
-            g "You’ll learn with more experience. A busy man like Mr. Clermont can only spare us so much time, so I had to be sure to respect that. "
-            g "It’s important to get straight to the point and accomplish as much as possible in every meeting."
+            g "Знания приходят с опытом. Такой занятой человек, как мистер Клермонт может позволить нам лишь малую часть своего времени, и нам следует уважать это. "
+            g "Важно сразу переходить к делу и достичь наилучшего результата за каждую встречу."
 
             show goro comp5 at right2
             voice audio.goro_v_conj9a1
-            g "But honestly, they aren’t that different from our own meetings back at camp."
+            g "Но, если честно, такие собрания не сильно отличаются от тех, что мы проводим в лагере."
 
             show yoshi happy1 at left2
             voice audio.yoshi_v_response1b
-            yo "I understand, sir!"
-        "You had everything under control.":
+            yo "Я понимаю, сэр."
+        "У вас всё было под контролем.":
             $working = True
             $score_goro += 2
             hide yoshi_semiformal
@@ -1488,86 +1488,86 @@ label day2:
             show yoshi_semiformal at left2
             show yoshi bold2 at left2
             voice audio.yoshi_v_amazed3
-            yo "I was really impressed at how well you handled everything, sir!"
-            yo "Even though the conversation moved quickly, you were able to keep up with every concern Mr. Clermont brought up."
+            yo "У был поражён тем, как хорошо вы со всем управлялись, сэр!"
+            yo "Даже когда беседа развивалась стремительно, вам удавалось поспевать за каждым вопросом приведённым мистером Клермонтом."
 
             show yoshi sigh1 at left2
             voice audio.yoshi_v_sigh2
-            yo "You even made a lot of important decisions on the spot… I’m not sure I could have done that!"
+            yo "У вас даже получилось незамедлительно решить каждый из них… Не уверен, что смог бы так сделать!"
 
             show goro comp2 at right2
             voice audio.goro_v_comp2a2
-            g "You’ll learn with more experience. A busy man like Mr. Clermont can only spare us so much time, so I had to be sure to respect that. "
-            g "It’s important to get straight to the point and accomplish as much as possible in every meeting."
+            g "Знания приходят с опытом. Такой занятой человек, как мистер Клермонт может позволить нам лишь малую часть своего времени, и нам следует уважать это. "
+            g "Важно сразу переходить к делу и достичь наилучшего результата за каждую встречу."
 
             show goro comp5 at right2
             voice audio.goro_v_conj9a1
-            g "But honestly, they aren’t that different from our own meetings back at camp."
+            g "Но, если честно, такие собрания не сильно отличаются от тех, что мы проводим в лагере
 
             show yoshi happy1 at left2
             voice audio.yoshi_v_response1b
-            yo "I understand, sir!"
+            yo "Я понимаю, сэр."
 
     hide goro_semiformal
     hide goro play3
     show goro_semiformal at right2
     show goro tease5 at right2
     voice audio.goro_v_heh1a
-    g "Heh, you should’ve seen the look on your face the entire meeting, Yoshinori. You looked like a lost kid in a mall."
+    g "Хех, выдел бы ты своё лицо на протяжение всего собрания, Йошинори. Как у ребёнка, потерявшегося в супермаркете."
 
     show yoshi panic4 at left2
     voice audio.yoshi_v_shock4
-    yo "G-Gah…! Was it that bad? I hope Mr. Clermont didn’t notice."
+    yo "Г-гах…! Было настолько плохо? Надеюсь, мистер Клермонт не заметил."
 
     hide goro_semiformal
     hide goro tease5
     show goro_semiformal at right2
     show goro laugh5 at right2
     voice audio.goro_v_laugh2b1
-    g "It seems like your lucky charm didn’t work one bit. Hahaha!"
+    g "Не похоже, что твой талисман принёс хоть каплю удачи. Ха-ха-ха!"
 
     hide yoshi_semiformal
     hide yoshi panic4
     show yoshi_semiformal at left2
     show yoshi sigh3 at left2
     voice audio.yoshi_v_sigh3a
-    yo "*sigh* I don’t know how you do it, sir."
+    yo "*вздох* На понимаю, как вам это удаётся, сэр."
 
     show goro happy1 at right2
     voice audio.goro_v_comp4a
-    g "If you do a certain thing over and over, you’ll realize it’s not as complicated as you think."
+    g "Если повторяешь что-то раз за разом, однажды осознаешь, что всё не так сложно, как ты думал раньше."
 
     hide goro_semiformal
     hide goro happy1
     show goro_semiformal at right2
     show goro happy2 at right2
     voice audio.goro_v_conj3a1
-    g "But I have to admit, it was nice to have your company here for once."
-    g "In a way, it made me more confident having you around for the meeting."
+    g "Хотя, стоит признать, мне понравилось быть в компании с тобой."
+    g "В каком-то смысле, я почувствовал себя уверенней вместе с тобой."
 
     show goro tease2 at right2
     voice audio.goro_v_heh1a
-    g "Also, watching you sweat from nervousness was rather entertaining. "
+    g "А ещё, наблюдать, как ты потеешь от нервов, было довольно забавно. "
 
     show yoshi shy6 at left2
     voice audio.yoshi_v_unsure1b
-    yo "Now I’m not sure if you should let me tag along next time…."
+    yo "Теперь я даже не знаю, присоединяться ли мне в следующий раз…"
 
     hide goro_semiformal
     hide goro tease2
     show goro_semiformal at right2
     show goro laugh1 at right2
     voice audio.goro_v_laugh2b1
-    g "Hahaha!"
+    g "Ха-ха-ха!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound2', fadeout = 1.0)
     scene cg black with fade
 
-    yo "{i}Sir Goro continued to tease and chat with me on the car ride back… It was actually really fun to see him loosened up like that.{/i}"
-    yo "{i}Time flew by, and before I knew it, we were back at Camp Buddy.{/i}"
-    yo "{i}Sir Goro immediately called a meeting with the other scoutmasters to prepare for the workers’ arrival tomorrow.{/i}"
+    yo "{i}Во время поездки обратно сэр Горо всё продолжал дразнить меня и болтать… Но в самом деле, было даже весело видеть его таким расслабленным.{/i}"
+    yo "{i}Время пролетело быстро, не успел я оглянуться, как мы уже были в Лагере Друзей.{/i}"
+    yo "{i}Сэр Горо немедленно организовал встречу со всеми скаутмастерами, дабы подготовиться к завтрашнему прибытию рабочих.{/i}"
 
     scene cg black
     hide screen location
@@ -1596,110 +1596,110 @@ label day2:
     show yuri_autumn at p4_4
     show yuri norm1 at p4_4
     voice audio.goro_v_so1a
-    g "So that wraps up everything. I’ve given you the in-depth details of the renovations that Mr. Clermont gave me so that we’re all equally clear."
+    g "На этом всё. Я рассказал вам все детали о ремонте, выданные мне мистером Клермонтом, так чтобы всем всё было понятно."
 
     show aiden shock5 at p4_3
     voice audio.aiden_v_shock1b1
-    a "Woah, this is a really huge deal, Gramps… Looking at everything, this is gonna cost a fortune!"
+    a "Ого, а дело и правда не плёвое, Дедуль… Судя по всему, стоить это будет целое состояние!"
 
     show yuri explain2 at p4_4
     voice audio.yuri_v_well1a
-    yu "Well, Dad said that everything in the construction will be covered by the sponsorship."
+    yu "Что ж, папа говорил, что вся реконструкция будет оплачена средствами из спонсорства."
 
     show yoshi talk1 at p4_2
     voice audio.yoshi_v_right5
-    yo "That’s right. The only things that are not covered are the miscellaneous stuff that we need. But all of that should be handled by the fundraising that we did last year."
+    yo "Всё верно.  Единственное, что осталось решить - разные инструменты. Но этот вопрос может быть решён с помощью прошедшего сбора средств."
 
     show goro talk3 at p4_1
     voice audio.goro_v_anyway2
-    g "Anyway, is everyone clear on the tasks I’ve given you?"
+    g "Итак, всем понятны ваши обязанности?"
 
     show yuri happy1 at p4_4
     voice audio.yuri_v_agree1b1
-    yu "Yes! I’ll be coordinating with the contractors tomorrow to tour them around the camp and provide them accommodations!"
+    yu "Да! Я скоорденируюсь с подрядчиками завтрашним днём и проведу для них экскурсию по лагерю, предоставив жильё!"
 
     show aiden laugh1 at p4_3
     voice audio.aiden_v_agree1a1
-    a "Yep, and I’ll be making sure the workers are fed and keeping up the regular maintenance."
+    a "Угу, а я прослежу за тем, чтобы рабочие были сыты и поддерживали регулярное техническое обслуживание."
 
     show goro explain2 at p4_1
     voice audio.goro_v_yoshi2a
-    g "As for you, Yoshinori. I will leave you in charge of overseeing the schedule we have planned for this week while I take care of the remaining paperwork."
+    g "А насчёт тебя, Йошинори. Я поставлю тебя во главе наблюдения за запланированным расписанием на эту неделю, тем временем я возьмусь за оставшуюся документацию."
 
     show yoshi happy1 at p4_2
     voice audio.yoshi_v_yessir2
-    yo "Yes, sir! You can count on me!"
+    yo "Есть, сэр! Можете расчитывать на меня!"
 
     show goro happy1 at p4_1
     voice audio.goro_v_amazed2a1
-    g "Great! If we’re all clear, then this meeting is adjourned."
+    g "Отлично! Если всё понятно, собрание окончено."
 
     hide yuri_autumn
     hide yuri happy1
     show yuri2_autumn at p4_4
     show yuri2 excited3 at p4_4
     voice audio.yuri_v_kyaa1a
-    yu "Kyaa~ I’m really excited! If everything goes well, I’m sure it’ll be Camp Buddy’s peak! "
-    yu "Just imagine all of the activities I’ll be able to do now that we have a bigger budget, hehehe…"
+    yu "Кья-а-а~ Я так взволнована! Если всё продёт как по маслу, Лагерь Друзей будет на пике своег осовершенства! "
+    yu "Представьте, сколько мероприятий я смогу устроить с таким большим бюджетом, хи-хи-хи…"
 
     show aiden tease1 at p4_3
     voice audio.aiden_v_laugh1a1
-    a "Hehe, knowing you, you’d probably throw another costume party."
+    a "Хе-хе, зная тебя, ты бы устроила очередную костюмированную вечеринку."
 
     hide yuri2_autumn
     hide yuri2 excited3
     show yuri_autumn at p4_4
     show yuri excited2 at p4_4
     voice audio.yuri_v_laugh2a4
-    yu "That was one of the best ideas I had last summer! I have plenty of other “sexier” ideas for everyone to enjoy~! Hehehe…"
+    yu "То была лучшая из моих идей прошлым летом! Но у меня есть идеи и попривлекательнее, которыми все смогут /"насладиться/"~! Хи-хи-хи…"
 
     hide yoshi_semiformal
     hide yoshi happy1
     show yoshi_semiformal at p4_2
     show yoshi sigh4 at p4_2
     voice audio.yoshi_v_sigh3a
-    yo "*sigh* You know we’re supposed to use the budget for improvements, Yuri…"
+    yo "*вздох* Юри, ты же помнишь, что бюджет для улучшений…"
 
     hide goro_semiformal
     hide goro happy1
     show goro_semiformal at p4_1
     show goro disappoint2 at p4_1
     voice audio.goro_v_ehem1a
-    g "*ahem* Yoshinori’s right. Let’s not go overboard and stick to our plans. "
+    g "*кхем* Йошинори прав. Давайте не будем перегибать палку, а придерживаться наших планов. "
 
     show yuri pout4 at p4_4
     voice audio.yuri_v_idea2a
-    yu "I know, I know! Now, why don’t you two get out of your fancy suits and take the rest of the night off? "
+    yu "Знаю-знаю я! А теперь, может вам уже пора снять ваши официальные прикиды и отдохнуть оставшуюся ночь? "
 
     show aiden play3 at p4_3
     voice audio.aiden_v_wait2b1
-    a "Hold on, they do look sleek and stylish in those outfits! How about we celebrate first? "
-    a "I have a huge roasted chicken sitting in the oven, and I’m sure it would go well with some champagne!"
+    a "Попридержи коней, они в них так стильно и элегантно в них выглядят! Может, сначала отпразнуем? "
+    a "В духовке как раз сидит огромный жаренный цыплёнок, уверен, хорошо зайдёт с шампанским!"
 
     show aiden bold2 at p4_3
     voice audio.aiden_v_rush1a1
-    a "We might not get a chance for something like this again with how busy we’ll get, after all! "
+    a "У нас может не быть такой возможности в будущем, когда мы будем заняты! "
 
     show yuri angry2 at p4_4
     voice audio.yuri_v_what5a
-    yu "What?! You’re gonna drink again?! No way! Especially when we’re expecting new people tomorrow! "
-    yu "The last thing I want is you guys being groggy and hungover as our first impression!"
+    yu "Чего?! Снова выпивать собрались?! Ни за что! Особенно когда мы ждём новых людей завтрашним днём! "
+    yu "Последнее, чего я хочу, это чтобы вы шаткими и пьяными угробили первое впечатление!"
 
     show goro sigh1 at p4_1
     voice audio.goro_v_sigh1a
-    g "*sigh* As much as I would love a drink tonight to relax… Yuri has a point. "
+    g "*взлох* Пускай мне и нравится идея выпить сегодня, чтобы отдахнуть… Юри права. "
 
     show yuri annoy2 at p4_4
     voice audio.yuri_v_alright1d1
-    yu "We can celebrate with the roasted chicken, but let’s lay off on the alcohol for now, alright?!"
+    yu "Отпразнуем одним цыплёнком, пока что без алкоголя, идёт?!"
 
     show aiden wink1 at p4_3
     voice audio.aiden_v_alright2a
-    a "Alright, alright. No drinks for tonight! Right, Yoshi and Gramps? *wink wink*"
+    a "Идёт-идёт. Никакого алкоголя на сегодня! Да, Йоши, Дедуль? *подмигивает*"
 
     show yuri pout1 at p4_4
     voice audio.yuri_v_hey3a
-    yu "Hey, I saw that!!"
+    yu "Эй, я всё видела!!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -1735,46 +1735,46 @@ label day2:
     show goro_semiformal at p6_6
     show goro norm1 at p6_6
     voice audio.yoichi_v_groan2c4
-    yi "UGH! FINALLY, you old geezers are here! We’ve been waiting here all day!"
+    yi "АГХ! НУ НАКОНЕЦ-ТО, старичьё здесь! Мы вас уже весь день ждём!"
 
     show taiga annoyed4 at p6_1
     voice audio.taiga_v_yoichi8
-    t "Yoichi, it’s only been ten minutes. "
+    t "Йоичи, прошло от силы десять минут. "
 
     show yoichi angry3 at p6_2
     voice audio.yoichi_v_shock3a7
-    yi "Gah! I don’t care! Time moves slower when I’m hungry!"
+    yi "Гах! Да плевать! Время идёт медленней, когда я голодный!"
 
     show yoshi comp2 at p6_5
     voice audio.yoshi_v_sorry5a
-    yo "We’re sorry about that! We just had a meeting to take care of! "
+    yo "Просим прощение за задержку! У нас было собрание! "
 
     hide yoichi_autumn
     hide yoichi angry3
     show yoichi_autumn at p6_2
     show yoichi annoyed6 at p6_2
     voice audio.yoichi_v_angry1d
-    yi "Tch. You guys keep acting so busy even when there’s nobody here.  "
-    yi "And I bet you forgot about us again! I haven’t seen any of you since yesterday!"
+    yi "Тц. Всегда ведёте себя так занято, с тех пор как в лагере пусто.  "
+    yi "Готов поспорить, что вы опять забыли про нас! Я ни одного из вас не видел со вчерашнего дня!"
 
     show taiga sigh2 at p6_1
     voice audio.taiga_v_ugh1
-    t "Ugh… He’s always like this when it’s his feeding time… I told him we could just heat up whatever’s in the fridge."
+    t "Угх… Он всегда такой, когда время его кормёжки… Я говорил ему, что он может согреть в микроволновке что-нибудь из холодильника."
 
     hide yoichi_autumn
     hide yoichi annoyed6
     show yoichi_autumn at p6_2
     show yoichi annoyed4 at p6_2
     voice audio.yoichi_v_disagree1a5
-    yi "No way I’m eating leftovers again! Besides, I can smell they’re hiding the goods here! This nose doesn’t lie!"
+    yi "Не хочу я снова есть объедки! К тому же, я чую, что они прячут что-то вкусное здесь! Этот нос не обманешь!"
 
     show yuri laugh1 at p6_3
     voice audio.yuri_v_yoichi7a
-    yu "Well, today’s your lucky day, Yoichi~! Aiden cooked up something special for dinner!"
+    yu "Что же, сегодня твой счастливый день, Йоичи~! эйден приготовил кое что особенное сегодня на ужин!"
 
     show aiden laugh1 at p6_4
     voice audio.aiden_v_laugh2a1
-    a "Haha! I better get that ready to serve before Yoichi loses it! Be right back!"
+    a "Ха-ха! Я лучше пойду подготовлю кк подаче, пржде чем Йоичи с ума сойдёт! Скоро буду!"
 
     hide aiden_autumn
     hide aiden laugh1
@@ -1795,106 +1795,106 @@ label day2:
     show taiga_autumn at p5_1
     show taiga confused1 at p5_1
     voice audio.taiga_v_confused2a
-    t "Soooo… what’s up with the suits? It’s been a long time since I’ve seen you guys wear something so formal."
+    t "Ита-а-ак… Что за костюмы? Давно я не видел вас в чём-то столь формальном."
 
     show yoshi talk3 at p5_4
     voice audio.yoshi_v_ah1
-    yo "Ah, we had a meeting with Mr. Clermont earlier today."
+    yo "А, у нас сегодня была встреча с мистером Клермонтом."
 
     show yoichi confused3 at p5_2
     voice audio.yoichi_v_confused1a4
-    yi "Why’d you dress like pimps for a boring meeting?"
+    yi "И вы разоделись как два сутенёра ради какой-то скучной встречи?"
 
     show goro sigh3 at p5_5
     voice audio.goro_v_sigh1a
-    g "*sigh* To think I spent so much on this outfit just to look like that…"
+    g "*вздох* Подумать только, сильно потратился, лишь бы выглядеть вот так…"
 
     show yoichi talking2 at p5_2
     voice audio.yoichi_v_laugh1a5
-    yi "Pimps have a lot of money too, you know."
+    yi "Ну, знаешь ли, сутенёры тоже много зарабатывают."
 
     show yoshi angry2 at p5_4
     voice audio.yoshi_v_yoichi7
-    yo "Yoichi! There’s no way either of us, especially Sir Goro, would do something like that!"
+    yo "Йоичи! Никто из нас, особенно сэр Горо, никогда бы таким не занимались!"
 
     show yoichi talking4 at p5_2
     voice audio.yoichi_v_hmph1a
-    yi "Whatever you say, simp. "
+    yi "Ага, пресмыкайся и дальше, симп. "
 
     show yoshi sigh4 at p5_4
     voice audio.yoshi_v_sigh3a
-    yo "*sigh*"
+    yo "*вздох*"
 
     show taiga confused3 at p5_1
     voice audio.taiga2_v_thinking2a
-    t "What was the meeting about anyway? It must’ve been super important for you guys to dress up like that."
+    t "А о чём была встреча? Должно быть что-то важное, раз вы так одеты."
 
     show yoshi happy1 at p5_4
     voice audio.yoshi_v_actually3a
-    yo "It was a huge deal, actually… Keitaro’s book did so well on the market that Mr. Clermont offered an even bigger budget to improve the camp."
+    yo "Вообще, это и правда было важно… Благодаря тому, что книга Кейтаро имела большой успех на рынке, мистер Клермонт предложил нам ещё больший бюджет для улучшения лагеря."
 
     show goro talk2 at p5_5
     voice audio.goro_v_request2a2
-    g "With the sponsorship going into effect, things are going to be busy from now on, and I expect you both to do your best to help out as much as you can."
+    g "Со вступлением в силу спонсорства с этого момента всё будет очень напряжённо, и я ожидаю от вас, что вы сделаете всё возможное, чтобы помочь нам."
 
     show taiga excited1 at p5_1
     voice audio.taiga2_v_excited2a
-    t "Not sure about Yoichi here, but I’ve been waiting for something to work on! Time here has been really slow during the off-season, after all."
+    t "Не знаю насчёт Йоичи, но я уже давно ждал, над чем бы поработать! Время здесь и правда длится меленнее в межсезонье."
 
     show yoichi_autumn at p5_2
     show yoichi talking2 at p5_2
     voice audio.yoichi_v_greet1b1
-    yi "Hey, it’s better than dying of boredom. These muscles could use some working out anyways."
+    yi "Эй, а это куда лучше, чем помирать здесь со скуки. Этим мускулам бы тоже поработать не помешало."
 
     show yoshi bold2 at p5_4
     voice audio.yoshi_v_encourage3
-    yo "Now that’s the spirit! I hope you’ll keep that positive attitude for when all the new workers arrive tomorrow and start working!"
+    yo "Отличный настрой! Надеюсь, что вы сохраните этот позитивный настрой до завтра, когда прибудут новые работники и начнут работу!"
 
     show yoichi_autumn at p5_2
     show yoichi annoyed4 at p5_2
     voice audio.yoichi_v_groan2a1
-    yi "Oh, great… New people. "
+    yi "Ага, круть… Новые лица. "
 
     hide yoshi_semiformal
     hide yoshi bold2
     show yoshi_semiformal at p5_4
     show yoshi comp3 at p5_4
     voice audio.yoshi_v_please1a
-    yo "Please at least try and get along with them, Yoichi."
+    yo "Пожалуйста, хотя бы попытайся подружиться с ними, Йоичи."
 
     show yoichi_autumn at p5_2
     show yoichi annoyed1 at p5_2
     voice audio.yoichi_v_well1b
-    yi "Well, I guess I could use some new faces around here. I’m tired of seeing Dynamite and hearing him nag every day. "
+    yi "Ну, может, новые лица тут - это и не плохо. Я всё равно уже стал видеть лицо и выслушивать нытьё Динамита день напролёт. "
 
     show taiga angry5 at p5_1
     voice audio.taiga_v_disagree1
-    t "You’re one to talk! Being stuck here with you is so exhausting – it made me miss having Eduard and Lee around instead."
+    t "Кто бы говорил! Быть тут заточённым с тобой крайне утомительно – я уже скучаю по компании Ли и Эдуарда."
 
     show yoichi annoyed5 at p5_2
     voice audio.yoichi_v_angry1d
-    yi "Same goes for you! I’d rather hang out with Mr. Perfect or Twinkerbell, or even that annoying Torch-head!"
+    yi "То же самое! Я бы лучше тусил с мистером Совершенством или Неженкой, или даже с тем раздражающим Факелоголовым!"
 
     show yuri comp2 at p5_3
     voice audio.yuri_v_aww2a
-    yu "Aww~ look at you guys, missing your friends! That’s really cute! Have you been keeping in touch at least?"
+    yu "О-о~ Только посмотрите, так скучаете по друзьям! Это так мило! А вы с ними хотя бы общаетесь?"
 
     show taiga compassion5 at p5_1
     voice audio.taiga2_v_agree3a
-    t "Yeah, we have! Even though everyone has started getting busy with their own things, we still find time to catch up with each other.  "
+    t "Да, общаемся! Пускай все заняты своими делами, мы всё равно находим время пообщаться.  "
 
     show yoichi playful1 at p5_2
     voice audio.yoichi_v_agree1a1
-    yi "Yeah, I guess that time we had a group call was kinda fun. Better than hearing Dynamite’s annoying voice all the time."
+    yi "Ага, те групповые звонки были вполне весёлыми. Это лучше, чем слушать голос Динамита на постоянной основе."
 
     show taiga_autumn at p5_1
     show taiga angry6 at p5_1
     voice audio.taiga_v_ugh1
-    t "Ugh…"
+    t "Угх…"
 
     show yuri tease2 at p5_3
     voice audio.yuri_v_well1a
-    yu "Well, aren’t you two getting along just nicely~"
+    yu "О, ну разве вы не чудно ладите~"
 
     show taiga_autumn at p6_1
     show taiga angry6 at p6_1
@@ -1912,7 +1912,7 @@ label day2:
     show aiden comp5 at p6_6
     with dissolve
     voice audio.aiden_v_sorry1a1
-    a "Sorry it took so long! I had to whip up some mashed potatoes too! "
+    a "Простите, что так долго! Пришлось сделать немного немного картофельного пюре! "
 
     show taiga_autumn at p6_1
     show taiga angry6 at p6_1
@@ -1927,7 +1927,7 @@ label day2:
     with move
 
     voice audio.yoichi_v_groan2c2
-    yi "UGH, GREAT!!! I’m starving!! "
+    yi "УГХ, ОТЛИЧНО!!! Я голоден как волк!! "
 
     show yuri_autumn at p6_1
     show yuri tease2 at p6_1
@@ -1942,19 +1942,19 @@ label day2:
     show taiga_autumn at p6_4
     show taiga angry2 at p6_4
     voice audio.taiga2_v_hey1h
-    t "H-Hey! Stop hogging all the food! Save the thigh part of the chicken for me! "
+    t "Э-эй! Хватит всё загребать! Оставь хоть бёдрышко мне! "
 
     show yoichi playful3 at p6_5
     voice audio.yoichi_v_bye2b
-    yi "You snooze, you lose! "
+    yi "Кто успел, тот и съел! "
 
     show aiden comp3 at p6_6
     voice audio.aiden_v_conj4a
-    a "Now, now, there’s plenty for everybody! "
+    a "Ну-ну, тут всем хватит! "
 
     show yuri excited2 at p6_1
     voice audio.yuri_v_bye3a
-    yu "I’ll go set the table!"
+    yu "Я пойду поставлю стол!"
 
     hide yuri_autumn
     hide yuri excited2
@@ -1977,29 +1977,29 @@ label day2:
     show goro_semiformal at p6_2
     show goro play3 at p6_2
     voice audio.goro_v_laugh1a1
-    g "Hehe… I told you, you’re already doing a good job. Just look how much those two have grown."
+    g "Хе-хе… Говорил же, ты и так уже хорошо справлешься. Посмотри как сильно выросли эти двое."
 
     show yoshi comp2 at p6_1
     voice audio.yoshi_v_right9
-    yo "You’re right, sir… I couldn’t be prouder."
+    yo "Вы правы, сэр… Не смог бы гордиться меньше."
 
     hide goro_semiformal
     hide goro play3
     show goro_semiformal at p6_2
     show goro bold2 at p6_2
     voice audio.goro_v_rush2a1
-    g "Why don’t we join them? We had a long day, and I think we’ve earned a good meal."
+    g "Почему бы нам не присоединиться? У нас был долгий день, думаю, мы заслужили хороший ужин."
 
     show yoshi happy1 at p6_1
     voice audio.yoshi_v_right2
-    yo "R-Right! "
+    yo "К-конечно! "
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound2', fadeout = 1.0)
     scene cg black with fade
-    yo "{i}After a busy day handling all the camp’s business with Sir Goro, we made sure to enjoy our time together, just the six of us. {/i}"
-    yo "{i}Knowing how much change was coming starting tomorrow, it makes me feel thankful for the simple times like this I get to spend with everyone.{/i}"
+    yo "{i}После тяжёлого дня со всем лагерным бизнесом с сэром Горо, мы позаботились о том, чтобы приятно провести время вместе, вшестером. {/i}"
+    yo "{i}Зная, какие большие перемены ждут нас завтра, я благодарен за те простые моменты, как этот, что я могу провести со всеми.{/i}"
 
     $persistent.profile_unlock.append("taiga")
     $persistent.profile_unlock.append("yoichi")
