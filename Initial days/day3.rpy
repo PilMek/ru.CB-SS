@@ -14,7 +14,7 @@ label day3:
     show yoshi2_sleep at center
     show yoshi2 sleepy4 at center
     voice audio.yoshi_v_groan1b
-    yo "Hnn…"
+    yo "Хн-н…"
 
     play sound sfx_truckbeep
     show yoshi2 sleepy2 at center
@@ -23,27 +23,27 @@ label day3:
     play sound sfx_bang
     show yoshi2 awkward4 at center
     voice audio.yoshi_v_worry3a
-    yo "Wh-Wha…? What’s going on out there?" with vpunch
+    yo "Ч-что…? Что происходит?" with vpunch
 
     show yoshi2_sleep at right
     show yoshi2 shock2 at right
     with move
 
     voice audio.yoshi_v_what2
-    yo "Wh-What?! Don’t tell me the construction crew is here already?! I thought they were supposed to arrive a little later today?!"
+    yo "Ч-чего?! Только не говорите мне, что группа строителей уже здесь?! Я думал, они должны были приехать позже?!"
 
     hide yoshi2_sleep
     hide yoshi2 shock2
     show yoshi2_sleep at right
     show yoshi2 shy4 at right
-    yo "If I had known, I would’ve woken up sooner! "
+    yo "Если бы я знал, встал бы пораньше! "
 
     hide yoshi2_sleep
     hide yoshi2 shy4
     show yoshi_sleep at right
     show yoshi awkward3 at right
     voice audio.yoshi_v_ah4
-    yo "I have to get ready quick!"
+    yo "Нужно быстрее переодеваться!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -73,164 +73,164 @@ label day3:
     show yoshi_autumn at right
     show yoshi norm4 at right
     voice audio.aiden_v_oh1a
-    a "Oh, you’re awake, Yoshi!"
+    a "О, проснулся, Йоши!"
 
     show yuri tease2 at left
     voice audio.yuri_v_laugh1a1
-    yu "Hihi~ You’re not the first one up for once!"
+    yu "Хи-хи~ Наконец, не ты один теперь первым встал!"
 
     show yoshi worry2 at right
     voice audio.yoshi_v_why1
-    yo "Why didn’t you guys wake me up? I didn’t know the workers were coming this early."
+    yo "Почему вы меня не разбудили? Я же не знал, что работники так рано приезжают."
 
     show yuri talk2 at left
     voice audio.yuri_v_oh1a
-    yu "Oh, they aren’t the workers, Yoshi! They’re just here to deliver the building materials!"
-    yu "They were supposed to show up at the same time as the workers later, but they got here earlier than scheduled. "
+    yu "Ой, так это не работники, Йоши! Они тут просто доставить строительные материалы!"
+    yu "Предполагалось, что они прибыли бы вместе с работниками, но вышло так, что они явились раньше запланированного. "
 
     show aiden comp5 at center
     voice audio.aiden_v_yeah1a1
-    a "Yeah, good thing I was up extra early when they arrived or else nobody would’ve been around to let them in! "
+    a "Ага, хорошо, что в такую рань я уже не спал, когда они приехали, иначе бы никто не впустил их внутрь! "
 
     show yoshi sigh1 at right
     voice audio.yoshi_v_relief4
-    yo "Oh, that’s a relief… For a minute there, I thought I’d be late on our first day of renovations."
+    yo "О, какое облегчение… На секунду я решил, что опоздаю на первый день ремонта."
 
     show yuri laugh1 at left
     voice audio.yuri_v_yeah1a1
-    yu "If it weren’t for the ruckus outside, I wouldn’t have woken up either."
+    yu "Если бы не шум снаружи, я бы тоже не проснулась."
 
     show yoshi talk1 at right
     voice audio.yoshi_v_think1b
-    yo "It looks like we need to be more prepared for the unexpected from here on. "
+    yo "Похоже, что с этих пор нам придётся быть более готовыми к неожиданностям. "
 
     show yuri talk2 at left
     voice audio.yuri_v_anyway1b
-    yu "Speaking of which, Mr. Clermont gave us the specifics of today’s agenda this morning. Dad told me to relay the info to you guys!"
+    yu "Кстати говоря, мистер Клермонт дал нам подробные детали на сегодняшнюю повестку дня. Папа попросил меня передать информацию и вам двоим!"
 
     hide aiden_autumn
     hide aiden comp5
     show aiden2_autumn at center
     show aiden2 confused5 at center
     voice audio.aiden_v_goro5a
-    a "Where’s Gramps anyways? Shouldn’t he be the one briefing us on all of this?"
+    a "А где Дедуля? Не ему бы следовало вводить нас в курс дела?"
 
     show yuri confused2 at left
     voice audio.yuri_v_think1a1
-    yu "Dad left super early a while ago… He said he’s gonna run some errands… He didn’t tell me what they were though…"
+    yu "Папа уехал супер рано… Сказал, что по делам… хоть и не объяснил, по каким…"
 
     show yoshi think2 at right
     voice audio.yoshi_v_conj3b
-    yo "Based on yesterday’s meeting, I believe he’s out today handling the permits at city hall. "
-    yo "Either way, we should be able to take care of everything ourselves! "
+    yo "Судя по вчерашней встрече, думаю, он отправился за разрешениями в мэрию. "
+    yo "Но как бы там ни было, мы сможем справиться и сами! "
 
     show yuri happy1 at left
     voice audio.yuri_v_agree1b1
-    yu "Yes! There are only two things Dad assigned for today – matching the deliveries with the materials list and prepare for the workers’ arrival."
+    yu "Да! Папа назначил выполнить всего два задания – сравнить поставки со списком материалов и подготовиться к приезду рабочих."
 
     show yoshi talk1 at right
     voice audio.yoshi_v_confident3
-    yo "Let me handle the deliveries, Yuri. You can go and prepare the cabins the workers are staying at. "
+    yo "Позволь мне заняться поставкой, Юри. Ты можешь пока подготовить домики, в которых остановятся рабочие. "
 
     show yuri excited2 at left
     voice audio.yuri_v_oh1a
-    yu "Oh, I already took care of those! I was up past midnight dusting off the floors and putting sheets on the beds."
-    yu "Besides, I think I’ll enjoy managing the deliveries. All I need to do is to watch over these… uhh… muscular… sweaty…  and maybe half-naked delivery boys… Hihihi~"
+    yu "Ой, так я уже! Вчера я засиделась после полуночи, протирая полы и раскладывая постельное бельё."
+    yu "К тому же, думаю, мне понравится работать с поставками. Учитывая, что всё, что нужно делать - наблюдать за этими… ох… мускулистыми… вспотевшими…  и возможно даже полуголыми мальчиками из доставки… Хи-хи-хи~"
 
     hide yoshi_autumn
     hide yoshi think2
     show yoshi2_autumn at right
     show yoshi2 awkward3 at right
     voice audio.yoshi_v_yuri6
-    yo "Y-Yuri… You’re getting distracted already… Try to make sure you fully check and count all the materials properly."
+    yo "Ю-Юри… Тебя снова уже заносит… Убедись, что полностью посчитала количество материалов правильно и всё проверила."
 
     hide aiden2_autumn
     hide aiden2 confused5
     show aiden_autumn at center
     show aiden tease1 at center
     voice audio.aiden_v_laugh1c1
-    a "Heh, knowing Yuri, she’ll do a full check alright~ "
+    a "Хе, зная Юри, она всё-всё проверит~ "
 
     show yuri relief2 at left
     voice audio.yuri_v_fujo1b1
-    yu "Ahh… To be blessed with such a show all for myself~ I love this job so much!"
+    yu "Ах… Быть благословлённой смотреть столь чудное шоу для меня одной~ Как же я обожаю свою работу!"
 
     show yoshi2 angry5 at right
     voice audio.yoshi_v_ehem1a
-    yo "*ehem* Anyway, did we get an update on the number of workers moving in later today?"
+    yo "*кхем* Ладно, информация о том, сколько работников приезжает сегодня уже пришла?"
 
     show yuri talk2 at left
     voice audio.yuri_v_agree1a3
-    yu "Ah, yes, we’re expecting the first batch to be approximately thirty people."
+    yu "А, да, ожидается, что первая группа будет где-то из тридцати человек."
 
     hide aiden_autumn
     hide aiden tease1
     show aiden2_autumn at center
     show aiden2 panic4 at center
     voice audio.aiden_v_shock2a1
-    a "Yikes! You mean I have to feed that many too?! I only prepared for half of that last night…!"
+    a "Блин блинский! Хочешь сказать, что стольких мне придётся накормить?! Я вчера только половину приготовил…!"
 
     $working = False
     $shuffle_menu()
     menu():
-        a "Yikes! You mean I have to feed that many too?! I only prepared for half of that last night…!{fast}"
-        "Can you finish in time?":
+        a "Блин блинский! Хочешь сказать, что стольких мне придётся накормить?! Я вчера только половину приготовил…!{fast}"
+        "Успеешь закончить вовремя?":
             $working = True
             $score_aiden -= 1
             show yoshi2 worry2 at right
             voice audio.yoshi_v_worry2
-            yo "Will you be able to have everything prepped in time, Aiden? It seems like a lot to do…"
+            yo "Успеешь приготовить всё вовремя, Эйден? Похоже, работы много…"
 
             show aiden2 sigh4 at center
             voice audio.aiden_v_yeah1a1
-            a "Yeah, I could seriously use a hand. "
-            a "If you’re not too busy, maybe you can help me out, Yoshi?"
+            a "Ага, мне бы не помешала помощь. "
+            a "если ты не слишком занят, может, поможешь мне, Йоши?"
 
             show yoshi2 worry5 at right
             voice audio.yoshi_v_unsure2a
-            yo "Are you sure? I’m not much use in the kitchen… "
+            yo "Уверен? Я мало что смыслю в готовке… "
 
             hide aiden2_autumn
             hide aiden2 sigh4
             show aiden_autumn at center
             show aiden talk4 at center
             voice audio.aiden_v_no1a1
-            a "No way, you could help me cut up the ingredients at least!"
+            a "Ну что ты! На худой край, поможешь мне хотя бы нарезать ингридиенты!"
 
             hide yoshi2_autumn
             hide yoshi2 worry5
             show yoshi_autumn at right
             show yoshi happy1 at right
             voice audio.yoshi_v_alright2
-            yo "Alright, if it’ll help!"
+            yo "Хорошо, если это поможет!"
 
             show aiden laugh2 at center
             voice audio.aiden_v_praise1a
-            a "Great! Let’s go then!"
-        "I don't have any plans.":
+            a "Супер! Пойдём тогда!"
+        "У меня нет никаких планов.":
             $working = True
             show yoshi2 think5 at right
             voice audio.yoshi_v_worry2
-            yo "I don’t have any plans until the workers arrive, and since Yuri’s got the deliveries covered…"
+            yo "У меня нет никаких планов до приезда работников, и раз Юри займётся поставкой…"
 
             hide aiden2_autumn
             hide aiden2 laugh2
             show aiden_autumn at center
             show aiden amazed2 at center
             voice audio.aiden_v_oh1a
-            a "Oh! How about you come with me then?"
+            a "О! Может, тогда пойдёшь со мной?"
 
             hide yoshi2_autumn
             hide yoshi2 think5
             show yoshi_autumn at right
             show yoshi happy1 at right
             voice audio.yoshi_v_sure2
-            yo "Sure, I don’t mind!"
+            yo "Конечно, я не против!"
 
             show aiden laugh2 at center
             voice audio.aiden_v_praise1a
-            a "Great! Let’s go then!"
-        "Why don't I give you a hand?":
+            a "Супер! Пойдём тогда!"
+        "Может, мне помочь тебе?":
             $working = True
             $score_aiden += 1
             hide yoshi2_autumn
@@ -238,23 +238,23 @@ label day3:
             show yoshi_autumn at right
             show yoshi happy1 at right
             voice audio.yoshi_v_worry2
-            yo "Why don’t I give you a hand, Aiden? I’m sure it’ll make your job easier!"
+            yo "Может, мне помочь тебе, Эйден? Уверен, так ты быстрее закончишь!"
 
             hide aiden2_autumn
             hide aiden2 panic4
             show aiden_autumn at center
             show aiden amazed2 at center
             voice audio.aiden_v_thanks1a1
-            a "You’re a lifesaver, Yoshi! I’m not sure I could do it all by myself in time!"
+            a "Ты мой спаситель, Йоши! Самому, я думаю, мне не удастся успеть вовремя!"
 
             show yoshi laugh1 at right
             voice audio.yoshi_v_laugh1
-            yo "Haha, I’ve seen you pull off even tighter deadlines. But I’m happy to make it easier on you today!"
+            yo "Ха-ха, я видал, как ты и не с такими дедлайнами справлялся. Но я рад, что смогу облегчить тебе работу сегодня!"
 
             show aiden laugh2 at center
             voice audio.aiden_v_comeon1a1
-            a "Thanks, Yoshi! Come on, let’s go!"
-        "I'll help you cook.":
+            a "Спасибо, Йоши! Ну же, пойдём!"
+        "Я помогу тебе с готовкой.":
             $working = True
             $score_aiden += 2
             hide yoshi2_autumn
@@ -262,19 +262,19 @@ label day3:
             show yoshi_autumn at right
             show yoshi bold2 at right
             voice audio.yoshi_v_worry2
-            yo "Let me help you cook, Aiden! You sound like you could use an assistant chef!"
-            yo "I can help you prep and cut up the ingredients to save you some time!"
+            yo "Я помогу тебе с готовкой, Эйден! Тебе бы пригодился помощник шефа!"
+            yo "Я могу помочь подготовить и нарезать ингредиенты, чтобы сэкономить время!"
 
             hide aiden2_autumn
             hide aiden2 panic4
             show aiden_autumn at center
             show aiden amazed2 at center
             voice audio.aiden_v_thanks1a1
-            a "That sounds great, Yoshi! I’d love to have you in the kitchen with me!"
+            a "Звучит здорово, Йоши! Буду только рад видеть тебя на кухне со мной!"
 
             show yoshi happy1 at right
             voice audio.yoshi_v_rush5
-            yo "Let’s go then!"
+            yo "Тогда пойдём!"
 
     hide yoshi_autumn
     hide yoshi happy1
@@ -289,7 +289,7 @@ label day3:
     with move
 
     voice audio.yuri_v_laugh2a1
-    yu "Hehe… Now, where did I put my camera~?"
+    yu "Хе-хе… Ну-ка, куда я положила свою камеру~?"
 label debug:
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -315,60 +315,60 @@ label debug:
     show yoshi_autumn at right2
     show yoshi norm1 at right2
     voice audio.aiden_v_really1b
-    a "Hey, you sure you’re gonna work with all those clothes on? "
+    a "Эй, уверен, что будешь работать одетым? "
 
     show yoshi comp3 at right2
     voice audio.yoshi_v_comp2
-    yo "A-Ah… I’m fine, Aiden! Won’t you get cold like that though?"
+    yo "А-а… Всё в порядке, Эйден! А тебе не холодно?"
 
     show aiden explain3 at left2
     voice audio.aiden_v_no2a1
-    a "Nah! It’s gonna be really hot in here later once we start cooking everything up!"
+    a "Не! Здесь будет жарко, только мы начнём готовить!"
 
     show yoshi bold2 at right2
     voice audio.yoshi_v_so2
-    yo "S-So, what are we making today, and how can I help?"
+    yo "Т-так, что готовим сегодня, и как я могу помочь тебе?"
 
     hide aiden_apron2
     hide aiden explain3
     show aiden2_apron2 at left2
     show aiden2 think4 at left2
     voice audio.aiden_v_think1b
-    a "Hmmmm… Since I’m cooking for a bunch of active dudes, I’m expecting them to have huge appetites!"
+    a "Хм-м-м… Раз уж я готовлю для группы энергичных парней, предполагаю, что аппетит у них сыграется не на шутку!"
 
     hide aiden2_apron2
     hide aiden2 think4
     show aiden_apron2 at left2
     show aiden bold2 at left2
     voice audio.aiden_v_excited2b
-    a "A nice, hearty meal packed with protein and nutrients should keep their energy up after a long day!"
-    a "Luckily for me, that’s usually the same category of food the scouts love, so I have a menu that I prepped before that we can use!"
+    a "Сытная еда, насыщенная протеином и питательными веществами сойдёт, чтобы восстановить в них энергию после долгого дня!"
+    a "Как удачно сложилось, ведь это та же категория блюд, которые любят скауты, а значит, мы можем использовать ранее мной подготовленное меню!"
 
     show yoshi shock2 at right2
     voice audio.yoshi_v_amazed1d
-    yo "Oh wow… This seems like a lot to do… and you have to make thirty servings of this?!"
+    yo "Ого… Похоже, много всего надо приготовить… ещё и тридцать порций всего этого?!"
 
     show aiden laugh1 at left2
     voice audio.aiden_v_yeah1a2
-    a "Haha, yeah! Welcome to my world! That’s why my little chef, Hiro, was such a big help back during the summer!"
+    a "Ха-ха, именно! Добро пожаловать в мой мир! Поэтому мой младший шеф, Хиро, оказывал мне большую услугу, помогая тогда летом!"
 
     show aiden excited1 at left2
     voice audio.aiden_v_actually1a
-    a "To be honest, though, I’m really excited! It’s been a while since I cooked for a lot of people, haha! "
-    a "And with your help, this’ll be a breeze! You’ll be my sous chef! "
+    a "Хотя, если быть честным, Я так взволнолван! Как давно я не готовил для большой группы, ха-ха! "
+    a "А с твоей помощью, всё пройдёт как по маслу! Будешь моим су шефом! "
 
     show yoshi comp5 at right2
     voice audio.yoshi_v_unsure1b
-    yo "It really has been a while since I’ve helped out in the kitchen. I hope we can finish in time."
+    yo "И правда, давно я не помогал на кухне. Надеюсь, успеем вовремя."
 
     show aiden laugh2 at left2
     voice audio.aiden_v_laugh2a1
-    a "Haha, yeah, it’s like a pressure cooker in here, ’specially when the people start coming inside the mess hall!"
-    a "Speaking of which, put on an apron and let's start prepping these ingredients already!"
+    a "Ха-ха, ага, здесь как в скороварке, особенно когда в столовую начинают заходить люди!"
+    a "Кстати говоря, надень фартук и давай начнём уже готовить ингредиенты!"
 
     show yoshi happy1 at right2
     voice audio.yoshi_v_right3
-    yo "Right!"
+    yo "Хорошо!"
 
     hide yoshi_autumn
     hide yoshi happy1
@@ -379,150 +379,150 @@ label debug:
     scene cga2 1 with fade
     play bgsound sfxloop_chopping loop
     voice audio.aiden_vsa3_line1
-    a "Hehe, it feels so nostalgic to have you in the kitchen again, Yoshi."
+    a "Хе-хе, какая ностальгия видеть тебя на кухне вновь, Йоши."
 
     voice audio.aiden_vsa3_line2
-    a "Ever since you became a full-fledged scoutmaster, you hardly get to help me cook! "
+    a "С тех самыр пор, как ты стал полноценным скаутмастером, у тебя едва ли появлялась возможность помочь мне с готовкой! "
 
     voice audio.yoshi_vsa3_line1
-    yo "A-Ah…"
+    yo "А-а…"
 
     show cga2 2 with Dissolve(0.25)
     voice audio.aiden_vsa3_line3
-    a "I don’t blame you though. You have way more important duties now anyways."
+    a "Но я тебя не виню. У тебя и так теперь есть дела поважнее."
 
     voice audio.yoshi_vsa3_line2
-    yo "W-Well, I do try to help you out sometimes when my schedule is loose."
+    yo "Ч-что ж, я всё ещё стараюсь помогать тебя время от времени, когда моё расписание не занято."
 
     voice audio.aiden_vsa3_line4
-    a "Yeah, like once or twice every term! "
+    a "Ага, один или два раза в сезон! "
 
     voice audio.yoshi_vsa3_line3
-    yo "I’m not sure if I’m even helping though… I’m not as good of a cook as you are. "
+    yo "Не уверен, что я вообще помогаю… Я не так хорошо готовлю, как ты. "
 
     show cga2 3 with Dissolve(0.25)
     voice audio.aiden_vsa3_line5
-    a "It’s not about the skill, it’s about the company! Food made with TLC is the best kind! "
+    a "Дело не в навыках, а в простой компании! А еда, приготовленная с ЛБВ, лучше всех! "
 
     voice audio.yoshi_vsa3_line4
-    yo "That stands for tomatoes, lettuce, and cheese, right…? I didn’t know we were making burgers today."
+    yo "Это означает с латуком, булочками и ветчиной, да…? Не знал, что мы собираемся готовить бутерброды."
 
     show cga2 4 with Dissolve(0.25)
     voice audio.aiden_vsa3_line6
-    a "I meant tender loving care, silly! Sheesh…"
+    a "Я имел ввиду с любовью, ну даёшь! Божечки…"
 
     voice audio.aiden_vsa3_line7
-    a "Having someone to cook with or cook for is what makes a dish a lot more special."
+    a "Если готовить с кем-то или кому-то, блюдо обязательно станет особенным."
 
     voice audio.yoshi_vsa3_line5
-    yo "I guess you do have a point… I mean, I know I have more fun with my job here at the camp, especially when the scouts are around. "
+    yo "Думаю, в этом ты прав… Ну то есть, мне куда веселее на работе в лагере, когда вокруг много скаутов. "
 
     show cga2 5 with Dissolve(0.25)
     voice audio.aiden_vsa3_line8
-    a "Yeah, you always get hyped up about any activities you get to do with them."
+    a "Ага, ты всегда так взволнован тем, какие мероприятния для них устроишь."
 
     voice audio.aiden_vsa3_line9
-    a "Just like when you did them as a scout! You wanted to try everything and be good at all of it!"
+    a "Прям когда сам в них учавствовал! Ты всегда хотел быть самым первым, лучшим во всём!"
 
     voice audio.aiden_vsa3_line10
-    a "That kinda reminds me of when you were interested in cooking a long time ago – we used to spend so much time in the kitchen together!"
+    a "Напоминает мне о том, как ты был заинтересован в готовке очень очень давно – мы тогда так много времени проводили вместе на кухне!"
 
     voice audio.yoshi_vsa3_line6
-    yo "Ahh, yeah… I remember!  That was when you were helping me earn my cooking badge."
+    yo "А, точно… Я помню! Ты тогда помогал мне получить нашивку за готовку."
 
     show cga2 6 with Dissolve(0.25)
     voice audio.aiden_vsa3_line11
-    a "Ugh… That stupid cooking badge. As soon as you got it, you stopped trying to get better at cooking."
+    a "Угх… Эта проклятущая нашивка. Только ты получил её, как сразу перестал интересоваться готовкой."
 
     $working = False
     $shuffle_menu()
     menu():
-        a "Ugh… That stupid cooking badge. As soon as you got it, you stopped trying to get better at cooking.{fast}"
-        "You were always so much better at it.":
+        a "Угх… Эта проклятущая нашивка. Только ты получил её, как сразу перестал интересоваться готовкой.{fast}"
+        "В ней всегда лучше был ты.":
             $working = True
             $score_aiden -= 2
             show cga2 7a with Dissolve(0.25)
             voice audio.yoshi_vsa3_line7a
-            yo "Well, you were always so much better at it than I was. "
+            yo "Что ж, в ней ты всегда был лучше меня. "
 
             voice audio.yoshi_vsa3_line8ab
-            yo "You saw the stuff I cooked back then, and it was barely edible. That’s why I felt like cooking wasn’t for me to begin with."
+            yo "Ты видел, что я тогда наготовил, оно было едва ли съедобно. Потому я и решил, что готовка это совершенно не моё."
 
             show cga2 8ab with Dissolve(0.25)
             voice audio.aiden_vsa3_line12ab
-            a "It’s a good thing you got the hang of it in the end though! "
-        "Cooking isn't my strongest suit.":
+            a "Хорошо, что в конце ты всё-таки научился готовить лучше! "
+        "Готовить не мой конёк.":
             $working = True
             $score_aiden -= 1
             show cga2 7b with Dissolve(0.25)
             voice audio.yoshi_vsa3_line7b
-            yo "W-Well, it’s not that I wasn’t interested anymore. I just thought it wasn’t my strongest suit."
+            yo "Н-ну, не то, чтобы я больше не был в ней заинтересован. Я просто подумал, что готовить не мой конёк."
 
             voice audio.yoshi_vsa3_line8ab
-            yo "You saw the stuff I cooked back then, and it was barely edible. That’s why I felt like cooking wasn’t for me to begin with."
+            yo "Ты видел, что я тогда наготовил, оно было едва ли съедобно. Потому я и решил, что готовка это совершенно не моё."
 
             show cga2 8ab with Dissolve(0.25)
             voice audio.aiden_vsa3_line12ab
-            a "It’s a good thing you got the hang of it in the end though! "
-        "I prefer your cooking.":
+            a "Хорошо, что в конце ты всё-таки научился готовить лучше! "
+        "Я предпочитаю твою готовку.":
             $working = True
             $score_aiden += 1
             show cga2 7cd with Dissolve(0.25)
             voice audio.yoshi_vsa3_line7c
-            yo "I’d much rather have your cooking than mine!"
+            yo "Я бы предпочёл твою готовку своей!"
 
             voice audio.yoshi_vsa3_line8c
-            yo "You’ve always been so good at it, so I never needed to get any better."
+            yo "ты всегда был в этом так хорош, что для смысла становиться лучше не было."
 
             show cga2 8c with Dissolve(0.25)
             voice audio.aiden_vsa3_line12c
-            a "Hehe, I guess if you put it that way."
+            a "Хе-хе, если ты так говоришь."
 
             voice audio.aiden_vsa3_line13cd
-            a "After all, I’ve seen and tasted the stuff you made, and I have to say – I never thought I’d see meat and chocolate in a dish together…"
+            a "В конце концов, я видел и даже попробовал, что ты приготовил тогда, и должен сказать – никогда бы не подумал, что увижу мясо и шоколад в одной тарелке вместе…"
 
             show cga2 9cd with Dissolve(0.25)
             voice audio.yoshi_vsa3_line9cd
-            yo "G-Gah! I swear I didn’t mean to do that! "
+            yo "Г-гах! Клянусь, я не хотел! "
 
             show cga2 10cd with Dissolve(0.25)
             voice audio.aiden_vsa3_line14cd
-            a "Hahaha! That’s the same look you had every time you messed up, even after I taught you!"
-        "You're always there to cook for me.":
+            a "Ха-ха-ха! И такой вид был у тебя всегда, каждый раз, как ты оплошал, даже после моих уроков!"
+        "Ты всегда приготовишь для меня.":
             $working = True
             $score_aiden += 2
             show cga2 7cd with Dissolve(0.25)
             voice audio.yoshi_vsa3_line7d
-            yo "Haha, why would I need to when I have you around to cook for me~?"
+            yo "ха-ха, зачем вообще, если ты всегда приготовишь для меня~?"
 
             voice audio.yoshi_vsa3_line8d
-            yo "Your food is already the best, so there’s no way anyone could compete!"
+            yo "Твоё готовка и так лучшая, так что и соревноваться не с кем!"
 
             show cga2 8d with Dissolve(0.25)
             voice audio.aiden_vsa3_line12d
-            a "Hmm, well, since you’re flirting, I guess I can give you a pass~ "
+            a "Хм, что ж, раз уж ты решил пофлиртовать, думаю, ты прощён~ "
 
             show cga2 8c with Dissolve(0.25)
             voice audio.aiden_vsa3_line13cd
-            a "After all, I’ve seen and tasted the stuff you made, and I have to say – I never thought I’d see meat and chocolate in a dish together…"
+            a "В конце концов, я видел и даже попробовал, что ты приготовил тогда, и должен сказать – никогда бы не подумал, что увижу мясо и шоколад в одной тарелке вместе…"
 
             show cga2 9cd with Dissolve(0.25)
             voice audio.yoshi_vsa3_line9cd
-            yo "G-Gah! I swear I didn’t mean to do that! "
+            yo "Г-гах! Клянусь, я не хотел! "
 
             show cga2 10cd with Dissolve(0.25)
             voice audio.aiden_vsa3_line14cd
-            a "Hahaha! That’s the same look you had every time you messed up, even after I taught you!"
+            a "Ха-ха-ха! И такой вид был у тебя всегда, каждый раз, как ты оплошал, даже после моих уроков!"
 
     show cga2 11 with Dissolve(0.25)
     voice audio.yoshi_vsa3_line10
-    yo "Yeah, I did struggle earning that cooking badge… but I had a lot of fun with you because of it!"
+    yo "Да уж, эта нашивка и правда далась мне с трудом… но мне было так весело с тобой тогда!"
 
     voice audio.aiden_vsa3_line15
-    a "You know, I'm really thankful for that badge – if it wasn't for it, I probably wouldn't have met you."
+    a "Знаешь, я даже благодарен той нашивке – если бы не она, я бы может и не повстречал тебя."
 
     voice audio.aiden_vsa3_line16
-    a "It was the reason I got to stay here at Camp Buddy in the first place!"
+    a "Она стала причиной того, почему я вообще остался в Лагере Друзей!"
 
     hide screen location
     hide screen timeline
@@ -559,20 +559,20 @@ label debug:
     show andre_camp at right2
     show andre talk3 at right2
     voice audio.andre_v_agree2a2
-    u "Okay, Aiden, I know I promised that I’d take care of you today, but we have an emergency staff meeting…"
-    u "I’m not allowed to bring visitors as per the camp policy, but luckily Sir Goro made an exception and is letting you wait here due to our circumstances… "
+    u "Итак, Эйден, Я понимаю, что общела позаботиться о тебе сегодня, но нам назначили срочное собрание…"
+    u "Мне не разрешено брать с собой посетителей из-за политики лагеря, но к счастью сэр Горо сделал исключение для тебя и позволил подождать здесь в связи с обстоятельствами… "
 
     show andre talk2 at right2
     voice audio.andre_v_question1a
-    u "I need you to stay put for a while until the meeting is over. I promise I won’t be gone for too long, so don’t go goofing around, okay?"
+    u "Мне нужно, чтобы ты остался тут и подождал, пока не закончится собрание. Обещаю, я не на долго, поэтому не проказничай тут сильно, хорошо?"
 
     show yaiden talk3 at left2
     voice audio.yaiden_v_okay3b
-    a "Okay, Dad. I don’t mind waiting."
+    a "Хорошо, пап. Я могу подождать."
 
     show andre happy1 at right2
     voice audio.andre_v_agree1a3
-    u "Great! I’ll be back soon, Aiden!"
+    u "Отлично! Я скоро буду, Эйден!"
 
     hide andre_camp
     hide andre happy1
@@ -592,15 +592,15 @@ label debug:
     with dissolve
 
     voice audio.yyoshi_v_yuri9a
-    yo "Come on, Yuri! I really need that cooking badge! Come and taste the food I made! "
+    yo "ну же, Юри! Мне очень нужна эта нашивка! Иди попробуй, что я сделал! "
 
     show yyuri sigh1 at p5_5
     voice audio.yyuri_v_yoshi11a
-    yu "Yoshi… You’ve already made me eat five horrible dishes today! How is this one any different?!"
+    yu "Йоши… Ты заставил меня попробовать уже пять жутких блюд за сегодня! А чем это отличается от остальных?!"
 
     show yyoshi bold2 at p5_4
     voice audio.yyoshi_v_confident4
-    yo "I’m sure I seasoned this one just right! You’ll see!"
+    yo "Уверен, это я приправил как надо! Вот увидишь!"
 
     show yaiden_casual at left
     show yaiden norm3 at left
@@ -611,138 +611,138 @@ label debug:
     with move
 
     voice audio.yyoshi_v_oh2
-    yo "Oh! "
+    yo "О! "
 
     show yaiden awkward1 at left
     a "...!"
 
     show yyoshi happy2 at center
     voice audio.yyoshi_v_greet1a
-    yo "Hello! You don’t look familiar, are you a new scout?"
+    yo "Привет! Не видел тебя раньше, ты новенький?"
 
     show yaiden awkward2 at left
     voice audio.yaiden_v_think3a
-    a "I… Uhh… No—"
+    a "Я… Э-э… Нет—"
 
     show yyuri talk5 at right
     voice audio.yyuri_v_wait1a1
-    yu "Wait, I know you! I saw you come by today with Mr. Andre! Are you his son?"
+    yu "Погоди, я знаю тебя! Я видела, как ты пришёл с мистером Андре! Ты его сын?"
 
     show yaiden awkward3 at left
     voice audio.yaiden_v_yeah1c1
-    a "Y-Yeah…"
+    a "А-ага…"
 
     show yyoshi comp5 at center
     voice audio.yyoshi_v_well1
-    yo "Well, a friend of Mr. Andre is a friend of ours! My name’s Yoshinori! "
+    yo "Ну, друг мистера Андре и наш друг! Меня зовут Йошинори! "
 
     show yyuri happy1 at right
     voice audio.yyuri_v_intro1a
-    yu "I’m Yuri! "
+    yu "А я Юри! "
 
     show yyoshi happy2 at center
     voice audio.yyoshi_v_greet3a
-    yo "Welcome to Camp Buddy! What’s your name? "
+    yo "Добро пожаловать в Лагерь Друзей! Как тебя зовут? "
 
     show yaiden talk3 at left
     voice audio.yaiden_v_intro1
-    a "Aiden… "
+    a "Эйден… "
 
     show yyoshi laugh1 at center
     voice audio.yyoshi_v_greet5a
-    yo "Nice to meet you, Aiden! What are you doing over here all alone?  "
+    yo "Приятно познакомиться, Эйден! А что ты тут делаешь один?  "
 
     show yaiden explain3 at left
     voice audio.yaiden_v_oh1d
-    a "Oh, I’m just waiting for Dad to finish his staff meeting… He asked me to stay put and wait here..."
+    a "О, я просто жду, когда папа вернётся с собрания… Он попросил побыть тут и подождать…"
 
     show yyoshi talk3 at center
     voice audio.yyoshi_v_isee1
-    yo "Oh, I see… Well, they’re gonna take a while in there for sure! If you want, you can help me with my badge-earning activity!"
-    yo "I’m trying to earn my cooking badge today, and I could use another person to try out the food I made!"
+    yo "Оу, вот как… Что ж, это точно займёт какое-то время! Если хочешь, можешь помочь мне с получением нашивок!"
+    yo "Сегодня я пытаюсь получить нашивку за готовку, мне бы пригодился ещё человек, который бы попробовал блюдо, что я приготовил!"
 
     show yyoshi bold2 at center
     voice audio.yyoshi_v_think2
-    yo "Since your dad is the chef here, then that means you should know a thing or two about cooking, right?"
+    yo "Раз твой папа работает здесь шефом, ты и сам наверное знаешь вещицу-две про готовку, верно?"
 
     show yaiden awkward2 at left
     voice audio.yaiden_v_unsure5a1
-    a "I guess… I do know a little bit about it, yeah…"
+    a "Наверное… Да, я немного знаю о ней…"
 
     show yyuri laugh1 at right
     voice audio.yyuri_v_praise2a
-    yu "What a good idea, Yoshi! That means you won’t need me to do the taste-testing after all!"
+    yu "Что за чудная идея, Йоши! Значит, я больше не понадоблюсь тебе в дегустации!"
 
     show yyoshi angry3 at center
     voice audio.yyoshi_v_hey3
-    yo "H-Hey! You’re not off the hook! Aiden hasn’t agreed yet!"
+    yo "Э-эй! Ты пока не свободна! Эйден ещё даже не согласился!"
 
     show yyuri rage3 at right
     voice audio.yyuri_v_ugh2a
-    yu "UGHhhh…"
+    yu "УГХ-Х-Х…"
 
     show yyoshi norm1 at center
     show yaiden worry2 at left
     voice audio.yaiden_v_think3a
-    a "I don’t know… Dad told me to stay here and—"
+    a "Ну не знаю… Папа сказал мне побыть тут и—"
 
     show yyuri comp6 at right
     voice audio.yyuri_v_no1b1
-    yu "No, no! It’ll be fine! Those meetings take HOURS anyways! He won’t even know you’re gone! Just say yes already!!"
+    yu "Нет-нет! Всё будет в порядке! Эти собрания ЧАСАМИ длятся! Он даже и не узнает, что ты вышел! Просто скажи уже да!!"
 
     show yaiden worry5 at left
     voice audio.yaiden_v_think1a
-    a "A-Are you sure I’m not gonna get in trouble…?"
+    a "Уверена, что я не попаду от этого в неприятности…?"
 
     show yyuri play2 at right
     voice audio.yyuri_v_hey1a
-    yu "My dad’s the president of this camp! We can get away with everything!"
+    yu "Мой папа президент лагеря! Мы из любой передряги выберемся!"
 
     show yaiden shock2 at left
     voice audio.yaiden_v_really1a
-    a "Wow, really?"
+    a "Вау, правда что ли?"
 
     show yyuri angry6 at right
     voice audio.yyuri_v_agree1b1
-    yu "Yes, really! So, please, PLEASE, save me from having another tummy ache today, Aiden!!"
+    yu "Да, правда! Поэтому, прошу, УМОЛЯЮ, спаси меня от очередного несварения за сегодня, Эйден!!"
 
     show yyoshi awkward4 at center
     voice audio.yyoshi_v_aiden2
-    yo "D-Don’t listen to her, Aiden, I made a really yummy pizza back in the kitchen! If you come with me, I’ll let you have the whole thing!"
+    yo "Н-не слушай её, Эйден, на кухне я приготовил очень вкусную пиццу! Если пойдёшь со мной, я тебе хоть всю отдам!"
 
     play sound sfx_stomachgrowl
     show yaiden hungry3 at left
     voice audio.yaiden_v_amazed2b1
-    a "Pizza?! *tummy grumbles*"
+    a "Пицца?! *урчит живот*"
 
     show yyoshi excited1 at center
     voice audio.yyoshi_v_laugh1
-    yo "Sounds like you could use some pizza! It’s gonna be ooey-gooey with cheese too once I heat it up!"
+    yo "Звучит так, словно тебе и правда не помешает пицца! Я только согрею её и будет супер тянучая и с сыром!"
 
     show yaiden hungry2 at left
     voice audio.yaiden_v_oh1a
-    a "Ahh… That sounds delicious!  I guess… a quick bite wouldn’t hurt."
+    a "Ах… звучит вкусно!  Думаю… от перекуса ничего не будет."
 
     show yyuri amazed3 at right
     voice audio.yyuri_v_celebrate3a
-    yu "Yay! You’re a lifesaver, Aiden! I think we’re gonna be really good friends! *whispers* If you survive the pizza, that is…"
+    yu "Ура! Ты просто спаситель, Эйден! Думаю, мы станем очень хорошими друзьями! *шёпотом* Разумеется, если выживешь после его пиццы…"
 
     show yyoshi play3 at center
     voice audio.yyoshi_v_unsure2a
-    yo "Are you sure you really don’t want to come with us, Yuri? I can cook up another one for you, if you’d like!"
+    yo "Ты точно не хочешь пойти с нами, Юри? Я могу приготовить для тебя другу, если хочешь!"
 
     show yyuri play2 at right
     voice audio.yyuri_v_nothankyou1a
-    yu "No, thank youuuuuu~~"
-    yu "Oh, and Aiden, make sure to tell Yoshi what you REALLY think about his cooking, okay?!"
+    yu "Нетушки, спаси-и-и-ибо~~"
+    yu "О, и Эйден, скажешь Йоши всё, что ты ПРАВДА думаешь о его готовке, ладно?!"
 
     show yaiden talk4 at left
     voice audio.yaiden_v_alright2a
-    a "O-Okay…!"
+    a "Л-ладно…!"
 
     show yyuri tease2 at right
     voice audio.yyuri_v_tease2a
-    yu "Have fun on your date with the cute new guy, Yoshi~! "
+    yu "Повеселись на свидании с этим милым мальчиком, Йоши~! "
 
     hide yyuri_camp
     hide yyuri tease2
@@ -750,11 +750,11 @@ label debug:
 
     show yyoshi angry2 at center
     voice audio.yyoshi_v_no2
-    yo "I-It’s not a date!! "
+    yo "Это н-не свидание!! "
 
     show yyoshi explain2 at center
     voice audio.yyoshi_v_anyway2
-    yo "*ehem* Anyway, the food’s waiting in the kitchen! Come on!"
+    yo "*кхем* Не важно, еда ждёт на кухне! Пошли!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -783,30 +783,30 @@ label debug:
 
     show yyoshi comp3 at left2
     voice audio.yyoshi_v_okay1
-    yo "Okay, a little warning, I don’t have a lot of experience cooking, so please don’t expect too much!"
-    yo "I did try my best making this food though! I used a recipe, but I made sure to add my own twist, and—"
+    yo "Так, маленькое предупреждение, опыта в готовке у меня нет, поэтому не жди многого, пожалуйста!"
+    yo "Но я сильно посторался готовя это! Я следовал рецепту, но и добавил кое что от себя, и—"
 
     show yyoshi confused2 at left2
     voice audio.yyoshi_v_aiden7b
-    yo "Aiden…? Are you listening?"
+    yo "Эйден…? Ты слушаешь?"
 
     show yaiden shock2 at right2
     voice audio.yaiden_v_sorry1c1
-    a "O-Oh! I’m sorry, Yoshinori…! It’s just… I’ve never seen a really fancy kitchen like this in person before…"
+    a "О-ой! Прости, Йошинори…! Я просто… Я просто никогда раньше не был в такой роскошной кухне раньше…"
 
     show yaiden excited3 at right2
     voice audio.yaiden_v_amazed2b2
-    a "A two-door fridge, a built-in oven, and a cooking hob with a range hood too…"
-    a "We don’t have anything like these back at home… "
+    a "Двухстворчатый холодильник, встроенная духовка, и ещё кухонная плита даже с вытяжкой…"
+    a "У нас дома такого совсем нет… "
 
     show yyoshi shock2 at left2
     voice audio.yyoshi_v_really1
-    yo "Oh, really? That kinda surprises me, considering how good everything Mr. Andre makes here is!"
+    yo "Что, правда? Я даже удивлён, учитывая как вкусно мистер Андре готовит!"
 
     play sound sfx_microwavebeep
     show yyoshi happy2 at left2
     voice audio.yyoshi_v_ah4
-    yo "Ah! It’s ready!"
+    yo "Ах! Готово!"
 
     show yyoshi_camp at p5_1
     show yyoshi play2 at p5_1
@@ -817,120 +817,120 @@ label debug:
     with move
 
     voice audio.yyoshi_v_here1
-    yo "Here’s the pizza I made! Fresh from the “meekrowahvé”!"
+    yo "А вот и пицца, что я сделал! С пылу, с жару из микроволновки!"
 
     show yaiden confused2 at right2
     voice audio.yaiden_v_wait1a1
-    a "You cooked pizza… in the microwave?"
+    a "Ты приготовил пиццу… в микроволновке?"
 
     show yyoshi bold2 at left2
     voice audio.yyoshi_v_yeah2
-    yo "Yeah! Go ahead, try it!"
+    yo "Ага! Ну же, попробуй!"
 
     show yaiden awkward3 at right2
     voice audio.yaiden_v_alright2b
-    a "Alright… "
+    a "Ладно… "
 
     show yaiden munch1 at right2
-    a "*munch*"
+    a "*жуёт*"
 
     show yyoshi talk4 at left2
     voice audio.yyoshi_v_so3
-    yo "Sooo, how is it? Good, right?"
+    yo "Ну-у, и как? Неплохо, да?"
 
     show yaiden comp3 at right2
     voice audio.yaiden_v_yeah1c1
-    a "Umm… Y-Yeah…"
+    a "Эм… Д-да…?"
 
     show yyoshi confused3 at left2
     voice audio.yyoshi_v_think1a
-    yo "I sensed a bit of hesitation there… Don’t be shy, you can tell me what’s wrong!"
+    yo "Чую нотки сомнения… не стесняйся, можешь сказать, если что-то не так!"
 
     show yaiden think2 at right2
     voice audio.yaiden_v_unsure5b1
-    a "M-Maybe it’s a little undercooked… I bit into some raw dough underneath."
+    a "М-может она недопеклась… Я укусил за сырое тесто внизу."
 
     show yyoshi worry2 at left2
     voice audio.yyoshi_v_aww1
-    yo "Aww, really? Where did I go wrong…? I followed the recipe exactly."
+    yo "О-о, правда? Что я сделал не так…? Я точно следовал рецепту."
 
     show yaiden explain2 at right2
     voice audio.yaiden_v_think1a
-    a "I think it would be a lot better if you used the oven and cooked it a bit longer, since the dough you made is a little thick."
+    a "Думаю, было бы лучше, если бы использовал духовку и готовил подольше, раз уж тесто у тебя вышло немного толстоватым."
 
     show yyoshi think5 at left2
     voice audio.yyoshi_v_actually1
-    yo "I actually used packaged dough from the freezer since I didn’t know how to make bread… And I didn’t know how to use the oven either…"
+    yo "Вообще я использовал уже покупное тесто их морозилки, сам я не умею его делать… и как пользоваться духовкой тоже…"
 
     show yyoshi talk3 at left2
     voice audio.yyoshi_v_think1b
-    yo "H-How about the taste though? I probably can’t get that wrong, right? It’s just pizza!"
+    yo "К-как хоть на вкус? С этим-то я не напортачил, верно? Это же пицца!"
 
     show yaiden awkward2 at right2
     voice audio.yaiden_v_well1c1
-    a "W-Well… the taste is very… interesting… Did you really follow a recipe for this?"
+    a "Н-ну… вкус очень… интересный… Ты точно следовал рецепту?"
 
     show yyoshi comp6 at left2
     voice audio.yyoshi_v_unsure4
-    yo "Sort of… Some of the ingredients weren’t available, so I did a little bit of substituting…"
-    yo "I used ketchup for the sauce since it’s made of tomatoes, and I found some bleu cheese in the fridge, so I thought it would be fancy!"
+    yo "Типа того… Некоторых ингредиентов не было, поэтому я их немного поменял…"
+    yo "Я использовал кетчуп вместо соуса, он ведь сделан из помидоров, а ещё я нашёл немного сыра блю в морозилке, подумал, так будет приличнее!"
 
     show yaiden comp3 at right2
     voice audio.yaiden_v_laugh1b1
-    a "Ehehe… It doesn’t work the same way…"
+    a "Хе-хе-хе… Это так не работает, Йоши…"
 
     show yyoshi sigh1 at left2
     voice audio.yyoshi_v_sigh2
-    yo "*sigh* Aww, man… I thought I would’ve been able to pull it off this time! "
+    yo "*вздох* Ну, блин… А я-то думал, что в этот раз точно получится! "
 
     show yaiden comp2 at right2
     voice audio.yaiden_v_alright3a
-    a "It’s alright! At least you gave it a try! It did make me stuffed, so it’s a win either way!"
+    a "Всё хорошо! Ты хотя бы попытался! Я всё равно наелся, так что это в любом из вариантов победа!"
 
     show yyoshi comp2 at left2
     voice audio.yyoshi_v_thanks4
-    yo "Thanks for being honest and giving me some tips, Aiden. You’re a really nice guy!"
+    yo "Спасибо, что бы честен и дал пару советов, Эйден. ты и правда хороший парень!"
 
     show yaiden comp5 at right2
     voice audio.yaiden_v_thanks2b1
-    a "And thank you for letting me eat your food, Yoshinori!"
+    a "А тебе спасибо, что дал перекусить, Йошинори!"
 
     show yyoshi laugh2 at left2
     voice audio.yyoshi_v_response6a
-    yo "You’re welcome! Since we’re friends now, just call me Yoshi!"
+    yo "Пожалуйста! Раз уж мы теперь друзья, зови меня просто Йоши!"
 
     show yaiden talk3 at right2
     voice audio.yaiden_v_alright2a
-    a "A-Alright, Yoshi!"
+    a "Х-хорошо, Йоши!"
 
     show yyoshi sigh4 at left2
     voice audio.yyoshi_v_sigh2
-    yo "Well, I guess I need more practice cooking… *sigh* So much for earning that badge…"
+    yo "Что ж, похоже, мне нужно больше практиковаться в готовке… *вздох* так много за простую нашивку…"
 
     show yaiden comp3 at right2
     voice audio.yaiden_v_unsure5a1
-    a "If you want, maybe I could watch you this time and give you some pointers…?"
+    a "Если хочешь, может, я спосмотрю в этот раз за тобой и если что дам пару указаний…?"
 
     show yyoshi excited1 at left2
     voice audio.yyoshi_v_idea1
-    yo "Oh! I have an even better idea! How about you show me how to do it instead? Maybe I’ll learn faster that way!"
+    yo "О! У меня есть идея получше! Как насчёт того, что ты сам покажешь мне? Может, трак я быстрее научусь!"
 
     show yaiden shock2 at right2
     voice audio.yaiden_v_what4a
-    a "Wh-What? Right now? I’m not a scout here… Is that really okay? "
+    a "Ч-что? Прямо сейчас? Но я же не скаут… Ничего не будет? "
 
     show yyoshi comp5 at left2
     voice audio.yyoshi_v_confident3
-    yo "We’re not doing anything against the rules, so I’m sure it’ll be fine, Aiden! Trust me!"
-    yo "Besides, don’t you wanna use the kitchen here too?"
+    yo "Мы не что-то против правил затеваем, так что всё должно быть хорошо, Эйден! Доверься мне!"
+    yo "К тому же, разве ты не хочешь попользоваться такой кухней?"
 
     show yaiden amazed2 at right2
     voice audio.yaiden_v_amazed3a
-    a "Wahh… I-I do…"
+    a "Ва-ах… Х-хочу…!"
 
     show yyoshi bold2 at left2
     voice audio.yyoshi_v_praise2
-    yo "Great, then show me how it’s done and let’s get that cooking badge! "
+    yo "Супер, тогда покажи, как всё делается, и получим наконец эту нашивку! "
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -957,15 +957,15 @@ label debug:
     show yyoshi_camp at right2
     show yyoshi talk3 at right2
     voice audio.yaiden_v_oh1a
-    a "Oh, it’s done!"
+    a "О, готово!"
 
     show yyoshi tasty1 at right2
     voice audio.yyoshi_v_mmm1
-    yo "Mmm… It smells so good!"
+    yo "М-м-м… Пахнет вкусно!"
 
     show yaiden happy3 at left2
     voice audio.yaiden_v_here1a
-    a "Here, let me take it out of the oven!"
+    a "хе-хе, сейчас достану из духовки!"
 
     show yaiden_casual at p5_1
     show yaiden happy3 at p5_1
@@ -980,28 +980,28 @@ label debug:
     with dissolve
 
     voice audio.yaiden_v_excited2a
-    a "Tada! And that’s how I make pizza! "
+    a "Та-да! Вот так я и готовлю пиццу! "
 
     voice audio.yyoshi_v_amazed1a
-    yo "Woooow!!! My mouth is watering just looking at it! "
+    yo "Ва-а-а-ау!!! От одного взгляда слюнки текут! "
 
     voice audio.yaiden_v_sorry1a1
-    a "Sorry, it took a little longer since I had to make the dough and sauce from scratch."
+    a "Извини, готовилось подольше, раз мне пришлось делать и тесто и соус с нуля."
 
     voice audio.yyoshi_v_amazed2a
-    yo "Are you kidding? I can’t believe you made this in less than an hour! I was up all night making mine, hahaha!"
+    yo "Шутишь что ли? Я поверить не могу, что ты её за меньше часа приготовил! Я со своей всю ночь просидел, ха-ха-ха!"
 
     voice audio.yaiden_v_well1a1
-    a "Well, luckily for me, the kitchen here had everything I needed to make it faster. It was my first time trying a food processor, mixer, and an oven!"
+    a "Ну, к счастью, в кухне было всё, чтобы получилось побыстрее. Я впервые пользуюсь кухонным комбайном, миксером, и даже духовкой!"
 
     voice audio.yyoshi_v_amazed3
-    yo "But you were using the whole kitchen like a pro! It was super cool!"
+    yo "Но готовил как профессионал! Было супер круто!"
 
     voice audio.yaiden_v_laugh1b1
-    a "Ah, hehe… I was honestly just tinkering with it until I figured it out – turns out it was pretty simple. "
+    a "ой, хе-хе… Честно говоря, прежде чем разобрался, я с ними просто возился – но, оказывается, всё было предельно просто. "
 
     voice audio.yaiden_v_anyway1a
-    a "Anyways, go ahead, give it a taste while it’s still hot!"
+    a "Но не важно, ну же, попробуй пока горячее!"
 
     voice audio.yyoshi_v_alright4
     yo "I thought you’d never ask!"
@@ -1011,27 +1011,27 @@ label debug:
     with dissolve
 
     show yyoshi tasty2 at right2
-    yo "*munch*"
+    yo "*чавк*"
 
     show yaiden worry2 at left2
     voice audio.yaiden_v_think3a
-    a "H-How is it?"
+    a "Н-ну и как?"
 
     show yyoshi amazed1 at right2
     voice audio.yyoshi_v_amazed1c
-    yo "IT’S SO YUMMY!!! This is the best pizza I’ve ever tasted in my entire life!" with vpunch
+    yo "ВКУСНОТИЩА!!! Эта лучшая пицца, что я пробовал в своей жизни!" with vpunch
 
     show yaiden comp3 at left2
     voice audio.yaiden_v_ah1a
-    a "A-Ahh… I think you’re exaggerating…"
+    a "А-а… Да ты преувеличиваешь…"
 
     show yyoshi excited1 at right2
     voice audio.yyoshi_v_noway1
-    yo "I’m not! I never thought I’d like pineapples on my pizza!"
+    yo "Вовсе нет! Никогда бы не подумал, что понравятся ананасы в пицце!"
 
     show yaiden comp5 at left2
     voice audio.yaiden_v_aww2a
-    a "Aww… Well, I’m really glad you like my cooking, Yoshi! "
+    a "О-о… Ну, я рад, что тебе понравилось, Йоши! "
 
     show yaiden_casual at center
     show yaiden comp5 at center
@@ -1044,163 +1044,163 @@ label debug:
     with dissolve
 
     voice audio.andre_v_aiden4b
-    u "Th-There you are, Aiden! I’ve been looking for you! "
+    u "В-вот ты где, Эйден! Я обыскался тебя! "
 
     show yaiden shock3 at center
     voice audio.yaiden_v_dad5a
-    a "D-Dad…! "
+    a "П-пап…! "
 
     show andre sigh1 at left
     voice audio.andre_v_sigh1a
-    u "*sigh* Didn’t I tell you to stay in the mess hall?"
+    u "*вздох* Разве я не просил остаться в столовой?"
 
     show yyoshi worry2 at right
     voice audio.yyoshi_v_sorry2a
-    yo "Oh, I’m sorry about that, Mr. Andre…! I was the one who invited Aiden to help me with my badge-earning activity!"
+    yo "Ой, за это простите, мистер Андре…! Это я пригласил Эйдена помочь мне с получением нашивки!"
 
     show andre sigh2 at left
     voice audio.andre_v_relief2a
-    u "Whew… It’s a good thing he ran into you. I was worried he ran off somewhere outside Camp Buddy…"
+    u "Фух… Хорого, что он встретился с тобой. Я волновался, что он убежал куда-то за пределы Лагеря Друзей…"
 
     show yyoshi talk1 at right
     voice audio.yyoshi_v_andre2
-    yo "Hey, Mr. Andre! How come you’ve never brought Aiden here before? He’s a really great guy, and his cooking is amazing, just like yours!"
+    yo "О, мистер Андре! Как так вышло, что вы никогда не приводили сюда Эйдена? Он хороший парень, и готовит великолепно, прям как вы!"
 
     show andre talk1 at left
     voice audio.andre_v_conj3b2
-    u "He’s been by himself back at home ever since I started working here, so I asked Sir Goro a favor to let me bring him for today. "
+    u "Он был дома один с тех пор, как я сюда устроился на работу, потому я спросил сэра Горо об услуге, позволить привести его сегодня в лагерь. "
 
     show yyoshi happy1 at right
     voice audio.yyoshi_v_laugh1
-    yo "You should bring him more often, then! I’d be happy for him to tag along with me all day!"
+    yo "Приводите почаще тогда! Я был бы рад проводить сним хоть весь день!"
 
     show andre worry2 at left
     voice audio.andre_v_ah1b1
-    u "Ah, we’re not really allowed to bring visitors to the camp, actually… Today was just an exception since we had a meeting, and I’ll be working until late tonight."
+    u "Ах, вообще-то, нам не разрешено приводить посетителей в лагерь… Сегодня - лишь исключение, поскольку у нас было собрание, и потому что я сегодня буду работать допоздна."
 
     show yyoshi excited1 at right
     voice audio.yyoshi_v_idea1
-    yo "Oh, how about enrolling him here as a scout, then? That would be so fun!! Don’t you think so, Aiden?!"
+    yo "О, а может он вступит к нам в лагерь? Будет так весело!! Правда же, Эйден?!"
 
     show yaiden excited3 at center
     voice audio.yaiden_v_oh1a
-    a "Oh…!"
+    a "О…!"
 
     show yyoshi amazed1 at right
     voice audio.yyoshi_v_excited1
-    yo "We can do all the activities together! We can go hiking, fishing, and you can teach me how to cook until I get my cooking badge!"
+    yo "Мы бы вместе во всех мероприятиях учавствовали! Мы бы и гуляли, и на рыбалку ходили, или он бы мог бы учить меня готовить, пока я не получу нашивку!"
 
     show andre worry3 at left
     voice audio.andre_v_yoshi3c
-    u "A-Ah, well, Yoshinori… I’m not sure if that’s possible…"
+    u "Э-эм, ну, Йошинори… Не думаю, что это возможно…"
 
     show yaiden sad1 at center
     show yyoshi worry3 at right
     voice audio.yyoshi_v_oh3
-    yo "O-Oh…"
+    yo "О-оу…"
 
     show andre sad4 at left
     voice audio.andre_v_unsure2b
-    u "I do wish he could come with me more often, but Sir Goro has already done enough for me that I don’t want to ask any more of him. "
+    u "Я бы хотел, чтобы он со мной чаще приходил, но сэр Горо и так сделал достаточно для меня, я не хотел бы напрягать его большим. "
 
     show yyoshi sad4 at right
     voice audio.yyoshi_v_isee2
     yo "I see… That’s a shame…"
 
     show yaiden comp1 at center
-    yo "Aiden is a really talented cook just like you are, Mr. Andre! Look, he made this really yummy pizza from scratch just a little while ago! "
+    yo "Но Эйден такой талантливый повар прямо как вы, мистер Андре! Посмотрите, какую вкусную пиццу он сделал! "
 
     show andre comp4 at left
     voice audio.andre_v_laugh1a2
-    u "Ah, haha… I’d like to say I’m surprised, but cooking has been Aiden’s favorite thing to do since he was little! "
-    u "That's why I understand how you feel about Aiden not being able to be a part of the camp."
+    u "А, ха-ха… Я был бы удивлён, да только, готовка была любимым хобби Эйдена ещё когда он был маленьким! "
+    u "Я понимаю, что ты чувствуешь. Жаль, что Эйден не сможет стать частью лагеря."
 
     $working = False
     $shuffle_menu()
     menu():
-        u "That's why I understand how you feel about Aiden not being able to be a part of the camp.{fast}"
-        "It's too bad he can't stay.":
+        u "Я понимаю, что ты чувствуешь. Жаль, что Эйден не сможет стать частью лагеря.{fast}"
+        "И правда жаль.":
             $working = True
             $score_aiden -= 1
             show yyoshi upset6 at right
             voice audio.yyoshi_v_sad2
-            yo "It really is too bad he can’t stay, then… I think he could really make a difference at the camp."
+            yo "И правда жаль, что он не сможет остаться… Он мог бы многое изменить в лагере."
 
             show yaiden sad2 at center
             a "..."
 
             show andre sad3 at left
             voice audio.andre_v_unsure1a
-            u "As much as I’d like that… I don’t know how…"
-        "I wish he could stay.":
+            u "Как бы я хотел такого… Но не знаю, как это сделать…"
+        "Хотел бы я, чтобы он остался.":
             $working = True
             show yyoshi upset6 at right
             voice audio.yyoshi_v_sad3
-            yo "If only there was some way to have Aiden stay here…"
+            yo "Вот бы был какой то способ, чтобы Эйден остался…"
 
             show andre sad3 at left
             voice audio.andre_v_unsure1a
-            u "As much as I’d like that… I don’t know how…"
-        "Aiden would make a great chef.":
+            u "Как бы я хотел такого… Но не знаю, как это сделать…"
+        "Из Эйдена вышел бы хороший повар.":
             $working = True
             $score_aiden += 1
             show yyoshi think2 at right
             voice audio.yyoshi_v_sad3
-            yo "There must be a way to have Aiden here at the camp. I’m sure he’d become, like, the best chef ever!"
+            yo "Должен быть способ, чтобы Эйден остался в лагере. Я уверен, он бы стал, к примеру, лучшим шефом!"
 
             show yaiden shock1 at center
             a "...!"
 
             show andre worry2 at left
             voice audio.andre_v_ah1b1
-            u "Ah…"
-        "We could have fun together.":
+            u "Ах…"
+        "Нам бы было весело вместе.":
             $working = True
             $score_aiden += 2
             show yyoshi think2 at right
             voice audio.yyoshi_v_unsure1b
-            yo "There must be a way to have Aiden here at the camp. He wouldn’t be alone back at home anymore, and we could have so much fun together!"
+            yo "Должен быть способ, чтобы Эйден остался в лагере. Так ему бы не пришлось больше сидеть дома одному, нам было бы так весело!"
 
             show yaiden shock1 at center
             a "...!"
 
             show andre worry2 at left
             voice audio.andre_v_ah1b1
-            u "Ah…"
+            u "Ах…"
 
     show yaiden talk1 at center
     voice audio.yaiden_v_unsure5b1
-    a "M-Maybe I could help you out with the chores, Dad?"
+    a "М-может быть, я бы мог помочь тебе с обязанностями, пап?"
 
     show andre confused3 at left
     voice audio.andre_v_wait2a
-    u "You mean… You want to work with me, Aiden?"
+    u "Имеешь ввиду… что хочешь поработать со мной, Эйден?"
 
     show yaiden happy2 at center
     voice audio.yaiden_v_yeah1a3
-    a "Yeah…! I can help us earn some money, and you won’t have to worry about me being at home alone, since we’ll be together all the time!"
+    a "Ага…! Я могу помочь тебе подзаработать, тогда тебе не придётся волноваться о том, что я буду сидеть дома один, мы будем всё время вместе!"
 
     show andre worry2 at left
     voice audio.andre_v_aiden1a
-    u "Aiden…"
+    u "Эйден…"
 
     $ renpy.pause (1.0, hard=True)
     show andre comp2 at left
     voice audio.andre_v_agree1a2
-    u "Alright. I guess I can talk to Sir Goro about it."
+    u "Ну хорошо. Думаю, я могу поговорить с сэром Горо насчёт этого."
 
     show yyoshi amazed1 at right
     show yaiden amazed2 at center
     voice audio.yaiden_v_amazed3a
-    a "Wah…! Really?!"
+    a "Ва…! Правда?!"
 
     show andre comp4 at left
     voice audio.andre_v_compassion1a1
-    u "I can’t promise you it’ll work, but I’ll do my best to convince him, okay?"
+    u "Не обещаю, что сработает, но я обещаю, что попробую его убедить, хорошо?"
 
     show yyoshi bold2 at right
     voice audio.yyoshi_v_confident2
-    yo "Oh, let me help too, Mr. Andre! I’m sure Sir Goro would love to have Aiden here too! Let me just grab Yuri, and we’ll go ask him right away!"
+    yo "О, давайте я помогу, мистер Андре! Уверен, сэру Горо понравится Эйден! Дайте я только позову Юри, и пойдёмте спросим его сразу же!"
 
     hide yyoshi_camp
     hide yyoshi bold2
@@ -1208,7 +1208,7 @@ label debug:
 
     show andre shock3 at left
     voice audio.andre_v_yoshi2b
-    u "W-Wait, Yoshinori…!"
+    u "П-погоди, Йошинори…!"
 
     show andre_camp at left2
     show andre sigh1 at left2
@@ -1217,20 +1217,20 @@ label debug:
     with move
 
     voice audio.andre_v_sigh1a
-    u "*sigh* That boy is hyper as always… "
-    u "I guess you really won him over with your cooking, didn’t you, Aiden?"
+    u "*вздох* Гиперактивный как и всегда… "
+    u "Покорил его своей стрепнёй, а, Эйден?"
 
     show yaiden comp3 at right2
     voice audio.yaiden_v_ah1a
-    a "A-Ah… Well…"
+    a "Э-эм… Ну…"
 
     show andre laugh1 at left2
     voice audio.andre_v_conj1a3
-    u "Either way, I’m really glad you made a new friend! Now, come on, let’s go after him!"
+    u "Ну ладно, я рад, что ты завёл нового друга! А теперь, пойдём, догоним его!"
 
     show yaiden laugh1 at right2
     voice audio.yaiden_v_yeah1a2
-    a "Yeah!"
+    a "Ага!"
 
     scene cg white with Dissolve(2.0)
     $past_scene = False
@@ -1259,43 +1259,43 @@ label debug:
     play music go_with_the_flow_slow loop
 
     voice audio.aiden_vsa3_line17
-    a "Thinking about it, it’s crazy how things ended up back then.  "
+    a "Думая об этом сейчас, трудно поверить в то, чем всё закончилось.  "
 
     voice audio.aiden_vsa3_line18
-    a "Growing up, it was just Dad and I, and we didn’t have much."
+    a "Я рос, многого мы не имели, был только отец и я сам."
 
     voice audio.aiden_vsa3_line19
-    a "Cooking was the thing we bonded over, but it actually led me to you…"
+    a "Готовка нас объединяла, но и именно она привела меня к тебе…"
 
     voice audio.aiden_vsa3_line20
-    a "And then, thanks to your determination, I was able to start working here!"
+    a "И тогда, благодаря твоей решимости, я стал работать здесь!"
 
     show cga2 13 with Dissolve(0.25)
     voice audio.yoshi_vsa3_line11
-    yo "It was worth it too! I’ve been able to eat all the delicious food you’ve made over the years, and it’s still the best I’ve ever had! "
+    yo "Оно стоило того! Целые годы у меня выдалась возможность есть твои кулинарные шедевры, и они всё ещё лучшие в мире! "
 
     voice audio.aiden_vsa3_line21
-    a "Well, look at you, Mr. Smooth-Talker! Keep complimenting my cooking like that, and I’ll serve you today's special, if you catch my drift~"
+    a "Ой, посмотрите на него, мистер Обольститель! Будешь дальше слать такие комплименты, и я могу обслужить тебя по-особенному, если понимаешь, о чём я~"
 
     show cga2 14 with Dissolve(0.25)
     voice audio.yoshi_vsa3_line12
-    yo "A-Aiden…! "
+    yo "Э-Эйден…! "
 
     voice audio.aiden_vsa3_line22
-    a "Look at you, you're as red as a tomato! You’re still that same dorky scout, hahaha!"
+    a "Гляди, красный как помидор! Всё тот же скаут-балбес, ха-ха-ха!"
 
     voice audio.yoshi_vsa3_line13
-    yo "L-Let’s just finish cooking! We have to finish before the workers arrive, and we’re getting distracted!"
+    yo "Д-давай уже закончим с готовкой! Нам ещё нужно успеть до приезда рабочих, а мы тут отвлекаемся!"
 
     voice audio.aiden_vsa3_line23
-    a "Alright, alright! Hahaha!"
+    a "Ладно-ладно! Ха-ха-ха!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound2', fadeout = 1.0)
     scene cg black with fade
-    yo "{i}It was really nostalgic to work with Aiden in the kitchen… No wonder he was reminiscing about the past.{/i}"
-    yo "{i}It’s not often he and I have a conversation like that, but I’m glad that we were able to look back and spend time together like we used to.{/i}"
+    yo "{i}Такая ностальгия вновь работать на кухне с Эйденом… Не удивительно, что она стал вспоминать прошлое.{/i}"
+    yo "{i}Не часто он о таком разговаривает, и я рад, что мы можем так вспоминаь прошлое и снова проводить время вместе, как и раньше.{/i}"
 
     scene cg black
     hide screen location
@@ -1320,22 +1320,22 @@ label debug:
     show yoshi_autumn3 at right2
     show yoshi norm1 at right2
     voice audio.aiden_v_relief1a1
-    a "Whew! Mashed potatoes, check! Greens, check! We’ve got two pots of stew simmering and lots of barbecue ribs sitting in the oven, and those should be ready in a few minutes! "
+    a "Фух! Картофельное пюре, есть! Зелень, есть! Ещё две кастрюли рагу на медленном огне и запечённые рёбрышки в духовке, которые будут готовы через пару минут! "
 
     show yoshi bold2 at right2
     voice audio.yoshi_v_praise1
-    yo "That’s great, Aiden! I’m sure the workers will go nuts over your cooking! I can tell how good it is just from the smell! "
+    yo "отлично, Эйден! Уверен, рабочие с ума посходят с твой готовки! От одного запаха чувствуешь, как вкусно! "
 
     hide aiden_apron2
     hide aiden bold5
     show aiden_apron2 at left2
     show aiden wink2 at left2
     voice audio.aiden_v_well1b2
-    a "Well, it’s all thanks to my assistant chef today! If it weren’t for you helping me, I’d probably be scrambling right now trying to get all this done."
+    a "Что ж, спасибо моего ассистенту шефа на сегодня! Если бы не ты, я бы возможно сейчас продолжал возиться, пытаясь успеть все пригтовить."
 
     show yoshi comp1 at right2
     voice audio.yoshi_v_response3b
-    yo "No problem! I’m just glad we managed to finish everything before the workers even arrived!"
+    yo "Без проблем! Рад, что мы успели все закончить дол приезда рабочих!"
 
     show aiden_apron2 at p4_1
     show aiden wink2 at p4_1
@@ -1350,72 +1350,72 @@ label debug:
     with dissolve
 
     voice audio.taiga_v_greeting3a
-    t "Hey, Yoshi! Yuri told us to fetch you, ’cause the workers are already here!"
+    t "Эй, Йоши! Юри попросила нас привести тебя, работники приехали!"
 
     show yoshi happy1 at p4_2
     voice audio.yoshi_v_ah1
-    yo "Ah, speaking of, that’s my cue!"
+    yo "О, кстати говоря, вот и мой выход!"
 
     show yoichi annoyed5 at p4_4
     voice audio.yoichi_v_wait2b
-    yi "Wait, what?! You said we came here to snatch some mallows?!"
+    yi "Погоди, чего?! Ты говорил, что мы сюда за маршмеллоу?!"
 
     show taiga playful2 at p4_3
     voice audio.taiga_v_conjunction2c
-    t "Well, I knew you wouldn’t come with me unless I tricked you with treats. "
-    t "And I’m not gonna let you bark at the new guys and scare them out of the camp."
+    t "Ну, Я знал, что со мной ты не пойдёшь, потому и сделал предлог сходить за закусками. "
+    t "А ещё чтобы не позволить тебе облаять навоприбывших и распугать там всех."
 
     show yoichi_autumn at p5_4
     show yoichi rage2 at p5_4
     with move
 
     voice audio.yoichi_v_angry2b1
-    yi "GRAH!!! You’re gonna get it, you sneaky cat-boy!"
+    yi "ГРАХ!!! Сейчас получишь, кошатник!"
 
     show taiga panic1 at p4_3
     voice audio.taiga_v_surprised4b
-    t "WAH! Get off me, you dog! Shoo!!"
+    t "ВАХ! А ну слезь с меня, псина! Кыш!!"
 
     hide yoshi_autumn3
     hide yoshi rage2
     show yoshi2_autumn3 at p4_2
     show yoshi2 comp5 at p4_2
     voice audio.yoshi_v_laugh1
-    yo "Hahaha… Maybe it is a good idea to have you both stay in here…"
+    yo "Ха-ха-ха… Может, и правда хорошо, что вы тут остались…"
 
     show aiden happy3 at p4_1
     voice audio.aiden_v_comp1a2
-    a "Yeah, you can leave these guys to me! I’ll make sure they don’t cause a fuss later, hahaha!"
+    a "Ага, можешь оставить их на меня! Обещаю, что они не наведут смуту, а-ха-ха!"
 
     hide yoshi2_autumn3
     hide yoshi2 comp5
     show yoshi_autumn3 at p4_2
     show yoshi happy2 at p4_2
     voice audio.yoshi_v_thanks4
-    yo "Thanks, Aiden! I’ll bring the workers here soon for lunch so you can meet them too!"
+    yo "Спасибо, Эйден! Я прниведу их ближе к обеду, чтобы и ты с ними встретился!"
 
     show aiden excited3 at p4_1
     voice audio.aiden_v_praise1a
-    a "Oh, that’s great! I’ve been dying to meet the new guys!"
+    a "О, хорошо! Очень хочу с ними встретиться!"
 
     hide yoshi_autumn3
     hide yoshi happy2
     show yoshi2_autumn3 at p4_2
     show yoshi2 comp6 at p4_2
     voice audio.yoshi_v_sigh3a
-    yo "…Just don’t forget to put on a shirt, okay?"
+    yo "…Просто, не забудь надеть что нибудь, ладно?"
 
     show aiden laugh3 at p4_1
     voice audio.aiden_v_laugh2a1
-    a "Hahaha! Alright, alright! But just because you helped me today!"
-    a "Now go! They must be waiting already!"
+    a "Ха-ха-ха! Ладно-ладно! Но только потому что ты мне помог сегодня!"
+    a "Иди! Они уже ждут наверное!"
 
     hide yoshi2_autumn3
     hide yoshi2 comp6
     show yoshi_autumn3 at p4_2
     show yoshi happy1 at p4_2
     voice audio.yoshi_v_alright2
-    yo "Alright!"
+    yo "Хорошо!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -1441,7 +1441,7 @@ label debug:
     show yoshi_autumn at center
     show yoshi shock3 at center
     voice audio.yoshi_v_shock1a
-    yo "Whoa…! They weren’t kidding when they said they’d be sending thirty people here…"
+    yo "Воу…! А они не шутили, когда говорили, что отправят тридцать людей…"
 
     show yoshi_autumn at left2
     show yoshi shock3 at left2
@@ -1452,19 +1452,19 @@ label debug:
     with dissolve
 
     voice audio.yuri_v_greet1a
-    yu "Ah, there you are, Yoshi! The shuttle just finished unloading the workers and their luggage. I’m getting a little overwhelmed trying to assist everyone."
+    yu "А, вот ты где, Йоши! Работники только приехали и разобрали багаж. Мне уже немного невмоготу всем помогать."
 
     show yoshi talk1 at left2
     voice audio.yoshi_v_worry2
-    yo "How can I help, Yuri?"
+    yo "Как мне помочь, Юри?"
 
     show yuri confused4 at right2
     voice audio.yuri_v_oh1a
-    yu "Oh, I need you to talk with the representatives. I’m sure you’re way better than me when it comes to that kind of formal talk."
+    yu "О, мне нужно, чтобы ты поговорил с бригадирами. Уверена, в этих формальных беседах ты разбираешься получше меня."
 
     show yoshi happy1 at left2
     voice audio.yoshi_v_alright2
-    yo "Alright, Yuri. I’ll take it from here!"
+    yo "Хорошо, Юри. Я этим займусь!"
 
     show yuri_autumn at p4_1
     show yuri confused4 at p4_1
@@ -1479,79 +1479,79 @@ label debug:
     with dissolve
 
     voice audio.yoshi_v_greet3a1
-    yo "Hello! Welcome to Camp Buddy! I’m Yoshinori Nagira, and I’m the one in charge of your move-in today! This is Yuri Nomoru, my fellow scoutmaster."
+    yo "Здравствуйте! Добро пожаловать в Лагерь Друзей! Моё имя Йошинори Нагира, я здесь во главе заселения! А это Юри Номору, моя подруга скаутмастер. "
 
     show lloyd talk1 at p4_3
     voice audio.lloyd_v_ah1a1
-    ar "Ah, we met earlier. Though it’s nice to finally meet you again, Yoshinori! "
+    ar "А, мы раньше встречались. Приятно видеть тебя снова, Йошинори! "
 
     hide yoshi_autumn
     hide yoshi happy2
     show yoshi2_autumn at p4_2
     show yoshi2 confused1 at p4_2
-    yo "{i}(Huh? What did he mean by… \“again\”?){/i}"
+    yo "{i}(А? Что значит… \"снова\"?){/i}"
 
     show lloyd happy1 at p4_3
     voice audio.lloyd_v_conj6a2
-    ar "They call me Architect Sirius, and this is Foreman Najjar."
+    ar "Меня звать Архитектором Сириусом, а это Мастер Наджар."
 
     show darius talk1 at p4_4
     voice audio.darius_v_greet1a1
-    fo "Hi."
+    fo "Привет."
 
     show lloyd bold2 at p4_3
     voice audio.lloyd_v_william2c
-    ar "The men behind me are my construction team. As I’m sure you know, we’ve been selected by Clermont Inc. to design and construct all the new buildings and amenities as per the official plan!"
-    ar "You can expect nothing but the best from our group! I’m a specialist in both the architectural and structural aspects of the project!"
+    ar "Люди позади меня - команда строителей. Как, я уверен, вы уже знаете, мы были наняты Clermont Inc. для реконструкции и дизайна зданий вместе с благоустройством согласно официальному плану!"
+    ar "Можете ожидать от нашей группы наилучшего результата! Я специалист как в архитектурных, так и в структурных аспектах проекта!"
 
     show lloyd laugh1 at p4_3
     voice audio.lloyd_v_conj6a2
-    ar "If you need any carpentry or masonry work done skillfully, my partner here has mastered both crafts!"
+    ar "Если вам нужны какие-либо чётко выполненные плотницкие работы или укладка, мой напарник - мастер в обоих ремёслах!"
 
     show darius talk2 at p4_4
     voice audio.darius_v_agree1a
-    fo "Yes. "
+    fo "Ага. "
 
     hide yoshi2_autumn
     hide yoshi2 confused1
     show yoshi_autumn at p4_2
     show yoshi amazed1 at p4_2
     voice audio.yoshi_v_amazed3
-    yo "That’s amazing! We’re looking forward to working with you and making this place the best it can be!"
+    yo "Великолепно! Мы с нетерпением ждём возможности поработать с вами!"
 
     show lloyd happy2 at p4_3
     voice audio.lloyd_v_gratitude2a2
-    ar "Us as well! It’s a privilege to be here!"
+    ar "Как и мы! Большая привелегия быть здесь!"
 
     show yoshi happy1 at p4_2
     voice audio.yoshi_v_conj6a
-    yo "Before we get into business, we’d like to invite you over for a lunch that we prepared. I know you all must be exhausted from the trip here."
+    yo "Прежде чем мы приступим к бизнесу, нам бы хотелось пригласить вас к обеду. Вы должно быть все истощены долгой поездкой."
 
     show lloyd grin1 at p4_3
     voice audio.lloyd_v_praise3a
-    ar "That’s perfect! "
+    ar "Отлично! "
 
     show yoshi bold2 at p4_2
     voice audio.yoshi_v_alright2
-    yo "Alright! Yuri and I will help you to your cabins so you can drop off your belongings first!"
-    yo "We’ve prepared lodging for all your workers in some of our unused cabins, while you two can stay with us in our scoutmaster quarters, if that’s alright?"
+    yo "Чудно! Юри и я поможем вам добраться до домиков, дабы разложить ваш багаж в первую очередь!"
+    yo "Мы подготовили жилые комнаты в неиспользованных домиках для работников, а вы двое може еостаться с нами в скаутмастерской части, согласны?"
 
     show lloyd happy1 at p4_3
     voice audio.lloyd_v_agree2b1
-    ar "Sure thing! That sounds like a great chance to catch up!"
+    ar "Конечно! Звучит как отличная возможность наверстать упущенное!"
 
     show yuri happy1 at p4_1
     voice audio.yuri_v_rush4a
-    yu "Great, then please follow me!"
+    yu "Отлично, прошу за мной!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound2', fadeout = 1.0)
     scene cg black with fade
 
-    yo "{i}Yuri and I took the supervisors and their teams to their respective cabins and gave them time to unpack their belongings.{/i}"
-    yo "{i}The whole time I’ve been with them, I can’t shake the feeling that I’ve met them before… But I can’t remember when or where.{/i}"
-    yo "{i}I can figure that out later! For now, I just need to do my best to give them a proper welcome and instructions!{/i}"
+    yo "{i}Юри и я отвели бригадиров и команды рабочих по их домикам и дали им время разобраться с багажом.{/i}"
+    yo "{i}Всё то время, пока с ними нахожусь, никак не могу отделаться от чувства, словно раньше уже встречались… Но где и когда я не помню.{/i}"
+    yo "{i}Разберусь с этим позже! В данный момент, я обязан оказать тёплый приём и выдать все инструкции!{/i}"
 
     scene cg black
     hide screen location
@@ -1579,79 +1579,79 @@ label debug:
     show yuri_autumn at p4_4
     show yuri norm1 at p4_4
     voice audio.yuri_v_alright1a1
-    yu "Food’s coming right up soon! I’ve already told our chef we were here!"
+    yu "Еда уже на подходе! Я уведомила повара, что все уже здесь!"
 
     show lloyd hungry2 at p4_2
     voice audio.lloyd_v_gratitude3a
-    ar "We appreciate the hospitality! I’m starving!"
-    ar "Also, thanks for helping us move in! Things have barely changed here at all, haven’t they?"
+    ar "Благодарю за гостеприимство! Я весь изголодался!"
+    ar "Кстати, спасибо за помощь с заселением! А здесь едва ли что-то изменилось, а?"
 
     show yoshi happy1 at p4_3
     voice audio.yoshi_v_yes1
-    yo "Yes! We’ve tried to keep all the spaces the same throughout the years to keep the classic feel of the place. I knew you would appreciate it, being an architect!"
+    yo "Да! Мы старались держать здесь всё без изменений на протяжение нескольких лет, дабы сохранить классический стиль. Знал, что вы оцените это как архитектор!"
 
     show lloyd explain1 at p4_2
     voice audio.lloyd_v_conj1a3
-    ar "Well, I kinda meant it in a nostalgic sense!"
+    ar "Вообще, я имел ввиду чувство ностальгии!"
 
     show yoshi talk3 at p4_3
     voice audio.yoshi_v_right7
-    yo "Ah, right…!"
-    yo "Though, I have to say, you must be a genius to be an architect at such an early age, Mr. Sirius!"
+    yo "Ах, вот как…!"
+    yo "Знаете, должен сказать, вы наверное гений, раз уже архитектор в таком юном возрасте, мистер Сириус!"
 
     show lloyd angry3 at p4_2
     voice audio.lloyd_v_greet2c2
-    ar "Early age?! I’m about as old as you are!"
+    ar "Юном?! Мы почти одного возраста!"
 
     hide yoshi_autumn
     hide yoshi talk3
     show yoshi2_autumn at p4_3
     show yoshi2 confused2 at p4_3
     voice audio.yoshi_v_really5
-    yo "Wait… Really? I just thought that—"
+    yo "Погодите… Правда? Я думал—"
 
     show lloyd rage3 at p4_2
     voice audio.lloyd_v_ignored1c3
-    ar "Is that because I’m short?!"
+    ar "Это из-за моего низкого роста?!"
 
     show darius bored5 at p4_1
     voice audio.darius_v_comp1a1
-    fo "Calm down."
+    fo "Спокойно."
 
     show lloyd pout4 at p4_2
     voice audio.lloyd_v_annoyed1b3
-    ar "Hmph!"
+    ar "Хмпф!"
 
     show darius shy5 at p4_1
     voice audio.darius_v_sorry3
-    fo "I’m sorry about that. Topics about his height trigger him."
+    fo "Прошу прощения. Темы касательно его роста злят его."
 
     show yoshi2 panic4 at p4_3
     voice audio.yoshi_v_sorry1a1
-    yo "Ah, I apologize, that’s not what I meant…!"
+    yo "Ах, извиняюсь, я не это имел ввиду…!"
 
     show yuri sigh3 at p4_4
     voice audio.yuri_v_sigh2a
-    yu "*sigh* Yoshi, what’s wrong with you…"
+    yu "*вздох* Йоши, ты чего…"
 
     show lloyd angry5 at p4_2
     voice audio.lloyd_v_conj1a2
-    ar "Well, I’ll let it slide for now, for old time’s sake."
+    ar "Что ж, я прощу такое, но лишь раз, в память о старых добрых временах."
 
     show lloyd happy1 at p4_2
     voice audio.lloyd_v_conj2b1
-    ar "Anyways, there’s another thing that didn’t change – this place smells as good as I remember!"
+    ar "Не так важно, есть ещё кое что, что не изменилось - здесь пахнет так же вкусно, как я помню!"
 
     show yuri laugh1 at p4_4
     voice audio.yuri_v_laugh1a1
-    yu "You must’ve been looking forward to it, knowing how good the food here is!"
+    yu "Ты наверное давно хотел побывать тут, зная как вкусно здесь готовят!"
 
     show yoshi2 confused1 at p4_3
-    yo "{i}(What’s going on…? Am I missing something here? ){/i}"
+    yo "{i}(Что происходит…? Я что-то пропустил? ){/i}"
 
     show darius talk1 at p4_1
     voice audio.darius_v_shock1a
-    fo "Oh, the food’s coming."
+    fo "О, а вот и еда."
 
     show darius_autumn at p5_2
     show darius talk1 at p5_2
@@ -1668,14 +1668,14 @@ label debug:
     with dissolve
 
     voice audio.aiden_v_orderup1a
-    a "Order up! Four servings of a full-course barbecue meal with sides!"
+    a "Ваш заказ! Четыре порции барбекю с гарниром!"
 
     hide aiden_apron3
     hide aiden bold2
     show aiden2_apron3 at p5_1
     show aiden2 shock3 at p5_1
     voice audio.aiden_v_wait2b2
-    a "Hold on… You’re…"
+    a "Одну минутку… Эй, ты же…"
 
     hide yoshi2_autumn
     hide yoshi2 confused1
@@ -1686,186 +1686,186 @@ label debug:
     show aiden_apron3 at p5_1
     show aiden excited1 at p5_1
     voice audio.aiden_v_shock3a2
-    a "No way! Is that you, Darius?!" with vpunch
+    a "Да ни в жизнь! Дариус, ты что ли?!" with vpunch
 
     show darius happy2 at p5_2
     voice audio.darius_v_aiden3
-    d "Aiden. "
+    d "Эйден. "
 
     show aiden amazed1 at p5_1
     voice audio.aiden_v_greet1c
-    a "How are you, man?! It’s been forever!"
+    a "Как жизнь, чувак?! Сколько лет, сколько зим!"
 
     show darius happy3 at p5_2
     voice audio.darius_v_response2b
-    d "I’m good. I didn’t know you worked here too…"
+    d "Всё путём. Не знал, что ты тут тоже работаешь…"
 
     show aiden excited3 at p5_1
     voice audio.aiden_v_swear2a1
-    a "DAMN! You grew, like, a thousand feet tall! I barely recognized you!"
+    a "ЧЁРТ ВОЗЬМИ! Да ты вырос, прям, на пару метров! Я тебя едва узнаю!"
 
     show darius tease2 at p5_2
     voice audio.darius_v_thanks1a1
-    d "You too. You’ve been working out?"
+    d "И я тоже. Занимался мускулами?"
 
     show aiden laugh3 at p5_1
     voice audio.aiden_v_flex1a
-    a "Yeah, gotta flex to impress, right?! "
-    a "It’s really nice to see you after all these years! I thought I’d never see you again!"
+    a "Ага, чтобы было за что подержаться, а?!"
+    a "Как здорово видеть тебя спустя столько лет! Я уж думал, что никогда тебя не увижу!"
 
     show darius comp5 at p5_2
     voice audio.darius_v_agree4
-    d "Me too."
+    d "И я."
 
     show aiden excited3 at p5_1
     voice audio.aiden_v_wait1a2
-    a "Wait... Don’t tell me you’re part of the team that’s gonna work here, too?!"
+    a "Погоди… Только не говори мне, что ты ещё и из команды рабочих?!"
 
     show darius happy1 at p5_2
     voice audio.darius_v_agree2a
-    d "Yeah."
+    d "Оттуда."
 
     show aiden amazed2 at p5_1
     voice audio.aiden_v_amazed3b
-    a "SWEET! You’re gonna have a great time here with us, just like the good ol’ days! "
+    a "БАЛДЁЖ! Мы чудно проведём время, как в старые добрые! "
 
     show lloyd confused2 at p5_3
     voice audio.lloyd_v_darius4a
-    ar "You know this guy, Dar?"
+    ar "Дар, ты с ним знаком?"
 
     show darius confused2 at p5_2
     voice audio.darius_v_rush2
-    d "He’s the cook’s son. Don’t you remember?"
+    d "Сын повара. Не помнишь его?"
 
     show aiden shock3 at p5_1
     voice audio.aiden_v_what2b
-    a "And who’s the kid? Wait— Don’t tell me you have a son already?! Sheesh, has it really been that long?!"
+    a "А что за малыш кстати? Погоди— У тебя уже сын появился?! Господи, неужели прошло столько времени?!"
 
     show lloyd rage3 at p5_3
     voice audio.lloyd_v_question1b1
-    ar "WHAT?!"
+    ar "ЧЕГО?!"
 
     show aiden laugh2 at p5_1
     voice audio.aiden_v_amazed1a1
-    a "You should enroll him here for the next term! Camp Buddy is definitely at its peak right now— "
+    a "Ты просто обязан записать его в лагерь! Лагерь Друзей будет на пике своего совершенства— "
 
     show lloyd rage4 at p5_3
     voice audio.lloyd_v_conj3b1
-    ar "FIRST OFF, I’M NOT A KID! And I’m definitely NOT HIS SON!"
+    ar "ПО-ПЕРВЫХ, Я НИКАКОЙ НЕ МАЛЫШ! И уж точно НЕ ЕГО СЫН!"
 
     show darius explain2 at p5_2
     voice audio.darius_v_lloyd2
-    d "This is Lloyd, my business partner. He’s older than me, Aiden."
+    d "Это Ллойд, мой бизнес партнёр. Эйден, он старше меня."
 
     hide aiden_apron3
     hide aiden laugh2
     show aiden2_apron3 at p5_1
     show aiden2 comp3 at p5_1
     voice audio.aiden_v_laugh1b1
-    a "Oh... hehe… My bad, little guy!"
+    a "Ой… Хе-хе… Извиняй, маленький паренёк!"
 
     show lloyd annoy4 at p5_3
     voice audio.lloyd_v_groan1d3
-    l "HNGH!! LITTLE?! How dare you!"
+    l "ГГХХХ!! МАЛЕНЬКИЙ?! Да как ты смеешь!"
 
     show yuri tease2 at p5_5
     voice audio.yuri_v_laugh1b2
-    yu "Hihihi, you can’t seem to catch a break."
+    yu "Хи-хи-хи, так и продыху не дают."
 
     show lloyd pout1 at p5_3
     voice audio.lloyd_v_annoyed1b3
-    l "Hmph! I’m starting to have second thoughts about coming back here!"
+    l "Хмпф! Я уже начинаю жалеть, что вернулся!"
 
     show yuri angry1 at p5_5
     voice audio.yuri_v_aiden1a
-    yu "Aiden, stop teasing our lead architect! He and Darius will be helping us with the renovations!"
+    yu "Эйден, прекращай дразнить главного архитектора! Он и Дариус помогут нам с ремонтом!"
 
     show aiden2 kiss1 at p5_1
     voice audio.aiden_v_whistle1a
-    a "*whistle* An architect, huh? Wow, my bad for missing that! It’s just that you look—"
+    a "*свист* Ха, архитектор значит? Вау, виноват, что пропустил такое! Ты просто выглядишь таким-м-м—"
 
     show lloyd rage1 at p5_3
-    l "*glares*"
+    l "*пялится*"
 
     show aiden2 comp3 at p5_1
     voice audio.aiden_v_think2b
-    a "…youthful?? "
+    a "…м-молодым?? "
 
     show lloyd laugh2 at p5_3
     voice audio.lloyd_v_laugh1a1
-    l "People do tend to say that about me, haha!"
+    l "Люди часто мне такое говорят, ха-ха!"
 
     show darius tease4 at p5_2
     voice audio.darius_v_excited1a1
-    d "Nice save."
+    d "Неплохо выкрутился."
 
     hide aiden2_apron3
     hide aiden2 comp3
     show aiden_apron3 at p5_1
     show aiden excited1 at p5_1
     voice audio.aiden_v_amazed1a2
-    a "But that’s super awesome though! This project is gonna be a lot more exciting with you guys here!"
+    a "Это ведь супер круто! С вами проект станет таким захватывающим!"
 
     show yuri laugh2 at p5_5
     voice audio.yuri_v_yeah1b2
-    yu "Yeah, it’s as if the stars aligned and we’re all having a reunion, aren’t we?"
+    yu "Ага, словно звёзды сошлись, и вот мы снова вместе, правда?"
 
     show lloyd excited1 at p5_3
     voice audio.lloyd_v_shock1a3
-    l "Oh, you can say that again! My horoscope this month told me that I was going to \“meet familiar faces on the roads ahead.\”"
-    l "…And now I’m here, reconnecting with you guys! Coincidence? I think not!"
+    l "Ой, и не говори! Мой гороскоп на этот месяц гласил, что я \"встречу знакомые лица на своём пути.\""
+    l "…И вот он я, вновь с вами, ребята! Совпадение? А я так не думаю!"
 
     hide aiden_apron3
     hide aiden excited1
     show aiden2_apron3 at p5_1
     show aiden2 confused2 at p5_1
     voice audio.aiden_v_confused2a2
-    a "Isn't that the same kinda thing you read in a fortune cookie…?"
+    a "Ты про те предсказания, что ещё на бумашке в печеньках…?"
 
     hide yoshi_autumn
     hide yoshi shock1
     show yoshi2_autumn at p5_4
     show yoshi2 confused5 at p5_4
     voice audio.yoshi_v_uh1b
-    yo "U-Uh… I’m really sorry about this, but I’m confused… How do you guys know each other?"
-    yo "I don’t wanna be rude, but… I did think something was oddly familiar about you both since we first met…"
+    yo "Э-эм… Мне ужасно жаль, но, я немного озадачен… Откуда вы друг друга знаете?"
+    yo "Не хочу показаться грубым, но… Ещё с первой встречи я подумал, что вы выглядите до боли знакомыми…"
 
     show yuri shock4 at p5_5
     voice audio.yuri_v_wait1a1
-    yu "Wait… You mean, you didn’t know this whole time, Yoshi?! "
-    yu "We’ve been talking with them all morning – you should’ve at least figured out who they are by now!"
+    yu "Погоди… То есть, ты всё это время не знал, Йоши?! "
+    yu "Мы с ними всё утро болтали – ты должен был хотя бы догадаться!"
 
     hide yoshi2_autumn
     hide yoshi2 confused1
     show yoshi_autumn at p5_4
     show yoshi panic5 at p5_4
     voice audio.yoshi_v_shock3
-    yo "GAH! I-I’m so sorry…!"
+    yo "ГАХ! М-мне правда жаль…!"
 
     show yuri confused4 at p5_5
     voice audio.yuri_v_request3a
-    yu "This is Lloyd Sirius and Darius Najjar! They’re Camp Buddy alumni! "
-    yu "How could you not remember?! You were in the same batch as them!"
+    yu "Это Ллойд Сириус и Дариус Наджар! Выпускники Лагеря Друзей! "
+    yu "Как ты мог забыть?! Они же были в той же группе, что и мы!"
 
     hide yoshi_autumn
     hide yoshi panic5
     show yoshi2_autumn at p5_4
     show yoshi2 worry5 at p5_4
     voice audio.yoshi_v_think1b
-    yo "Umm…"
+    yo "Эм…"
 
     show yuri irked2 at p5_5
     voice audio.yuri_v_ugh3a
-    yu "Ugh… I can’t believe you, Yoshi! "
-    yu "*slams a book on the table*"
+    yu "Угх… Ну ты даёшь, Йоши! "
+    yu "*с шлепком кладёт книгу на стол*"
 
     show yuri bold2 at p5_5
     voice audio.yuri_v_here1b
-    yu "Here they are! Luckily, we have pictures of them in my old journal!"
+    yu "Вот! К счастью у меня остались фотографии в старом дневнике!"
 
     show aiden2 awkward2 at p5_1
     voice audio.aiden_v_confused1a1
-    a "D-Do you just carry that around…?"
+    a "Т-ты везде его с собой носишь…?"
 
     show cg fade at truecenter
     show fx4 at fx_pos
@@ -1874,22 +1874,22 @@ label debug:
     yo "..."
 
     voice audio.yoshi_vs4_line1
-    yo "O-Oh!!! Now I remember! Little Lloyd and Serious Darius from the first term?!"
+    yo "О-О!!! Теперь-то я вспомнил! Малыш Ллойд и Дариус Серьёзность из первого сезона?!"
 
     voice audio.yuri_vs4_line1
-    yu "YES! Oh my god, no wonder you were acting so weird!!!"
+    yu "Да! Боже мой, так вот почему ты так странно себя вёл!!!"
 
     voice audio.lloyd_vs4_line1
-    l "Geez… Took you a while to recognize us…"
+    l "Господи… Долго ты соображал…"
 
     voice audio.darius_vs4_line1
-    d "That’s funny."
+    d "Забавно."
 
     voice audio.yuri_vs4_line2
-    yu "I guess my dad isn’t the only one getting old."
+    yu "Похоже, стареет не один мой папа."
 
     voice audio.lloyd_vs4_line2
-    l "And I thought he was just being his usual goody-two-shoes self, trying to act all serious for business."
+    l "А я-то думал, что это он как и в прошлом, словно паинька старается вести себя серьёзно ради бизнеса."
 
     hide cg fade
     hide fx4
@@ -1900,69 +1900,69 @@ label debug:
     show yoshi_autumn at p5_4
     show yoshi amazed2 at p5_4
     voice audio.yoshi_v_amazed2a
-    yo "Would you look at that… Little Lloyd… I can’t believe it’s really you!"
+    yo "Посмотрите только… Малыш Ллойд… не могу поверить, что это правда ты!"
 
     show lloyd annoy2 at p5_3
     voice audio.lloyd_v_groan2a3
-    l "Ugh. Can we please stop with the nicknames?! We already put up with them the entire time we were at camp!"
+    l "Угх. Может уже хватит погонял?! Мы уже давно их забросили, ещё когда были в лагере!"
 
     hide yoshi_autumn
     hide yoshi amazed2
     show yoshi2_autumn at p5_4
     show yoshi2 think6 at p5_4
     voice audio.yoshi_v_actually2b
-    yo "Now that I think about it… you still haven’t grown any taller since then… Not that it’s a bad thing! "
+    yo "Если так подумать… Ты совсем не вырос с тех пор… Но не то, чтобы это плохо! "
 
     show lloyd rage3 at p5_3
     voice audio.lloyd_v_greet2d1
-    l "HEY, THAT’S NOT TRUE!! Tell him, Dar! You measured it, right?"
+    l "ЭЙ, А ВОТ И НЕ ПРАВДА!! Скажи им, Дар! Я всё точно измерил, да?"
 
     show darius bored5 at p5_2
     voice audio.darius_v_agree2a
-    d "Around 160 centimeters, yeah. Shoes included. "
-    d "You’ve grown one centimeter since we last saw them."
+    d "Около 160 сантиметров, да. Учитывая обувь. "
+    d "Ты вырос на один сантиметр, с тех пор как мы виделись в последний раз."
 
     show lloyd confused3 at p5_3
     voice audio.lloyd_v_aiden2c
-    l "I’ll admit though, I also am guilty of forgetting someone. I don’t think I remember you at all, Aiden."
+    l "Должен признать, мне тоже жаль, что я кое кого забылe. Не думаю, что вообще тебя помню, Эйден."
 
     hide aiden2_apron3
     hide aiden2 awkward2
     show aiden_apron3 at p5_1
     show aiden comp6 at p5_1
     voice audio.aiden_v_alright3b2
-    a "Hehe, it’s alright! I wasn’t a scout back then, so that’s probably why you don’t recognize me."
-    a "But Yoshi here has no excuse… I still can’t believe you didn’t recognize them, especially Darius!"
+    a "Хе-хе, всё в порядке! Я тогда не был скаутом, наверное поэтому ты  не узнал меня."
+    a "Но Йоши нет прощения… До сих пор не могу поверить, что ты их не узнал, особенно Дариуса!"
 
     show yoshi2 awkward4 at p5_4
     voice audio.yoshi_v_ah2
-    yo "Aaah… This is so embarrassing… I-I’m so sorry, Darius. It’s just, you look nothing like I remember, and it didn’t even cross my mind that you’re the same person."
+    yo "А-а-а… Как же стыдно… М-мне жаль, Дариус. Просто, ты просто выглядишь совсем другим, нежели как я помню, я даже и не подумал, что ты один и тот же человек."
 
     show darius comp5 at p5_2
     voice audio.darius_v_comp3a
-    d "It’s okay. "
-    d "Almost everyone says the same."
+    d "Всё хорошо. "
+    d "Всё так говорят."
 
     show aiden amazed1 at p5_1
     voice audio.aiden_v_oho1a
-    a "Yeah, who knew you’d turn out to be such a hunk!"
+    a "Ага, кто бы знал, что ты превратишься в такого качка!"
 
     show yuri tease2 at p5_5
     voice audio.yuri_v_agree2a1
-    yu "You said it, Aiden~ Such a fine gentleman with a mysteriously deep voice and menacing eyes~"
+    yu "И не говори, Эйден~ Что за привлекательный джентельмен со столь загадочным глубоким голосом и диким взглядом~"
 
     show lloyd rage3 at p5_3
     voice audio.lloyd_v_question1d2
-    l "What the hell?! You guys have all these good things to say about Dar, while I get a bunch of height insults?!"
-    l "That’s not fair!"
+    l "Ка-а-акого чёрта?! Все хорошие комплименты, так саруз Дар, а как я, так один шутки про рост?!"
+    l "Несправедливо!"
 
     show aiden laugh2 at p5_1
     voice audio.aiden_v_comp3b
-    a "Like Yoshi said, we don’t mean it in a bad way! There’s lots of perks to being fun-sized!"
+    a "как и сказал Йоши, мы не в плохом смысле! В том, чтобы быть низеньким, есть свои плюсы!"
 
     show lloyd annoy2 at p5_3
     voice audio.lloyd_v_annoyed1a3
-    l "Oh yeah? Like what?"
+    l "Ага? Например?"
 
     hide aiden_apron3
     hide aiden laugh2
@@ -1972,110 +1972,110 @@ label debug:
 
     show aiden2 think6 at p5_1
     voice audio.aiden_v_think2a
-    a "Uhh… More legroom in vehicles…?"
+    a "Эм… Больше места для ног в транспорте…?"
 
     show lloyd think4 at p5_3
     l "..."
 
     show yuri comp2 at p5_5
     voice audio.yuri_v_praise4a
-    yu "I think you’re super cute and charming, Lloyd! You have the blessing of eternal youth coursing through your veins! "
-    yu "The Forever Twinky One, am I right?!"
+    yu "А я думаю, что ты супер милый и просто очаровашка, Ллойд! В твоих венах течёт благословение вечной юности! "
+    yu "Вечно Молодой, Вечно Пьяный, я права?!"
 
     show lloyd angry2 at p5_3
     voice audio.lloyd_v_request2c
-    l "Can we stop talking about my height already?! I don’t know how we’re always coming back to this topic! "
+    l "Может уже прекратим о моём росте?! Не могу понять, как мы постоянно возвращаемся к этой теме! "
 
     show yoshi2 shy5 at p5_4
     voice audio.yoshi_v_sorry5b
-    yo "W-We’re sorry about that, Lloyd! Either way, it’s really nice to have past members of Camp Buddy back here sharing their skills!"
+    yo "П-прости за это, Ллойд! В любом случае, так приятно видеть, как прошлые участники Лагеря Друзей снова здесь и делятся друг с другом опытом!"
 
     show lloyd talk2 at p5_3
     voice audio.lloyd_v_agree2a3
-    l "Yeah. I’m definitely not surprised that you ended up being a scoutmaster here, Yoshinori. You’ve always been the model scout."
+    l "Ага. Я даже не удивлён, что ты стал скаутмастером, Йошинори. Ты всегда был прирождённым скаутом."
 
     hide yoshi2_autumn
     hide yoshi2 awkward4
     show yoshi_autumn at p5_4
     show yoshi happy1 at p5_4
     voice audio.yoshi_v_actually1a
-    yo "It’s kinda crazy how we’ve all come full circle and are sharing a common goal once again! "
+    yo "Так странно, что мы все прошли целый круг и снова вернулись к общей цели! "
 
     show yuri confused2 at p5_5
     voice audio.yuri_v_conj6a
-    yu "I am curious though, how did you guys end up getting hired to work for Camp Buddy? Was it really a twist in fate? "
+    yu "А мне любопытно, как так вышло, что вы были наняты на работы в Лагерь Друзей? По воле ли судьбы? "
 
     show lloyd talk4 at p5_3
     voice audio.lloyd_v_shock1a1
-    l "Oh, Clermont Inc. actually reached out to a bunch of different construction firms with the basics of the project."
-    l "When Dar and I saw that it was for Camp Buddy, we got excited and immediately sent an application in."
+    l "О, Clermont Inc. вообще обращалось во многие строительные компании относительно проекта."
+    l "Когда Дар и я увидели, что заявка была о Лагере Друзей, мы были так взволнованы, что мигом отправили форму."
 
     show lloyd happy1 at p5_3
     voice audio.lloyd_v_laugh1a1
-    l "We were overqualified for Mr. Clermont’s criteria, and once he heard we were past scouts from Camp Buddy as well, we were immediately given the job."
-    l "It also worked out really well – since I spent a lot of time at this camp as a scout, my architectural style became focused around rustic and cozy designs!"
+    l "Мы были лучшими по критериям мистера Клермонта, а как только он услышал, что мы ещё и прошлые скауты Лагеря Друзей, он тут же дал нам одобрение."
+    l "Всё сложилось хорошо – поскльку я много времени провёл в этом лагере, мой архитектурный стиль стал сильнее сфокусирован на более простых и уютных дизайнах!"
 
     show yoshi talk1 at p5_4
     voice audio.yoshi_v_so1a
-    yo "So will the new cabins be your main focus while you’re both here?"
+    yo "Значит, домики будут главной задачей для вас?"
 
     show lloyd explain1 at p5_3
     voice audio.lloyd_v_conj1a3
-    l "Well, as far as I know, that will take the most of our time, but there's a few other projects as well."
-    l "We’ll also be building an events hall, an infirmary, and some guest lodging along the lake."
+    l "Ну, из того что я знаю, это самая трудоёмкая часть, но есть и другие цели в том числе."
+    l "Мы также займёмся строительством зала для мероприятий, лазарета, и нескольких гостевых помещений около озера."
 
     show yoshi talk3 at p5_4
     voice audio.yoshi_v_really5
-    yo "That’s quite a lot… Is it really possible to build all of that in such a short amount of time?"
+    yo "Много всего… А всё это построить в столь короткий срок реально?"
 
     show lloyd happy2 at p5_3
     voice audio.lloyd_v_darius2b
-    l "Well, that’s why Dar is around! He works wonders when it comes to construction!"
+    l "Что ж, потому здесь и Дар! Когда дело доходит до строительства, он творит чудеса!"
 
     hide aiden2_apron3
     hide aiden2 think6
     show aiden_apron3 at p5_1
     show aiden happy1 at p5_1
     voice audio.aiden_v_darius3a
-    a "Darius has always been a super crafty guy, even back when we were scouts! He actually gave me my first lesson in carpentry, and I’ve still got those skills!  "
-    a "Thanks to that, I was able to help Yoshi with some projects over the past few years. Just last summer, we worked with a few scouts to fix some of the really busted up cabins!"
+    a "Дариус всегда был изобретательным парнем, ещё когда мы были скаутами! Он даже дал мне первый урок как плотника, и у меня до сих пор остались эти навыки!  "
+    a "Благодаря ним я смог помочь Йоши в строительстве некоторых проектов за прошедшие несколько лет. Прошлым летом мы работали с некоторыми скаутами и отремонтировали хиленькие домики!"
 
     show aiden happy3 at p5_1
     voice audio.aiden_v_oh1b
-    a "And we built a really huge obstacle course too! "
+    a "А ещё мы построили огроменную полосу препятствий! "
 
     show lloyd shock3 at p5_3
     voice audio.lloyd_v_amazed3a1
-    l "Whoa! You mean like the ones on those TV game shows?!"
+    l "Воу! Ты про те, как в игровых шоу по телевизору?!"
 
     show yoshi happy1 at p5_4
     voice audio.yoshi_v_yes2
-    yo "Yes! It was my very first project when I started working here!"
+    yo "Ага! это был мой самый первый проект, с тех пор как я устроился на работу!"
 
     show lloyd shock3 at p5_3
     voice audio.lloyd_v_amazed2a1
-    l "And you worked on that with just the two of you?!"
+    l "И всей работой занимались лишь вы двое?!"
 
     show yoshi comp3 at p5_4
     voice audio.yoshi_v_yeah2
-    yo "For the most part, yeah…! It took a few years for it to actually be useable though."
+    yo "По большей части, да…! Правда, заняло это дело пару лет."
 
     show lloyd excited1 at p5_3
     voice audio.lloyd_v_laugh1a1
-    l "You’ll have to show us around, then! I want to see the whole camp after all these years. "
-    l "It’ll also give me an idea of what we’re dealing with for the project."
+    l "Вы просто обязаны показать нам всё в округе! Хочу увидеть весь лагерь спустя столько лет. "
+    l "Прогулка дала бы мне пару идей о том, с чем мы имеем дело в проекте."
 
     show yoshi happy2 at p5_4
     voice audio.yoshi_v_agree1b2
-    yo "Of course! We’re scheduled to give you a full tour of the camp after lunch!"
+    yo "Разумеется! У нас назначен целый тур по лагерю после обеда!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound2', fadeout = 1.0)
     scene cg black with fade
-    yo "{i}The five of us spent the next little while in the mess hall finishing up our lunch and catching up on old times, but before long it was time to get back to work.{/i}"
-    yo "{i}Yuri took the other workers back to their cabins to help them get settled in, while Aiden dragged Yoichi and Taiga to help him clean the kitchen after the workers finished. {/i}"
-    yo "{i}Meanwhile, I took Darius and Lloyd on a tour of the camp, showing them all the changes and discussing the work they’d be doing in more detail… {/i}"
+    yo "{i}А дальше мы впятером провели ещё немного времени в столовой, доедая обед и вспоминая старые времена, но вскоре пришло время возвращаться к работе.{/i}"
+    yo "{i}Юри отвела других рабочих обратно в их домики, чтобы помочь им устроиться, в то время как Эйден потащил Йоичи и Тайгу помочь ему с уборкой кухни. {/i}"
+    yo "{i}Тем временем я повел Дариуса и Ллойда на экскурсию по лагерю, показав им все изменения и более подробно обсудив работу, которую они будут выполнять… {/i}"
 
     scene cg black
     hide screen location
@@ -2102,32 +2102,32 @@ label debug:
     show lloyd_autumn2 at right
     show lloyd norm2 at right
     voice audio.yoshi_v_bye6a
-    yo "And I think that covers all the locations around the camp! Did you guys see everything you wanted? "
+    yo "И на этом всё! Вы увидели всё, что хотели? "
 
     show lloyd happy1 at right
     voice audio.lloyd_v_agree2b2
-    l "Yeah, I think Darius and I got a pretty good look at the site. I also got most of the measurements I needed."
-    l "I had already drafted most of the stuff before I got here today, but after seeing the actual site, there will need to be some adjustments."
+    l "Да, думаю, у меня и Дариуса была хорошая возможность осмотреть местность. Даже провёл несколько необходимых измерений."
+    l "Я уже набросал большую часть материала до того, как попал сюда, но после осмотра местности придётся внести некоторые коррективы."
 
     show lloyd talk1 at right
     voice audio.lloyd_v_conj6a2
-    l "We’ll start preparing the site first thing tomorrow. Our aim is to clear out the land of trees and debris, level the ground, then move all the building materials there by the end of this week."
+    l "Завтра первым же делом мы начнём подготавливать площадку. Наши цели: очистить территорию от деревьев и мусора, выровнять землю, а затем переместить туда все строительные материалы к концу недели."
 
     show yoshi talk1 at left
     voice audio.yoshi_v_response1a
-    yo "I understand. I’ll be around to help and supervise as needed."
+    yo "Понял. Я буду рядом, если понадобится моё руководство."
 
     show lloyd talk2 at right
     voice audio.lloyd_v_conj2b1
-    l "Now, if you’ll excuse me, I’ll head out and get started on those adjustments to the plan!"
+    l "А теперь, с вашего разрешения, я пойду вносить поправки в план!"
 
     show yoshi happy2 at left
     voice audio.yoshi_v_alright2
-    yo "Alright. If you need anything at all, you know where to find me."
+    yo "Хорошо. Если что-то нужно, ты знаешь, где меня найти."
 
     show lloyd happy2 at right
     voice audio.lloyd_v_response2a1
-    l "Sure. I’ll be working in our cabin for now. See you tomorrow! "
+    l "Конечно. Я буду в нашем домике. Увидимся завтра! "
 
     hide lloyd_autumn2
     hide lloyd happy2
@@ -2149,21 +2149,21 @@ label debug:
 
     show yoshi2 confused5 at left2
     voice audio.yoshi_v_darius5a
-    yo "Uhh… Darius? Aren’t you gonna go with Lloyd? "
+    yo "Эм… Дариус? А ты не пойдёшь с Ллойдом? "
 
     show darius shy4 at right2
     voice audio.darius_v_no1a
-    d "No. Lloyd likes to work alone, undisturbed."
+    d "Нет. Ллойду нравится работать одному, чтобы его не беспокоили."
 
     show yoshi2 think6 at left2
     voice audio.yoshi_v_isee2
-    yo "Oh… I see…"
+    yo "О… Вот как…"
 
     show darius shy1 at right2
     d "..."
 
     show yoshi2 shy3 at left2
-    yo "{i}(This is awkward… Darius is just standing there, staring at me… I’m not sure if I should leave or say something—){/i}"
+    yo "{i}(Неловко вышло… Дариус просто стоит, смотрит на меня… Может мне уйти, или лучше остаться—){/i}"
 
     show yoshi2_autumn at center
     show yoshi2 shy3 at center
@@ -2176,202 +2176,202 @@ label debug:
     with dissolve
 
     voice audio.aiden_v_hey2a2
-    a "Hey there, you two!"
+    a "Эй там!"
 
     hide yoshi2_autumn
     hide yoshi2 shy3
     show yoshi_autumn at center
     show yoshi awkward4 at center
     voice audio.yoshi_v_hey3
-    yo "O-Oh! Hey there, Aiden! "
+    yo "О-о! Привет, Эйден! "
 
     hide aiden_autumn
     hide aiden happy2
     show aiden2_autumn at left
     show aiden2 shock2 at left
     voice audio.aiden_v_confused1a1
-    a "Huh? Why are you two just standing here, looking weird?"
+    a "А? А чего это вы тут стоите, смотрите друг на друга?"
 
     show yoshi explain2 at center
     voice audio.yoshi_v_ah3
-    yo "A-Aah, well, I just finished giving Lloyd and Darius their tour. Lloyd just left for our cabin to do some work."
+    yo "Э-эм, ну, я как раз закончил с экскурсией для Ллойда и Дариуса. Ллойд отправился в наш домик работать."
 
     hide aiden2_autumn
     hide aiden2 shock2
     show aiden_autumn at left
     show aiden amazed2 at left
     voice audio.aiden_v_shock3a2
-    a "No way, they’re gonna be staying with us too?! "
-    a "Sweet! We’re gonna be roomies, Dar!"
+    a "Быть не может, они ещё и останутся у нас?! "
+    a "Здорово! Мы будем соседями по комнате, Дар!"
 
     show darius happy2 at right
     voice audio.darius_v_excited1a1
-    d "Nice."
+    d "Круто."
 
     show aiden happy1 at left
     voice audio.aiden_v_actually1a
-    a "I just finished everything in the kitchen for today. Looks like you guys are on break now too!"
+    a "С кухней на сегодня покончено. Похоже, у вас тоже перерыв!"
 
     show yoshi comp2 at center
     voice audio.yoshi_v_unsure3a
-    yo "I guess you could say that… Today turned out to be a busy day."
+    yo "Можно и так сказать… Сегодня был трудный день."
 
     show aiden happy3 at left
     voice audio.aiden_v_anyway1a
-    a "Anyways, Darius! You didn’t really get much of a chance to talk a while ago! How are you, my good man~?"
+    a "Кстати, Дариус! Нам так и не выдалось возможности поговорить! Как ты, парниша~?"
 
     show darius happy1 at right
     voice audio.darius_v_response2a
-    d "I’m good. Excited for the project."
+    d "В порядке. И жду не дождусь работать."
 
     hide aiden_autumn
     hide aiden happy3
     show aiden2_autumn at left
     show aiden2 kiss2 at left
     voice audio.aiden_v_sheesh1a
-    a "Sheesh, you don’t sound excited at all. Come on, tell us more! How have you been all these years?"
+    a "Да уж, а так и не скажешь. Ну же, расскажи нам больше! Чем занимался все эти годы?"
 
     hide yoshi_autumn
     hide yoshi comp2
     show yoshi2_autumn at center
     show yoshi2 awkward3 at center
     voice audio.yoshi_v_aiden13
-    yo "Aiden… You don’t have to force him to speak up…"
+    yo "Эйден… Не надо заставлять его говорить…"
 
     show darius sad2 at right
     voice audio.darius_v_no1a
-    d "No, he’s right."
-    d "I just don’t know what to say sometimes."
+    d "Нет, он прав."
+    d "Иногда я просто не знаю, что мне сказать."
 
     hide aiden2_autumn
     hide aiden2 kiss2
     show aiden_autumn at left
     show aiden laugh2 at left
     voice audio.aiden_v_laugh2a1
-    a "Haha! You’ve always been the quiet kind, but I thought you’d get over that after so many years! "
+    a "Ха-ха! Ты всегда был тихим, хотя я и думал, что тебе удастся это перебороть за столько лет! "
 
     show darius awkward1 at right
     d "..."
 
     show aiden happy1 at left
     voice audio.aiden_v_conj2a3
-    a "See, Darius here was kinda like a brother to me back in my scout days, Yoshi."
-    a "He didn’t have many friends because the other scouts were easily intimidated by him."
+    a "Понимаешь, Дариус был мне как братом ещё когда мы были скаутами, Йоши."
+    a "У него не было много друзей из-за того, что скауты легко его пугались."
 
     show darius sigh1 at right
     voice audio.darius_v_confident1
-    d "It’s true."
+    d "Всё так."
 
     hide yoshi2_autumn
     hide yoshi2 awkward3
     show yoshi_autumn at center
     show yoshi think2 at center
     voice audio.yoshi_v_think1a
-    yo "I do remember seeing you with him sometimes whenever we were at the mess hall."
+    yo "Я помню, как пару раз видел его с тобой, когда проходил мимо столовой."
 
     show aiden grin1 at left
     voice audio.aiden_v_yeah1b1
-    a "Yeah! He usually hung out there whenever he wasn’t with his cabinmate."
+    a "Да! Обычно он проводил время там, когда не был со своим соседом."
 
     hide yoshi_autumn
     hide yoshi think2
     show yoshi2_autumn at center
     show yoshi2 shy5 at center
     voice audio.yoshi_v_unsure3c
-    yo "I-I guess I kinda didn’t know how to get close to him back then since everyone was calling him Serious Darius… I thought it was because he was a troublemaker or something…"
+    yo "Я т-тогда просто не знал, как сблизиться с ним, с тех пор как его стали называть Дариус Серьёзность… Я подумал, может, это из-за того, что он был забиякой…"
 
     show aiden bold2 at left
     voice audio.aiden_v_bro1b
-    a "That’s why you gotta speak up more bro, so people like Yoshi won’t get scared of you."
+    a "Бро, поэтому-то тебе и стоит чаще говорить, так люди вроде Йоши не будут тебя бояться."
 
     show darius sad3 at right
     voice audio.darius_v_sorry2b
-    d "I’m sorry if I’m scary."
+    d "Прости, если я страшный."
 
     hide yoshi2_autumn
     hide yoshi2 shy5
     show yoshi_autumn at center
     show yoshi comp2 at center
     voice audio.yoshi_v_no5
-    yo "N-No you’re not, Darius! I understand now that you’re just a quiet person – I’m the one in the wrong for not trying to get to know you back then."
+    yo "В-всё не так, Дариус! Я понимаю, что ты просто по натуре такой тихий – это я был не прав в том, что и не пытался сблизиться с тобой."
 
     show darius talk2 at right
     voice audio.darius_v_conj1b1
-    d "I want to get along with everyone. But unlike Lloyd, I can’t keep a conversation going."
+    d "Я хочу со всеми ладить. Но в отличие от Ллойда, я не умею поддерживать беседу."
 
     show aiden relief2 at left
     voice audio.aiden_v_comp1a1
-    a "Just let it all loose and don’t think about it too much!"
+    a "Не думай сильно об этом и просто старайся двигаться по течению!"
 
     show darius comp2 at right
     voice audio.darius_v_thanks1a1
-    d "Thanks, I’ll keep that in mind. "
-    d "Lloyd usually does the speaking for me. "
+    d "Спасибо, приму к сведению. "
+    d "Просто обычно Ллойд говорит всё за меня. "
 
     show aiden comp3 at left
     voice audio.aiden_v_unsure1b
-    a "I guess it makes sense that a quiet person needs someone active around to balance things out."
+    a "Справедливо, каждому тихому человеку нужен свой общительный, чтобы сохранять баланс."
 
     show darius explain2 at right
     voice audio.darius_v_agree3
-    d "I agree. It’s convenient that I don’t have to say anything when Lloyd is around."
-    d "Some people find him rude and annoying because it seems like he’s always talking over me."
+    d "Согласен. Удобно, что мне не приходится ничего говорить, когда рядом Ллойд."
+    d "Пускай некоторые и находят его грубым и надоедливым, потому что со стороны выглядит, словно он меня перебивает."
 
     show darius comp2 at right
     voice audio.darius_v_conj5b
-    d "But... Honestly, it’s the other way around. I like how expressive he is. It’s something I wish I was."
+    d "Но… Но если честно, всё совсем наоборот. Мне нравится, как он выражает свои мысли. Хотелось бы мне быть таким же."
 
     show aiden tease1 at left
     voice audio.aiden_v_oho1b
-    a "Look at you Mr. \“I’m-not-good-at-conversations\”~"
+    a "Посмотрите на него, мистер \"я-не-умею-поддерживать-беседу\"~"
 
     show darius shock5 at right
     voice audio.darius_v_ah1d3
-    d "A-Ah… "
+    d "Э-эм… "
 
     show yoshi awkward3 at center
     voice audio.yoshi_v_aiden6
-    yo "Aiden! Don’t tease him like that!"
+    yo "Эйден! Не надо его дразнить!"
 
     show darius comp5 at right
     voice audio.darius_v_comp3a
-    d "It’s okay. I’m used to Aiden joking around."
-    d "It’s how I got to know him in the first place."
+    d "Всё хорошо. Я привык к шуткам Эйдена."
+    d "Я так с ним впервые и познакомился."
 
     show aiden laugh1 at left
     voice audio.aiden_v_laugh2a1
-    a "Haha! Yoshi’s known me for forever, and he’s still not used to it!"
+    a "Ха-ха! Йоши знает меня уже целую вечность, а до сих пор не привык!"
 
     show yoshi annoy3 at center
     voice audio.yoshi_v_well3
-    yo "W-Well, I am! Just not when you do it to other people!"
+    yo "В-вообще-то, привык! Но не когда дело касается других!"
 
     show darius tease2 at right
     voice audio.darius_v_question1c
-    d "Are you jealous?"
+    d "Завидуешь?"
 
     hide yoshi_autumn
     hide yoshi annoy3
     show yoshi2_autumn at center
     show yoshi2 awkward4 at center
     voice audio.yoshi_v_what4
-    yo "Wh-Wha…?"
+    yo "Ч-что…?"
 
     show aiden laugh4 at left
     voice audio.aiden_v_laugh2c1
-    a "Hahahaha! Good one, bro!"
+    a "Ха-ха-ха-ха! Жжёшь, бро!"
 
     hide yoshi2_autumn
     hide yoshi2 awkward4
     show yoshi_autumn at center
     show yoshi comp3 at center
     voice audio.yoshi_v_anyway3a
-    yo "A-Anyway, I just want to say that I’m glad to get to know you better, Darius!"
-    yo "I hope we both can enjoy our time here at camp together this time around! It’s never too late to make friends, after all. "
+    yo "В-в любом случае, я лишь хотел сказать, что рад был бы узнать тебя получше, Дариус!"
+    yo "Надеюсь, мы оба хорошо проведём время в лагере! В конце концов, никогда не поздно стать друзьями. "
 
     show darius comp2 at right
     voice audio.darius_v_thanks2a1
-    d "Thank you. You guys are very friendly."
+    d "Спасибо. Ты очень дружелюблный."
 
     hide darius_autumn
     hide darius comp2
@@ -2382,11 +2382,11 @@ label debug:
     show yoshi2_autumn at center
     show yoshi2 panic2 at center
     voice audio.yoshi_v_ah3
-    yo "A-Ah… Did I say anything wrong…?"
+    yo "А-ах… Я что-то не так сказал…?"
 
     show aiden comp5 at left
     voice audio.aiden_v_no2a1
-    a "Hahaha! I don’t think so, I think Darius just thought the conversation was over."
+    a "Ха-ха-ха! Не думаю, мне кажетсся, Дариус просто решил, что беседа окончена."
 
     show aiden comp5 at left2
     show aiden_autumn at left2
@@ -2395,77 +2395,77 @@ label debug:
     with move
 
     voice audio.yoshi_v_isee1
-    yo "Ohh… I see… Darius is a really interesting guy, isn’t he?"
+    yo "О… Вот как… А Дариус интересный парень, а?"
 
     show aiden comp2 at left2
     voice audio.aiden_v_well1b2
-    a "You’re just not used to handling stoic people, Yoshi. You tend to hang around the more active types."
-    a "I mean, I’m living proof! "
+    a "Ты просто не привык иметь дело с непоколебимыми людьми, Йоши. Ты скорее водишься с более общительными."
+    a "Ну то есть, я живое тому доказательство! "
 
     hide yoshi2_autumn
     hide yoshi2 confused5
     show yoshi_autumn at right2
     show yoshi comp3 at right2
     voice audio.yoshi_v_right9
-    yo "Haha, I guess you’re right, Aiden."
+    yo "Ха-ха, думаю, тут ты прав, Эйден."
 
     show aiden happy1 at left2
     voice audio.aiden_v_anyway1a
-    a "Anyways, now that everything’s done for today, why don’t we head back and get some rest?"
+    a "Ну ладно, раз со всем на сегодня покончено, может вернёмся и отдохнём немного?"
 
     show yoshi explain2 at right2
     voice audio.yoshi_v_well1
-    yo "Well, I still have to write down a report for Sir Goro about everything that happened today."
+    yo "Вообще-то, мне ещё нужно написать отчёт сэру Горо о произошедшем за сегодня."
 
     hide aiden_autumn
     hide aiden happy1
     show aiden2_autumn at left2
     show aiden2 sleepy2 at left2
     voice audio.aiden_v_amazed2a1
-    a "Wow… Sounds exciting."
+    a "Вау… Как увлекательно."
 
     show yoshi talk2 at right2
     voice audio.yoshi_v_hey1
-    yo "Hey, someone’s gotta do it."
+    yo "Эй, кто-то должен этим заняться."
 
     hide aiden2_autumn
     hide aiden2 sleepy2
     show aiden_autumn at left2
     show aiden explain1 at left2
     voice audio.aiden_v_agree5b
-    a "I know, I know. Your job is very important after all~ "
+    a "Знаю-знаю. Твоя работа очень важная, все дела~ "
 
     hide aiden_autumn
     hide aiden explain1
     show aiden2_autumn at left2
     show aiden2 sigh1 at left2
     voice audio.aiden_v_unsure1b
-    a "I guess in a way I understand how Darius feels. "
-    a "I’m really lucky to have you around, too, because you do all this cool stuff that I could never see myself doing in a million years!"
+    a "В какой-то степени я даже понимаю Дариуса. "
+    a "Мне повезло, что у меня есть ты, потому что ты можешь столько всего крутого, чего я и в миллион лет не смогу добиться!"
 
     show yoshi comp2 at right2
     voice audio.yoshi_v_disagree2
-    yo "That’s not true, Aiden. You could do things like this too, if you tried!"
+    yo "Неправда, Эйден. Если бы ты попытался, и сам бы смог тоже!"
 
     hide aiden2_autumn
     hide aiden2 sigh1
     show aiden_autumn at left2
     show aiden happy1 at left2
     voice audio.aiden_v_no2a1
-    a "Nah, as long as you’re around, then I’m sure you’ll always have my back! "
-    a "…Bareback."
+    a "Да не нужно, с тобой рядом я в стопроцентной защите! "
+    a "…прям как в презервативе."
 
     show yoshi awkward3 at right2
     voice audio.yoshi_v_aiden10
-    yo "Aiden!!!"
+    yo "Эйден!!!"
 
     show aiden laugh2 at left2
     voice audio.aiden_v_laugh2c1
-    a "Hahaha! Anyways, I’ll tag along with you~ I can just chill on the couch at the office while you work!"
+    a "Ха-ха-ха! Ладно уж, я пойду с тобой~ Могу просто полежать в кресле, пока ты работаешь!"
 
     show yoshi happy2 at right2
     voice audio.yoshi_v_gratitude1
-    yo "Thanks, Aiden.  I appreciate the company."
+    yo "Спасибо, Эйден. буду рад твоей компании."
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
@@ -2495,44 +2495,44 @@ label debug:
     show yuri_autumn at right
     show yuri tired4 at right
     voice audio.yuri_v_ugh3a
-    yu "Ughhh… I am sooooo tired…"
+    yu "Угх-х… Я та-а-ак устала…"
 
     show yoshi happy1 at left
     voice audio.yoshi_v_yuri2
-    yo "Hey there, Yuri! How was the orientation?"
+    yo "и тебе привет, Юри! Как прошёл онакомительный тур?"
 
     show yuri worry4 at right
     voice audio.yuri_v_no3a1
-    yu "I thought greeting thirty men would be fun, but it was so much more work than I expected."
+    yu "Я думала, что приветствовать тридцать человек будет весело, а на деле вышло куда больше работы, чем я предполагала."
 
     show yoshi comp3 at left
     voice audio.yoshi_v_well3
-    yo "W-Well… You had to tell them all about the camp rules and set them up in their cabins… It’s no wonder you’re tired."
+    yo "Н-ну… Тебе пришлось и обучать их правилам лагеря, и помочь им расположиться в домиках… не удивительно, что ты так устала."
 
     show yuri think4 at right
     voice audio.yuri_v_yeah1d2
-    yu "Yeaaahh… I had to make sure everyone was comfortable, so I kept checking on them every now and then."
-    yu "It’s so different when we had to take care of the scouts. Bigger men have bigger needs, if you know what I mean?"
+    yu "Да-а-а уж… Мне пришлось ссмотреть за тем,чтобы всем было удобно, поэтому я посматривала за ними время от времени."
+    yu "Это сильно отличается от того, когда я заботилась о скаутах. У больших парней большие запросы, если вы понимаете, о чём я?"
 
     show aiden talk2 at center
     voice audio.aiden_v_response2b3
-    a "I getcha. It’s been a while since I’ve served and cleaned up for that many people!"
+    a "Понимаю. Давно я не готовил и убирал за стольким количеством людей!"
 
     show yoshi bold2 at left
     voice audio.yoshi_v_excited1
-    yo "It’s kind of exciting though, isn’t it? We’ve had such a quiet last couple of weeks so some hustle and bustle is fun for a change!"
+    yo "Но разве не волнительно В последнее время здесь было так тихо, а шум и суета как раз кстати для разнообразия!"
 
     show yuri confused3 at right
     voice audio.yuri_v_conj4a
-    yu "Shouldn’t you be resting now too? I saw you with Lloyd and Darius going around the camp all afternoon."
+    yu "А разве у тебя не перерыв? Я видела как ты проходил по лагерю с Ллойдом и Дариусом весь день."
 
     show yoshi talk1 at left
     voice audio.yoshi_v_sigh3a
-    yo "I’m tired, quite frankly… but I had to finish this report of everyone’s work today for Sir Goro."
+    yo "Честно сказать, я измотан… но ещё нужно закончить отчёт для сэра Горо о проделанной работе."
 
     show aiden confused3 at center
     voice audio.aiden_v_yeah2a1
-    a "Oh yeah, speaking of Gramps, shouldn’t he be back by now?"
+    a "О да, кстати о Дедуле, не пора ли ему уже вернуться?"
 
     show yoshi_autumn at p4_2
     show yoshi talk1 at p4_2
@@ -2547,98 +2547,98 @@ label debug:
     with dissolve
 
     voice audio.goro_v_sigh1a
-    g "*sigh*"
+    g "*вздох*"
 
     show yuri talk2 at p4_4
     voice audio.yuri_v_goro1b
-    yu "Oh, speak of the devil! Welcome back, Dad!"
+    yu "О, помяни чёрта! С возвращением, пап!"
 
     show goro talk1 at p4_1
     voice audio.goro_v_goodpm2a1
-    g "Ah, good evening, everyone. "
-    g "Did everything go according to schedule today?"
+    g "А, добрый вечер, всем вам. "
+    g "Всё прошло согласно плану?"
 
     show yoshi happy1 at p4_2
     voice audio.yoshi_v_yessir1
-    yo "Yes, sir! Yuri managed the deliveries, workers, and got everyone settled into their accommodations, while Aiden made sure they were all well fed."
+    yo "Да, сэр! Юри занялась поставкой, работниками и подгтоовила все жилищные условия, а Эйден всех накормил."
 
     show yoshi bold5 at p4_2
     voice audio.yoshi_v_conj5b
-    yo "Meanwhile, I handled the foremen and gave them a tour, and discussed their plans for the next few days."
-    yo "I’ve written down a full report for you on their plans, and you can see it on your desk when you get the chance!"
+    yo "Тем временем я разобрался c бригадирами и провёл им экскурсию, обсудив их планы на следующие несколько дней."
+    yo "Я выписал полный отчёт для вас обо всех планах, она у вас на столе, как у вас появится возможность просмотреть его!"
 
     show goro happy1 at p4_1
     voice audio.goro_v_thanks2a1
-    g "Thank you, Yoshinori. That’s perfect."
+    g "Благодарю, Йошинори. Отлично."
 
     show aiden excited3 at p4_3
     voice audio.aiden_v_goro1b
-    a "Oh, and guess what, Gramps? The foremen are actually two former campers of ours, Darius and Lloyd! Remember them?"
+    a "О, и, угадай что, Дедуль? Бригадирами оказались два наших бывших скаута, Дариус и Ллойд! помнишь их?"
 
     hide goro_autumn
     hide goro happy1
     show goro2_autumn at p4_1
     show goro2 play2 at p4_1
     voice audio.goro_v_really2a
-    g "Really? That’s a relief – they’ll know the place even better than an outside contractor would."
-    g "I wonder if Mr. Clermont did that on purpose…"
+    g "Серьёзно? Какое облегчение – они точно знают место получше остальных."
+    g "Интересно, нанял ли их мистер Клермонт нарочно…"
 
     show yoshi happy1 at p4_2
     voice audio.yoshi_v_actually1a
-    yo "Actually, when we were discussing it with them, both Lloyd and Darius told us that they saw the opening was for work on Camp Buddy and signed up right away."
-    yo "They must have been excited to come back and help out here after the good times they spent in the past! "
+    yo "Вообще, когда мы обсуждали это с ними, оба сказали, что записал сразу после того, как увидели заявку от Лагеря Друзей."
+    yo "Должно быть они были сильно взволнованы тем, что смогут вернуться в лагерь и помочь здесь после тех хороших времён в прошлом! "
 
     hide goro2_autumn
     hide goro2 play2
     show goro_autumn at p4_1
     show goro comp2 at p4_1
     voice audio.goro_v_glad1a
-    g "I’m glad to hear it. It sounds like we can really rely on them for support. Great work handling everything, you three."
+    g "Рад слышать это. звучит так, словно мы можем расчитывать на их поддержку. Отлично поработали, все трое."
 
     show yuri talk1 at p4_4
     voice audio.yuri_v_goro5a
-    yu "How were your errands though, Dad? What did you end up doing today?"
+    yu "А как у тебя с делами, папа? Чем занимался всё это время?"
 
     show goro talk3 at p4_1
     voice audio.goro_v_oh1a
-    g "Oh, I handled more of the permit work that Mr. Clermont needed down at the city hall. "
-    g "We should be all set now for the work that’s going to be happening over the next few days."
+    g "О, я оформлял разрешения работы необходимые мистеру Клермонту в мэрии. "
+    g "Нам стоит быть готовыми ко всей работе, что будет проходить следующие дни."
 
     show yoshi excited1 at p4_2
     voice audio.yoshi_v_praise1
-    yo "That’s great, sir! I have to admit, I was kind of nervous seeing all those people arrive today, but it sounds like we’ve got it all taken care of now."
+    yo "Прекрасно, сэр! Хотелось бы отметить, я так нервничал, наблюдая, как много прибыло людей, но похоже теперь мы обо всём позаботились."
 
     hide goro_autumn
     hide goro talk3
     show goro2_autumn at p4_1
     show goro2 explain2 at p4_1
     voice audio.goro_v_no1a1
-    g "Not quite, Yoshinori. I also spent some time reviewing the paperwork that Mr. Clermont had prepared, and we can expect even more specialists to arrive starting tomorrow."
+    g "Не совсем, Йошинори. Я также пересматривал документы переданные мистером Клермонтом, так что мы вполне можем ожидать новую партию специалистов с застрашнего дня."
 
     hide goro2_autumn
     hide goro2 explain2
     show goro_autumn at p4_1
     show goro talk2 at p4_1
     voice audio.goro_v_yoshi2a
-    g "Yoshinori, I’ll need you to escort them as well, just like you did today for Lloyd and Darius. Is that clear?"
+    g "Йошинори, мне нужно, чтобы ты позаботился и о них, как сегодня с Дариусом и Ллойдом. Всё понятно?"
 
     show yoshi bold2 at p4_2
     voice audio.yoshi_v_confident1
-    yo "Yes, sir! You can count on me!"
+    yo "Да, сэр! расчитывайте на меня!"
 
     show goro talk1 at p4_1
     voice audio.goro_v_think1a1
-    g "It seems today was just scratching the surface of the work that’s going to be done here, and our first big trial is going to be an inspection in a week’s time."
-    g "We’ll have to work hard to make sure everything is ready by then, so I’ll be expecting you all to be prepared for what’s to come."
+    g "Похоже, сегодня мы коснулись лишь вершины айберга работы, которую предстоит сделать, и нашим первым большим испытанием будет проверка через неделю."
+    g "Нам придется хорошенько потрудиться, дабы подготовить всё к тому моменту, так что я ожидаю от вас полной гтовности ко всему."
 
     show goro talk4 at p4_1
     voice audio.goro_v_request2a1
-    g "Is that clear?"
+    g "Всё понятно?"
 
     show yoshi happy1 at p4_2
     show aiden happy1 at p4_3
     show yuri happy1 at p4_4
-    all "Yes, sir!"
+    all "Есть, сэр!"
 
     $ renpy.music.stop(channel='music', fadeout = 1.0)
     $ renpy.music.stop(channel='bgsound', fadeout = 1.0)
